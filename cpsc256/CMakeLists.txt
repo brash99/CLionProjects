@@ -29,6 +29,7 @@ add_executable(BasicPointers Examples/Week4/BasicPointers/main.c Examples/Week4/
 add_executable(VoidPointers Examples/Week4/VoidPointers/main.c)
 add_executable(QuickSort Examples/Week4/QuickSort/main.c)
 add_executable(LockerProblem Examples/Week4/LockerProblem/main.c)
+add_executable(Tristan Examples/Week4/Tristan/main.c)
 
 # Week 5
 add_executable(Restaurant_C_Example Examples/Week5/Restaurant_C_Example/main.c)
