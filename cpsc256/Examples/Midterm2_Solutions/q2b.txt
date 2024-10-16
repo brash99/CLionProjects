@@ -1,7 +1,0 @@
-Line 1: an integer variabled called i is declared and initialized to 8.
-Line 2: a pointer to an integer called p is declared, and is initialized to the 
-        address of i (i.e. p points to i).
-Line 3: the value stored in the memory location pointed to by p (i.e. *p) is 
-        multiplied by 2, and is then this value (i.e. 16) is stored in the memory 
-        location pointed to by p.  Since p points to i, the value of i is now 16.
-Line 4: the value of i is printed to the screen (the output will be 16).
