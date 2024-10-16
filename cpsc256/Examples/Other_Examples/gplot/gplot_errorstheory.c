@@ -17,18 +17,20 @@ void gplot_errorstheory(REALTYPE x[], REALTYPE y[], REALTYPE e[], REALTYPE ytheo
     /* now that we have the data, create/open a GNUPlot script and data file for later plotting */
     
     printf ("In gplot_errorstheory ...\n");
-    
+
     FILE *gnuplot = fopen("gnuplotScript", "w");
     FILE *gnudata = fopen("gnuplotData", "w");
+
+    printf("gnuplot = %p, gnudata = %p\n", gnuplot, gnudata);
     
     /* terminal type */
-    if (strcmp(system_type,"Unix") == 0) {
+#ifdef __linux__
         fprintf(gnuplot, "set terminal x11\n");
-    } else {
-        if (strcmp(system_type,"Windows") == 0) {
-            fprintf(gnuplot, "set terminal qt\n");
-        }
-    }
+#elif __APPLE__
+        fprintf(gnuplot, "set terminal qt\n");
+#elif __WIN32__
+        fprintf(gnuplot, "set terminal qt\n");
+#endif
     
     /* format title, xlabel, ylabel */
     char this_title[80];
@@ -76,6 +78,8 @@ void gplot_errorstheory(REALTYPE x[], REALTYPE y[], REALTYPE e[], REALTYPE ytheo
     /* cleanup */
     fflush(gnuplot);
     fflush(gnudata);
+
+    printf("Done with gplot_errorstheory ...\n");
     
 }
 
@@ -87,15 +91,14 @@ void gplot_errorstheoryline(REALTYPE x[], REALTYPE y[], REALTYPE e[], REALTYPE y
     
     FILE *gnuplot = fopen("gnuplotScript", "w");
     FILE *gnudata = fopen("gnuplotData", "w");
-    
     /* terminal type */
-    if (strcmp(system_type,"Unix") == 0) {
-        fprintf(gnuplot, "set terminal x11\n");
-    } else {
-        if (strcmp(system_type,"Windows") == 0) {
-            fprintf(gnuplot, "set terminal qt\n");
-        }
-    }
+#ifdef __linux__
+    fprintf(gnuplot, "set terminal x11\n");
+#elif __APPLE__
+    fprintf(gnuplot, "set terminal qt\n");
+#elif __WIN32__
+    fprintf(gnuplot, "set terminal qt\n");
+#endif
     
     /* format title, xlabel, ylabel */
     char this_title[80];

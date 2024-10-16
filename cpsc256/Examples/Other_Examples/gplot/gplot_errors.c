@@ -19,15 +19,15 @@ void gplot_errors(REALTYPE x[], REALTYPE y[], REALTYPE e[], int Npoints,
     
     FILE *gnuplot = fopen("gnuplotScript", "w");
     FILE *gnudata = fopen("gnuplotData", "w");
-    
+
     /* terminal type */
-    if (strcmp(system_type,"Unix") == 0) {
-        fprintf(gnuplot, "set terminal x11\n");
-    } else {
-        if (strcmp(system_type,"Windows") == 0) {
-            fprintf(gnuplot, "set terminal qt\n");
-        }
-    }
+#ifdef __linux__
+    fprintf(gnuplot, "set terminal x11\n");
+#elif __APPLE__
+    fprintf(gnuplot, "set terminal qt\n");
+#elif __WIN32__
+    fprintf(gnuplot, "set terminal qt\n");
+#endif
     
     /* format title, xlabel, ylabel */
     char this_title[80];
@@ -84,15 +84,15 @@ void gplot_errorsline(REALTYPE x[], REALTYPE y[], REALTYPE e[], int Npoints,
     
     FILE *gnuplot = fopen("gnuplotScript", "w");
     FILE *gnudata = fopen("gnuplotData", "w");
-    
+
     /* terminal type */
-    if (strcmp(system_type,"Unix") == 0) {
-        fprintf(gnuplot, "set terminal x11\n");
-    } else {
-        if (strcmp(system_type,"Windows") == 0) {
-            fprintf(gnuplot, "set terminal qt\n");
-        }
-    }
+#ifdef __linux__
+    fprintf(gnuplot, "set terminal x11\n");
+#elif __APPLE__
+    fprintf(gnuplot, "set terminal qt\n");
+#elif __WIN32__
+    fprintf(gnuplot, "set terminal qt\n");
+#endif
     
     /* format title, xlabel, ylabel */
     char this_title[80];

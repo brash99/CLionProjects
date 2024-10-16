@@ -52,6 +52,7 @@ build cmake_object_order_depends_target_HelloWorld: phony || CMakeFiles/HelloWor
 build CMakeFiles/HelloWorld.dir/Examples/Week1/HelloWorld/main.c.o: C_COMPILER__HelloWorld_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week1/HelloWorld/main.c || cmake_object_order_depends_target_HelloWorld
   DEP_FILE = CMakeFiles/HelloWorld.dir/Examples/Week1/HelloWorld/main.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/HelloWorld.dir
   OBJECT_FILE_DIR = CMakeFiles/HelloWorld.dir/Examples/Week1/HelloWorld
 
@@ -83,6 +84,7 @@ build cmake_object_order_depends_target_PrimitiveDataTypes: phony || CMakeFiles/
 build CMakeFiles/PrimitiveDataTypes.dir/Examples/Week1/PrimitiveDataTypes/main.c.o: C_COMPILER__PrimitiveDataTypes_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week1/PrimitiveDataTypes/main.c || cmake_object_order_depends_target_PrimitiveDataTypes
   DEP_FILE = CMakeFiles/PrimitiveDataTypes.dir/Examples/Week1/PrimitiveDataTypes/main.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/PrimitiveDataTypes.dir
   OBJECT_FILE_DIR = CMakeFiles/PrimitiveDataTypes.dir/Examples/Week1/PrimitiveDataTypes
 
@@ -114,6 +116,7 @@ build cmake_object_order_depends_target_FileReader: phony || CMakeFiles/FileRead
 build CMakeFiles/FileReader.dir/Examples/Week2/FileReader/main.c.o: C_COMPILER__FileReader_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/main.c || cmake_object_order_depends_target_FileReader
   DEP_FILE = CMakeFiles/FileReader.dir/Examples/Week2/FileReader/main.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/FileReader.dir
   OBJECT_FILE_DIR = CMakeFiles/FileReader.dir/Examples/Week2/FileReader
 
@@ -145,6 +148,7 @@ build cmake_object_order_depends_target_CSVFileReader: phony || CMakeFiles/CSVFi
 build CMakeFiles/CSVFileReader.dir/Examples/Week2/CSVFileReader/main.c.o: C_COMPILER__CSVFileReader_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/main.c || cmake_object_order_depends_target_CSVFileReader
   DEP_FILE = CMakeFiles/CSVFileReader.dir/Examples/Week2/CSVFileReader/main.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/CSVFileReader.dir
   OBJECT_FILE_DIR = CMakeFiles/CSVFileReader.dir/Examples/Week2/CSVFileReader
 
@@ -176,6 +180,7 @@ build cmake_object_order_depends_target_Declarations: phony || CMakeFiles/Declar
 build CMakeFiles/Declarations.dir/Examples/Week3/Declarations/main.c.o: C_COMPILER__Declarations_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/Declarations/main.c || cmake_object_order_depends_target_Declarations
   DEP_FILE = CMakeFiles/Declarations.dir/Examples/Week3/Declarations/main.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/Declarations.dir
   OBJECT_FILE_DIR = CMakeFiles/Declarations.dir/Examples/Week3/Declarations
 
@@ -207,6 +212,7 @@ build cmake_object_order_depends_target_FormatSpecifiers: phony || CMakeFiles/Fo
 build CMakeFiles/FormatSpecifiers.dir/Examples/Week3/FormatSpecifiers/main.c.o: C_COMPILER__FormatSpecifiers_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/FormatSpecifiers/main.c || cmake_object_order_depends_target_FormatSpecifiers
   DEP_FILE = CMakeFiles/FormatSpecifiers.dir/Examples/Week3/FormatSpecifiers/main.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/FormatSpecifiers.dir
   OBJECT_FILE_DIR = CMakeFiles/FormatSpecifiers.dir/Examples/Week3/FormatSpecifiers
 
@@ -238,6 +244,7 @@ build cmake_object_order_depends_target_FunctionExample: phony || CMakeFiles/Fun
 build CMakeFiles/FunctionExample.dir/Examples/Week3/FunctionExample/main.c.o: C_COMPILER__FunctionExample_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/FunctionExample/main.c || cmake_object_order_depends_target_FunctionExample
   DEP_FILE = CMakeFiles/FunctionExample.dir/Examples/Week3/FunctionExample/main.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/FunctionExample.dir
   OBJECT_FILE_DIR = CMakeFiles/FunctionExample.dir/Examples/Week3/FunctionExample
 
@@ -269,18 +276,21 @@ build cmake_object_order_depends_target_FileStatistics: phony || CMakeFiles/File
 build CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/main.c.o: C_COMPILER__FileStatistics_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/main.c || cmake_object_order_depends_target_FileStatistics
   DEP_FILE = CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/main.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/FileStatistics.dir
   OBJECT_FILE_DIR = CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics
 
 build CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/mean.c.o: C_COMPILER__FileStatistics_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/mean.c || cmake_object_order_depends_target_FileStatistics
   DEP_FILE = CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/mean.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/FileStatistics.dir
   OBJECT_FILE_DIR = CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics
 
 build CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/stdev.c.o: C_COMPILER__FileStatistics_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/stdev.c || cmake_object_order_depends_target_FileStatistics
   DEP_FILE = CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/stdev.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/FileStatistics.dir
   OBJECT_FILE_DIR = CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics
 
@@ -312,18 +322,21 @@ build cmake_object_order_depends_target_FileStatistics_Headers: phony || CMakeFi
 build CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers/main.c.o: C_COMPILER__FileStatistics_Headers_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/main.c || cmake_object_order_depends_target_FileStatistics_Headers
   DEP_FILE = CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers/main.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/FileStatistics_Headers.dir
   OBJECT_FILE_DIR = CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers
 
 build CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers/mean.c.o: C_COMPILER__FileStatistics_Headers_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/mean.c || cmake_object_order_depends_target_FileStatistics_Headers
   DEP_FILE = CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers/mean.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/FileStatistics_Headers.dir
   OBJECT_FILE_DIR = CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers
 
 build CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers/stdev.c.o: C_COMPILER__FileStatistics_Headers_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/stdev.c || cmake_object_order_depends_target_FileStatistics_Headers
   DEP_FILE = CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers/stdev.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/FileStatistics_Headers.dir
   OBJECT_FILE_DIR = CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers
 
@@ -355,12 +368,14 @@ build cmake_object_order_depends_target_BasicPointers: phony || CMakeFiles/Basic
 build CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers/main.c.o: C_COMPILER__BasicPointers_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/main.c || cmake_object_order_depends_target_BasicPointers
   DEP_FILE = CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers/main.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BasicPointers.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers
 
 build CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers/functions.c.o: C_COMPILER__BasicPointers_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/functions.c || cmake_object_order_depends_target_BasicPointers
   DEP_FILE = CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers/functions.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BasicPointers.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers
 
@@ -392,6 +407,7 @@ build cmake_object_order_depends_target_VoidPointers: phony || CMakeFiles/VoidPo
 build CMakeFiles/VoidPointers.dir/Examples/Week4/VoidPointers/main.c.o: C_COMPILER__VoidPointers_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week4/VoidPointers/main.c || cmake_object_order_depends_target_VoidPointers
   DEP_FILE = CMakeFiles/VoidPointers.dir/Examples/Week4/VoidPointers/main.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/VoidPointers.dir
   OBJECT_FILE_DIR = CMakeFiles/VoidPointers.dir/Examples/Week4/VoidPointers
 
@@ -423,6 +439,7 @@ build cmake_object_order_depends_target_QuickSort: phony || CMakeFiles/QuickSort
 build CMakeFiles/QuickSort.dir/Examples/Week4/QuickSort/main.c.o: C_COMPILER__QuickSort_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week4/QuickSort/main.c || cmake_object_order_depends_target_QuickSort
   DEP_FILE = CMakeFiles/QuickSort.dir/Examples/Week4/QuickSort/main.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/QuickSort.dir
   OBJECT_FILE_DIR = CMakeFiles/QuickSort.dir/Examples/Week4/QuickSort
 
@@ -454,6 +471,7 @@ build cmake_object_order_depends_target_LockerProblem: phony || CMakeFiles/Locke
 build CMakeFiles/LockerProblem.dir/Examples/Week4/LockerProblem/main.c.o: C_COMPILER__LockerProblem_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week4/LockerProblem/main.c || cmake_object_order_depends_target_LockerProblem
   DEP_FILE = CMakeFiles/LockerProblem.dir/Examples/Week4/LockerProblem/main.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/LockerProblem.dir
   OBJECT_FILE_DIR = CMakeFiles/LockerProblem.dir/Examples/Week4/LockerProblem
 
@@ -485,6 +503,7 @@ build cmake_object_order_depends_target_Tristan: phony || CMakeFiles/Tristan.dir
 build CMakeFiles/Tristan.dir/Examples/Week4/Tristan/main.c.o: C_COMPILER__Tristan_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week4/Tristan/main.c || cmake_object_order_depends_target_Tristan
   DEP_FILE = CMakeFiles/Tristan.dir/Examples/Week4/Tristan/main.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/Tristan.dir
   OBJECT_FILE_DIR = CMakeFiles/Tristan.dir/Examples/Week4/Tristan
 
@@ -516,6 +535,7 @@ build cmake_object_order_depends_target_Restaurant_C_Example: phony || CMakeFile
 build CMakeFiles/Restaurant_C_Example.dir/Examples/Week5/Restaurant_C_Example/main.c.o: C_COMPILER__Restaurant_C_Example_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week5/Restaurant_C_Example/main.c || cmake_object_order_depends_target_Restaurant_C_Example
   DEP_FILE = CMakeFiles/Restaurant_C_Example.dir/Examples/Week5/Restaurant_C_Example/main.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/Restaurant_C_Example.dir
   OBJECT_FILE_DIR = CMakeFiles/Restaurant_C_Example.dir/Examples/Week5/Restaurant_C_Example
 
@@ -547,12 +567,14 @@ build cmake_object_order_depends_target_PointerCar: phony || CMakeFiles/PointerC
 build CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/main.c.o: C_COMPILER__PointerCar_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week5/PointerCar/main.c || cmake_object_order_depends_target_PointerCar
   DEP_FILE = CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/main.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/PointerCar.dir
   OBJECT_FILE_DIR = CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar
 
 build CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/PointerCar.c.o: C_COMPILER__PointerCar_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week5/PointerCar/PointerCar.c || cmake_object_order_depends_target_PointerCar
   DEP_FILE = CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/PointerCar.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/PointerCar.dir
   OBJECT_FILE_DIR = CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar
 
@@ -584,12 +606,14 @@ build cmake_object_order_depends_target_SimpleCar: phony || CMakeFiles/SimpleCar
 build CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/main.c.o: C_COMPILER__SimpleCar_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCar/main.c || cmake_object_order_depends_target_SimpleCar
   DEP_FILE = CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/main.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/SimpleCar.dir
   OBJECT_FILE_DIR = CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar
 
 build CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/SimpleCar.c.o: C_COMPILER__SimpleCar_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCar/SimpleCar.c || cmake_object_order_depends_target_SimpleCar
   DEP_FILE = CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/SimpleCar.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/SimpleCar.dir
   OBJECT_FILE_DIR = CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar
 
@@ -621,6 +645,7 @@ build cmake_object_order_depends_target_SimpleCarOneFile: phony || CMakeFiles/Si
 build CMakeFiles/SimpleCarOneFile.dir/Examples/Week5/SimpleCarOneFile/main.c.o: C_COMPILER__SimpleCarOneFile_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCarOneFile/main.c || cmake_object_order_depends_target_SimpleCarOneFile
   DEP_FILE = CMakeFiles/SimpleCarOneFile.dir/Examples/Week5/SimpleCarOneFile/main.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/SimpleCarOneFile.dir
   OBJECT_FILE_DIR = CMakeFiles/SimpleCarOneFile.dir/Examples/Week5/SimpleCarOneFile
 
@@ -652,12 +677,14 @@ build cmake_object_order_depends_target_CoinFlip: phony || CMakeFiles/CoinFlip.d
 build CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip/main.c.o: C_COMPILER__CoinFlip_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week5/CoinFlip/main.c || cmake_object_order_depends_target_CoinFlip
   DEP_FILE = CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip/main.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/CoinFlip.dir
   OBJECT_FILE_DIR = CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip
 
 build CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip/Coin.c.o: C_COMPILER__CoinFlip_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week5/CoinFlip/Coin.c || cmake_object_order_depends_target_CoinFlip
   DEP_FILE = CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip/Coin.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/CoinFlip.dir
   OBJECT_FILE_DIR = CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip
 
@@ -689,6 +716,7 @@ build cmake_object_order_depends_target_q1a: phony || CMakeFiles/q1a.dir
 build CMakeFiles/q1a.dir/Examples/Midterm2_Practice/q1a.c.o: C_COMPILER__q1a_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q1a.c || cmake_object_order_depends_target_q1a
   DEP_FILE = CMakeFiles/q1a.dir/Examples/Midterm2_Practice/q1a.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/q1a.dir
   OBJECT_FILE_DIR = CMakeFiles/q1a.dir/Examples/Midterm2_Practice
 
@@ -720,6 +748,7 @@ build cmake_object_order_depends_target_q1b: phony || CMakeFiles/q1b.dir
 build CMakeFiles/q1b.dir/Examples/Midterm2_Practice/q1b.c.o: C_COMPILER__q1b_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q1b.c || cmake_object_order_depends_target_q1b
   DEP_FILE = CMakeFiles/q1b.dir/Examples/Midterm2_Practice/q1b.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/q1b.dir
   OBJECT_FILE_DIR = CMakeFiles/q1b.dir/Examples/Midterm2_Practice
 
@@ -751,6 +780,7 @@ build cmake_object_order_depends_target_q3a: phony || CMakeFiles/q3a.dir
 build CMakeFiles/q3a.dir/Examples/Midterm2_Practice/q3a.c.o: C_COMPILER__q3a_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q3a.c || cmake_object_order_depends_target_q3a
   DEP_FILE = CMakeFiles/q3a.dir/Examples/Midterm2_Practice/q3a.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/q3a.dir
   OBJECT_FILE_DIR = CMakeFiles/q3a.dir/Examples/Midterm2_Practice
 
@@ -782,6 +812,7 @@ build cmake_object_order_depends_target_q3b: phony || CMakeFiles/q3b.dir
 build CMakeFiles/q3b.dir/Examples/Midterm2_Practice/q3b.c.o: C_COMPILER__q3b_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q3b.c || cmake_object_order_depends_target_q3b
   DEP_FILE = CMakeFiles/q3b.dir/Examples/Midterm2_Practice/q3b.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/q3b.dir
   OBJECT_FILE_DIR = CMakeFiles/q3b.dir/Examples/Midterm2_Practice
 
@@ -813,6 +844,7 @@ build cmake_object_order_depends_target_q1a_solution: phony || CMakeFiles/q1a_so
 build CMakeFiles/q1a_solution.dir/Examples/Midterm2_Solutions/q1a.c.o: C_COMPILER__q1a_solution_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q1a.c || cmake_object_order_depends_target_q1a_solution
   DEP_FILE = CMakeFiles/q1a_solution.dir/Examples/Midterm2_Solutions/q1a.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/q1a_solution.dir
   OBJECT_FILE_DIR = CMakeFiles/q1a_solution.dir/Examples/Midterm2_Solutions
 
@@ -844,6 +876,7 @@ build cmake_object_order_depends_target_q1b_solution: phony || CMakeFiles/q1b_so
 build CMakeFiles/q1b_solution.dir/Examples/Midterm2_Solutions/q1b.c.o: C_COMPILER__q1b_solution_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q1b.c || cmake_object_order_depends_target_q1b_solution
   DEP_FILE = CMakeFiles/q1b_solution.dir/Examples/Midterm2_Solutions/q1b.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/q1b_solution.dir
   OBJECT_FILE_DIR = CMakeFiles/q1b_solution.dir/Examples/Midterm2_Solutions
 
@@ -875,6 +908,7 @@ build cmake_object_order_depends_target_q3a_solution: phony || CMakeFiles/q3a_so
 build CMakeFiles/q3a_solution.dir/Examples/Midterm2_Solutions/q3a.c.o: C_COMPILER__q3a_solution_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q3a.c || cmake_object_order_depends_target_q3a_solution
   DEP_FILE = CMakeFiles/q3a_solution.dir/Examples/Midterm2_Solutions/q3a.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/q3a_solution.dir
   OBJECT_FILE_DIR = CMakeFiles/q3a_solution.dir/Examples/Midterm2_Solutions
 
@@ -906,6 +940,7 @@ build cmake_object_order_depends_target_q3b_solution: phony || CMakeFiles/q3b_so
 build CMakeFiles/q3b_solution.dir/Examples/Midterm2_Solutions/q3b.c.o: C_COMPILER__q3b_solution_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q3b.c || cmake_object_order_depends_target_q3b_solution
   DEP_FILE = CMakeFiles/q3b_solution.dir/Examples/Midterm2_Solutions/q3b.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/q3b_solution.dir
   OBJECT_FILE_DIR = CMakeFiles/q3b_solution.dir/Examples/Midterm2_Solutions
 
@@ -937,6 +972,7 @@ build cmake_object_order_depends_target_factorial_solution: phony || CMakeFiles/
 build CMakeFiles/factorial_solution.dir/Examples/Midterm2_Solutions/factorial.c.o: C_COMPILER__factorial_solution_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/factorial.c || cmake_object_order_depends_target_factorial_solution
   DEP_FILE = CMakeFiles/factorial_solution.dir/Examples/Midterm2_Solutions/factorial.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/factorial_solution.dir
   OBJECT_FILE_DIR = CMakeFiles/factorial_solution.dir/Examples/Midterm2_Solutions
 
@@ -968,6 +1004,7 @@ build cmake_object_order_depends_target_HelloWorldCPP: phony || CMakeFiles/Hello
 build CMakeFiles/HelloWorldCPP.dir/Examples/Week6/HelloWorldCPP/main.cpp.o: CXX_COMPILER__HelloWorldCPP_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week6/HelloWorldCPP/main.cpp || cmake_object_order_depends_target_HelloWorldCPP
   DEP_FILE = CMakeFiles/HelloWorldCPP.dir/Examples/Week6/HelloWorldCPP/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/HelloWorldCPP.dir
   OBJECT_FILE_DIR = CMakeFiles/HelloWorldCPP.dir/Examples/Week6/HelloWorldCPP
 
@@ -999,6 +1036,7 @@ build cmake_object_order_depends_target_BasicVectorCPP: phony || CMakeFiles/Basi
 build CMakeFiles/BasicVectorCPP.dir/Examples/Week6/BasicVectorCPP/main.cpp.o: CXX_COMPILER__BasicVectorCPP_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week6/BasicVectorCPP/main.cpp || cmake_object_order_depends_target_BasicVectorCPP
   DEP_FILE = CMakeFiles/BasicVectorCPP.dir/Examples/Week6/BasicVectorCPP/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BasicVectorCPP.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicVectorCPP.dir/Examples/Week6/BasicVectorCPP
 
@@ -1030,6 +1068,7 @@ build cmake_object_order_depends_target_FunctionOverloading: phony || CMakeFiles
 build CMakeFiles/FunctionOverloading.dir/Examples/Week6/FunctionOverloading/main.cpp.o: CXX_COMPILER__FunctionOverloading_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week6/FunctionOverloading/main.cpp || cmake_object_order_depends_target_FunctionOverloading
   DEP_FILE = CMakeFiles/FunctionOverloading.dir/Examples/Week6/FunctionOverloading/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/FunctionOverloading.dir
   OBJECT_FILE_DIR = CMakeFiles/FunctionOverloading.dir/Examples/Week6/FunctionOverloading
 
@@ -1061,6 +1100,7 @@ build cmake_object_order_depends_target_PassBy: phony || CMakeFiles/PassBy.dir
 build CMakeFiles/PassBy.dir/Examples/Week7/PassBy/main.cpp.o: CXX_COMPILER__PassBy_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week7/PassBy/main.cpp || cmake_object_order_depends_target_PassBy
   DEP_FILE = CMakeFiles/PassBy.dir/Examples/Week7/PassBy/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/PassBy.dir
   OBJECT_FILE_DIR = CMakeFiles/PassBy.dir/Examples/Week7/PassBy
 
@@ -1092,12 +1132,14 @@ build cmake_object_order_depends_target_BasicObjects: phony || CMakeFiles/BasicO
 build CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/main.cpp.o: CXX_COMPILER__BasicObjects_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week7/BasicObjects/main.cpp || cmake_object_order_depends_target_BasicObjects
   DEP_FILE = CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BasicObjects.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects
 
 build CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/Restaurant.cpp.o: CXX_COMPILER__BasicObjects_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week7/BasicObjects/Restaurant.cpp || cmake_object_order_depends_target_BasicObjects
   DEP_FILE = CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/Restaurant.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BasicObjects.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects
 
@@ -1129,6 +1171,7 @@ build cmake_object_order_depends_target_MultipleClasses: phony || CMakeFiles/Mul
 build CMakeFiles/MultipleClasses.dir/Examples/Week7/MultipleClasses/main.cpp.o: CXX_COMPILER__MultipleClasses_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week7/MultipleClasses/main.cpp || cmake_object_order_depends_target_MultipleClasses
   DEP_FILE = CMakeFiles/MultipleClasses.dir/Examples/Week7/MultipleClasses/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/MultipleClasses.dir
   OBJECT_FILE_DIR = CMakeFiles/MultipleClasses.dir/Examples/Week7/MultipleClasses
 
@@ -1160,6 +1203,7 @@ build cmake_object_order_depends_target_PointersCPP: phony || CMakeFiles/Pointer
 build CMakeFiles/PointersCPP.dir/Examples/Week8/PointersCPP/main.cpp.o: CXX_COMPILER__PointersCPP_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week8/PointersCPP/main.cpp || cmake_object_order_depends_target_PointersCPP
   DEP_FILE = CMakeFiles/PointersCPP.dir/Examples/Week8/PointersCPP/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/PointersCPP.dir
   OBJECT_FILE_DIR = CMakeFiles/PointersCPP.dir/Examples/Week8/PointersCPP
 
@@ -1191,12 +1235,14 @@ build cmake_object_order_depends_target_BasicObjectsPointers: phony || CMakeFile
 build CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers/main.cpp.o: CXX_COMPILER__BasicObjectsPointers_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week8/BasicObjectsPointers/main.cpp || cmake_object_order_depends_target_BasicObjectsPointers
   DEP_FILE = CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BasicObjectsPointers.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers
 
 build CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers/Restaurant.cpp.o: CXX_COMPILER__BasicObjectsPointers_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week8/BasicObjectsPointers/Restaurant.cpp || cmake_object_order_depends_target_BasicObjectsPointers
   DEP_FILE = CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers/Restaurant.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BasicObjectsPointers.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers
 
@@ -1228,18 +1274,21 @@ build cmake_object_order_depends_target_ArtistAndArtwork: phony || CMakeFiles/Ar
 build CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/main.cpp.o: CXX_COMPILER__ArtistAndArtwork_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week9/ArtistAndArtwork/main.cpp || cmake_object_order_depends_target_ArtistAndArtwork
   DEP_FILE = CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/ArtistAndArtwork.dir
   OBJECT_FILE_DIR = CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork
 
 build CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artist.cpp.o: CXX_COMPILER__ArtistAndArtwork_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week9/ArtistAndArtwork/Artist.cpp || cmake_object_order_depends_target_ArtistAndArtwork
   DEP_FILE = CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artist.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/ArtistAndArtwork.dir
   OBJECT_FILE_DIR = CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork
 
 build CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artwork.cpp.o: CXX_COMPILER__ArtistAndArtwork_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week9/ArtistAndArtwork/Artwork.cpp || cmake_object_order_depends_target_ArtistAndArtwork
   DEP_FILE = CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artwork.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/ArtistAndArtwork.dir
   OBJECT_FILE_DIR = CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork
 
@@ -1271,6 +1320,7 @@ build cmake_object_order_depends_target_CopyConstructorExample: phony || CMakeFi
 build CMakeFiles/CopyConstructorExample.dir/Examples/Week9/CopyConstructorExample/main.cpp.o: CXX_COMPILER__CopyConstructorExample_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week9/CopyConstructorExample/main.cpp || cmake_object_order_depends_target_CopyConstructorExample
   DEP_FILE = CMakeFiles/CopyConstructorExample.dir/Examples/Week9/CopyConstructorExample/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/CopyConstructorExample.dir
   OBJECT_FILE_DIR = CMakeFiles/CopyConstructorExample.dir/Examples/Week9/CopyConstructorExample
 
@@ -1302,6 +1352,7 @@ build cmake_object_order_depends_target_FunctionTemplates: phony || CMakeFiles/F
 build CMakeFiles/FunctionTemplates.dir/Examples/Week10/FunctionTemplates/main.cpp.o: CXX_COMPILER__FunctionTemplates_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week10/FunctionTemplates/main.cpp || cmake_object_order_depends_target_FunctionTemplates
   DEP_FILE = CMakeFiles/FunctionTemplates.dir/Examples/Week10/FunctionTemplates/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/FunctionTemplates.dir
   OBJECT_FILE_DIR = CMakeFiles/FunctionTemplates.dir/Examples/Week10/FunctionTemplates
 
@@ -1333,12 +1384,14 @@ build cmake_object_order_depends_target_OperatorOverloading: phony || CMakeFiles
 build CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/main.cpp.o: CXX_COMPILER__OperatorOverloading_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week10/OperatorOverloading/main.cpp || cmake_object_order_depends_target_OperatorOverloading
   DEP_FILE = CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/OperatorOverloading.dir
   OBJECT_FILE_DIR = CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading
 
 build CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/TimeHrMn.cpp.o: CXX_COMPILER__OperatorOverloading_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week10/OperatorOverloading/TimeHrMn.cpp || cmake_object_order_depends_target_OperatorOverloading
   DEP_FILE = CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/TimeHrMn.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/OperatorOverloading.dir
   OBJECT_FILE_DIR = CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading
 
@@ -1370,6 +1423,7 @@ build cmake_object_order_depends_target_InheritancePolymorphism: phony || CMakeF
 build CMakeFiles/InheritancePolymorphism.dir/Examples/Week10/InheritancePolymorphism/main.cpp.o: CXX_COMPILER__InheritancePolymorphism_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week10/InheritancePolymorphism/main.cpp || cmake_object_order_depends_target_InheritancePolymorphism
   DEP_FILE = CMakeFiles/InheritancePolymorphism.dir/Examples/Week10/InheritancePolymorphism/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/InheritancePolymorphism.dir
   OBJECT_FILE_DIR = CMakeFiles/InheritancePolymorphism.dir/Examples/Week10/InheritancePolymorphism
 
@@ -1401,12 +1455,14 @@ build cmake_object_order_depends_target_BasicLinkedList: phony || CMakeFiles/Bas
 build CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/main.cpp.o: CXX_COMPILER__BasicLinkedList_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/BasicLinkedList/main.cpp || cmake_object_order_depends_target_BasicLinkedList
   DEP_FILE = CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BasicLinkedList.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList
 
 build CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/IntNode.cpp.o: CXX_COMPILER__BasicLinkedList_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/BasicLinkedList/IntNode.cpp || cmake_object_order_depends_target_BasicLinkedList
   DEP_FILE = CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/IntNode.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BasicLinkedList.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList
 
@@ -1438,18 +1494,21 @@ build cmake_object_order_depends_target_LinkListDestructor: phony || CMakeFiles/
 build CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/main.cpp.o: CXX_COMPILER__LinkListDestructor_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/LinkListDestructor/main.cpp || cmake_object_order_depends_target_LinkListDestructor
   DEP_FILE = CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/LinkListDestructor.dir
   OBJECT_FILE_DIR = CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor
 
 build CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/IntNode.cpp.o: CXX_COMPILER__LinkListDestructor_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/LinkListDestructor/IntNode.cpp || cmake_object_order_depends_target_LinkListDestructor
   DEP_FILE = CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/IntNode.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/LinkListDestructor.dir
   OBJECT_FILE_DIR = CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor
 
 build CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/LinkedList.cpp.o: CXX_COMPILER__LinkListDestructor_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/LinkListDestructor/LinkedList.cpp || cmake_object_order_depends_target_LinkListDestructor
   DEP_FILE = CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/LinkedList.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/LinkListDestructor.dir
   OBJECT_FILE_DIR = CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor
 
@@ -1481,12 +1540,14 @@ build cmake_object_order_depends_target_BookLibrary: phony || CMakeFiles/BookLib
 build CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary/main.cpp.o: CXX_COMPILER__BookLibrary_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibrary/main.cpp || cmake_object_order_depends_target_BookLibrary
   DEP_FILE = CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BookLibrary.dir
   OBJECT_FILE_DIR = CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary
 
 build CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary/BookLibary.cpp.o: CXX_COMPILER__BookLibrary_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibrary/BookLibary.cpp || cmake_object_order_depends_target_BookLibrary
   DEP_FILE = CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary/BookLibary.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BookLibrary.dir
   OBJECT_FILE_DIR = CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary
 
@@ -1518,12 +1579,14 @@ build cmake_object_order_depends_target_BookLibraryZybooks: phony || CMakeFiles/
 build CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks/main.cpp.o: CXX_COMPILER__BookLibraryZybooks_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibraryZybooks/main.cpp || cmake_object_order_depends_target_BookLibraryZybooks
   DEP_FILE = CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BookLibraryZybooks.dir
   OBJECT_FILE_DIR = CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks
 
 build CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks/BookLibary.cpp.o: CXX_COMPILER__BookLibraryZybooks_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibraryZybooks/BookLibary.cpp || cmake_object_order_depends_target_BookLibraryZybooks
   DEP_FILE = CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks/BookLibary.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BookLibraryZybooks.dir
   OBJECT_FILE_DIR = CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks
 
@@ -1555,12 +1618,14 @@ build cmake_object_order_depends_target_MileageTracker: phony || CMakeFiles/Mile
 build CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker/main.cpp.o: CXX_COMPILER__MileageTracker_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/MileageTracker/main.cpp || cmake_object_order_depends_target_MileageTracker
   DEP_FILE = CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/MileageTracker.dir
   OBJECT_FILE_DIR = CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker
 
 build CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker/MileageTrackerNode.cpp.o: CXX_COMPILER__MileageTracker_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/MileageTracker/MileageTrackerNode.cpp || cmake_object_order_depends_target_MileageTracker
   DEP_FILE = CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker/MileageTrackerNode.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/MileageTracker.dir
   OBJECT_FILE_DIR = CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker
 
@@ -1592,18 +1657,21 @@ build cmake_object_order_depends_target_VectorOfInts: phony || CMakeFiles/Vector
 build CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/main.cpp.o: CXX_COMPILER__VectorOfInts_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/VectorOfInts/main.cpp || cmake_object_order_depends_target_VectorOfInts
   DEP_FILE = CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/VectorOfInts.dir
   OBJECT_FILE_DIR = CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts
 
 build CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/LinkedList.cpp.o: CXX_COMPILER__VectorOfInts_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/VectorOfInts/LinkedList.cpp || cmake_object_order_depends_target_VectorOfInts
   DEP_FILE = CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/LinkedList.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/VectorOfInts.dir
   OBJECT_FILE_DIR = CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts
 
 build CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/IntNode.cpp.o: CXX_COMPILER__VectorOfInts_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/VectorOfInts/IntNode.cpp || cmake_object_order_depends_target_VectorOfInts
   DEP_FILE = CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/IntNode.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/VectorOfInts.dir
   OBJECT_FILE_DIR = CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts
 
@@ -1635,6 +1703,7 @@ build cmake_object_order_depends_target_TemplatedVector: phony || CMakeFiles/Tem
 build CMakeFiles/TemplatedVector.dir/Examples/Week11/TemplatedVector/main.cpp.o: CXX_COMPILER__TemplatedVector_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector/main.cpp || cmake_object_order_depends_target_TemplatedVector
   DEP_FILE = CMakeFiles/TemplatedVector.dir/Examples/Week11/TemplatedVector/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/TemplatedVector.dir
   OBJECT_FILE_DIR = CMakeFiles/TemplatedVector.dir/Examples/Week11/TemplatedVector
 
@@ -1666,6 +1735,7 @@ build cmake_object_order_depends_target_TemplatedVector2: phony || CMakeFiles/Te
 build CMakeFiles/TemplatedVector2.dir/Examples/Week11/TemplatedVector2/main.cpp.o: CXX_COMPILER__TemplatedVector2_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector2/main.cpp || cmake_object_order_depends_target_TemplatedVector2
   DEP_FILE = CMakeFiles/TemplatedVector2.dir/Examples/Week11/TemplatedVector2/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/TemplatedVector2.dir
   OBJECT_FILE_DIR = CMakeFiles/TemplatedVector2.dir/Examples/Week11/TemplatedVector2
 
@@ -1697,6 +1767,7 @@ build cmake_object_order_depends_target_BinarySearchTree: phony || CMakeFiles/Bi
 build CMakeFiles/BinarySearchTree.dir/Examples/Week12/BinarySearchTree/main.cpp.o: CXX_COMPILER__BinarySearchTree_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree/main.cpp || cmake_object_order_depends_target_BinarySearchTree
   DEP_FILE = CMakeFiles/BinarySearchTree.dir/Examples/Week12/BinarySearchTree/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BinarySearchTree.dir
   OBJECT_FILE_DIR = CMakeFiles/BinarySearchTree.dir/Examples/Week12/BinarySearchTree
 
@@ -1728,12 +1799,14 @@ build cmake_object_order_depends_target_BinarySearchTree2: phony || CMakeFiles/B
 build CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/main.cpp.o: CXX_COMPILER__BinarySearchTree2_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree2/main.cpp || cmake_object_order_depends_target_BinarySearchTree2
   DEP_FILE = CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BinarySearchTree2.dir
   OBJECT_FILE_DIR = CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2
 
 build CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/BinarySearchTree.cpp.o: CXX_COMPILER__BinarySearchTree2_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree2/BinarySearchTree.cpp || cmake_object_order_depends_target_BinarySearchTree2
   DEP_FILE = CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/BinarySearchTree.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BinarySearchTree2.dir
   OBJECT_FILE_DIR = CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2
 
@@ -1765,6 +1838,7 @@ build cmake_object_order_depends_target_BinarySearchTreePerformance: phony || CM
 build CMakeFiles/BinarySearchTreePerformance.dir/Examples/Week12/BinarySearchTreePerformance/main.cpp.o: CXX_COMPILER__BinarySearchTreePerformance_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTreePerformance/main.cpp || cmake_object_order_depends_target_BinarySearchTreePerformance
   DEP_FILE = CMakeFiles/BinarySearchTreePerformance.dir/Examples/Week12/BinarySearchTreePerformance/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BinarySearchTreePerformance.dir
   OBJECT_FILE_DIR = CMakeFiles/BinarySearchTreePerformance.dir/Examples/Week12/BinarySearchTreePerformance
 
@@ -1796,6 +1870,7 @@ build cmake_object_order_depends_target_StackHeap: phony || CMakeFiles/StackHeap
 build CMakeFiles/StackHeap.dir/Examples/Week13/StackHeap/main.cpp.o: CXX_COMPILER__StackHeap_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week13/StackHeap/main.cpp || cmake_object_order_depends_target_StackHeap
   DEP_FILE = CMakeFiles/StackHeap.dir/Examples/Week13/StackHeap/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/StackHeap.dir
   OBJECT_FILE_DIR = CMakeFiles/StackHeap.dir/Examples/Week13/StackHeap
 
@@ -1827,12 +1902,14 @@ build cmake_object_order_depends_target_Project1Part1: phony || CMakeFiles/Proje
 build CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/main.cpp.o: CXX_COMPILER__Project1Part1_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Projects/Project1Part1/main.cpp || cmake_object_order_depends_target_Project1Part1
   DEP_FILE = CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/Project1Part1.dir
   OBJECT_FILE_DIR = CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1
 
 build CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/ItemToPurchase.cpp.o: CXX_COMPILER__Project1Part1_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Projects/Project1Part1/ItemToPurchase.cpp || cmake_object_order_depends_target_Project1Part1
   DEP_FILE = CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/ItemToPurchase.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/Project1Part1.dir
   OBJECT_FILE_DIR = CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1
 
@@ -1864,18 +1941,21 @@ build cmake_object_order_depends_target_ProjectPart2: phony || CMakeFiles/Projec
 build CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/main.cpp.o: CXX_COMPILER__ProjectPart2_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Projects/ProjectPart2/main.cpp || cmake_object_order_depends_target_ProjectPart2
   DEP_FILE = CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/ProjectPart2.dir
   OBJECT_FILE_DIR = CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2
 
 build CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ItemToPurchase.cpp.o: CXX_COMPILER__ProjectPart2_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Projects/ProjectPart2/ItemToPurchase.cpp || cmake_object_order_depends_target_ProjectPart2
   DEP_FILE = CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ItemToPurchase.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/ProjectPart2.dir
   OBJECT_FILE_DIR = CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2
 
 build CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ShoppingCart.cpp.o: CXX_COMPILER__ProjectPart2_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Projects/ProjectPart2/ShoppingCart.cpp || cmake_object_order_depends_target_ProjectPart2
   DEP_FILE = CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ShoppingCart.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/ProjectPart2.dir
   OBJECT_FILE_DIR = CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2
 
@@ -1894,6 +1974,101 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ProjectPar
   PRE_LINK = :
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ProjectPart2
   TARGET_PDB = ProjectPart2.dbg
+
+# =============================================================================
+# Object build statements for SHARED_LIBRARY target gplot
+
+
+#############################################
+# Order-only phony target for gplot
+
+build cmake_object_order_depends_target_gplot: phony || CMakeFiles/gplot.dir
+
+build CMakeFiles/gplot.dir/Examples/Other_Examples/gplot/gplot_basic.c.o: C_COMPILER__gplot_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/gplot/gplot_basic.c || cmake_object_order_depends_target_gplot
+  DEFINES = -Dgplot_EXPORTS
+  DEP_FILE = CMakeFiles/gplot.dir/Examples/Other_Examples/gplot/gplot_basic.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fPIC -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
+  OBJECT_DIR = CMakeFiles/gplot.dir
+  OBJECT_FILE_DIR = CMakeFiles/gplot.dir/Examples/Other_Examples/gplot
+
+build CMakeFiles/gplot.dir/Examples/Other_Examples/gplot/gplot_errors.c.o: C_COMPILER__gplot_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/gplot/gplot_errors.c || cmake_object_order_depends_target_gplot
+  DEFINES = -Dgplot_EXPORTS
+  DEP_FILE = CMakeFiles/gplot.dir/Examples/Other_Examples/gplot/gplot_errors.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fPIC -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
+  OBJECT_DIR = CMakeFiles/gplot.dir
+  OBJECT_FILE_DIR = CMakeFiles/gplot.dir/Examples/Other_Examples/gplot
+
+build CMakeFiles/gplot.dir/Examples/Other_Examples/gplot/gplot_errorstheory.c.o: C_COMPILER__gplot_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/gplot/gplot_errorstheory.c || cmake_object_order_depends_target_gplot
+  DEFINES = -Dgplot_EXPORTS
+  DEP_FILE = CMakeFiles/gplot.dir/Examples/Other_Examples/gplot/gplot_errorstheory.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fPIC -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
+  OBJECT_DIR = CMakeFiles/gplot.dir
+  OBJECT_FILE_DIR = CMakeFiles/gplot.dir/Examples/Other_Examples/gplot
+
+build CMakeFiles/gplot.dir/Examples/Other_Examples/gplot/gplot_theory.c.o: C_COMPILER__gplot_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/gplot/gplot_theory.c || cmake_object_order_depends_target_gplot
+  DEFINES = -Dgplot_EXPORTS
+  DEP_FILE = CMakeFiles/gplot.dir/Examples/Other_Examples/gplot/gplot_theory.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fPIC -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
+  OBJECT_DIR = CMakeFiles/gplot.dir
+  OBJECT_FILE_DIR = CMakeFiles/gplot.dir/Examples/Other_Examples/gplot
+
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target gplot
+
+
+#############################################
+# Link the shared library libgplot.dylib
+
+build libgplot.dylib: C_SHARED_LIBRARY_LINKER__gplot_Debug CMakeFiles/gplot.dir/Examples/Other_Examples/gplot/gplot_basic.c.o CMakeFiles/gplot.dir/Examples/Other_Examples/gplot/gplot_errors.c.o CMakeFiles/gplot.dir/Examples/Other_Examples/gplot/gplot_errorstheory.c.o CMakeFiles/gplot.dir/Examples/Other_Examples/gplot/gplot_theory.c.o
+  ARCH_FLAGS = -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  INSTALLNAME_DIR = @rpath/
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles/gplot.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  SONAME = libgplot.dylib
+  SONAME_FLAG = -install_name
+  TARGET_FILE = libgplot.dylib
+  TARGET_PDB = gplot.dylib.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target gplot_test
+
+
+#############################################
+# Order-only phony target for gplot_test
+
+build cmake_object_order_depends_target_gplot_test: phony || cmake_object_order_depends_target_gplot
+
+build CMakeFiles/gplot_test.dir/Examples/Other_Examples/gplot_test/main.c.o: C_COMPILER__gplot_test_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/gplot_test/main.c || cmake_object_order_depends_target_gplot_test
+  DEP_FILE = CMakeFiles/gplot_test.dir/Examples/Other_Examples/gplot_test/main.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
+  OBJECT_DIR = CMakeFiles/gplot_test.dir
+  OBJECT_FILE_DIR = CMakeFiles/gplot_test.dir/Examples/Other_Examples/gplot_test
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target gplot_test
+
+
+#############################################
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/gplot_test/gplot_test
+
+build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/gplot_test/gplot_test: C_EXECUTABLE_LINKER__gplot_test_Debug CMakeFiles/gplot_test.dir/Examples/Other_Examples/gplot_test/main.c.o | libgplot.dylib || libgplot.dylib
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  LINK_LIBRARIES = -Wl,-rpath,/Users/brash/CLionProjects/cpsc256/lib -Wl,-rpath,/Users/brash/CLionProjects/cpsc256/cmake-build-debug  libgplot.dylib
+  LINK_PATH = -L/Users/brash/CLionProjects/cpsc256/lib
+  OBJECT_DIR = CMakeFiles/gplot_test.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/gplot_test/gplot_test
+  TARGET_PDB = gplot_test.dbg
 
 
 #############################################
@@ -2011,6 +2186,10 @@ build VoidPointers: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/Basi
 
 build factorial_solution: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/factorial_solution
 
+build gplot: phony libgplot.dylib
+
+build gplot_test: phony /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/gplot_test/gplot_test
+
 build q1a: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1a
 
 build q1a_solution: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1a_solution
@@ -2035,7 +2214,7 @@ build q3b_solution: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/Basi
 #############################################
 # Folder: /Users/brash/CLionProjects/cpsc256/cmake-build-debug
 
-build all: phony HelloWorld PrimitiveDataTypes /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LockerProblem /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Tristan /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCarOneFile /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1a /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1b /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3a /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3b /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1a_solution /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1b_solution /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3a_solution /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3b_solution /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/factorial_solution /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicVectorCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjectsPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CopyConstructorExample /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionTemplates /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/OperatorOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/InheritancePolymorphism /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicLinkedList /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LinkListDestructor /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibrary /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibraryZybooks /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MileageTracker /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VectorOfInts /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector2 /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree2 /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTreePerformance /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/StackHeap /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Project1Part1 /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ProjectPart2
+build all: phony HelloWorld PrimitiveDataTypes /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LockerProblem /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Tristan /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCarOneFile /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1a /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1b /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3a /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3b /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1a_solution /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1b_solution /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3a_solution /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3b_solution /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/factorial_solution /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicVectorCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjectsPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CopyConstructorExample /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionTemplates /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/OperatorOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/InheritancePolymorphism /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicLinkedList /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LinkListDestructor /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibrary /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibraryZybooks /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MileageTracker /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VectorOfInts /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector2 /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree2 /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTreePerformance /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/StackHeap /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Project1Part1 /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ProjectPart2 libgplot.dylib /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/gplot_test/gplot_test
 
 # =============================================================================
 # Built-in targets

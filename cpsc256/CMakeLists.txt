@@ -96,3 +96,14 @@ add_executable(StackHeap Examples/Week13/StackHeap/main.cpp)
 add_executable(Project1Part1 Examples/Projects/Project1Part1/main.cpp Examples/Projects/Project1Part1/ItemToPurchase.cpp)
 add_executable(ProjectPart2 Examples/Projects/ProjectPart2/main.cpp Examples/Projects/ProjectPart2/ItemToPurchase.cpp Examples/Projects/ProjectPart2/ShoppingCart.cpp)
 
+# Compile gplot library for use in other examples
+
+add_library(gplot SHARED Examples/Other_Examples/gplot/gplot_basic.c Examples/Other_Examples/gplot/gplot.h Examples/Other_Examples/gplot/gplot_errors.c Examples/Other_Examples/gplot/gplot_errorstheory.c Examples/Other_Examples/gplot/gplot_errors.c Examples/Other_Examples/gplot/gplot_theory.c Examples/Other_Examples/gplot/gplot_theory.c)
+
+# Compile gplot_test
+include_directories(${CMAKE_SOURCE_DIR}/inc)
+link_directories(${CMAKE_SOURCE_DIR}/lib)
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Other_Examples/gplot_test)
+add_executable(gplot_test Examples/Other_Examples/gplot_test/main.c)
+target_link_libraries(gplot_test gplot) # libgplot.so is found in ${CMAKE_SOURCE_DIR}/lib

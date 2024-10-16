@@ -11,7 +11,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <gplot.h>
+#include "../gplot/gplot.h"
 #include <math.h>
 
 int main(int argc, char** argv) {
