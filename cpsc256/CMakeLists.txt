@@ -44,6 +44,12 @@ add_executable(q1b Examples/Midterm2_Practice/q1b.c)
 add_executable(q3a Examples/Midterm2_Practice/q3a.c)
 add_executable(q3b Examples/Midterm2_Practice/q3b.c)
 
+# Midterm 2 Solutions
+add_executable(q1a_solution Examples/Midterm2_Solutions/q1a.c)
+add_executable(q1b_solution Examples/Midterm2_Solutions/q1b.c)
+add_executable(q3a_solution Examples/Midterm2_Solutions/q3a.c)
+add_executable(q3b_solution Examples/Midterm2_Solutions/q3b.c)
+
 # Week 6
 add_executable(HelloWorldCPP Examples/Week6/HelloWorldCPP/main.cpp)
 add_executable(BasicVectorCPP Examples/Week6/BasicVectorCPP/main.cpp)
