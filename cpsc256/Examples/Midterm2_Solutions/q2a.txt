@@ -1,0 +1,8 @@
+Line 1:  an integer array with five elements  called arr is created, and is filled
+        with the values 5, 10, 15, 20, and 25.
+Line 2:  an integer variable called sum is declared, and is initialized to 0.
+Line 3:  a for loop that uses the variable i as the loop control variable is started.
+         the loop will iterate five times, with i starting at 0 and ending at 4.
+Line 4:  the value of the element in the array arr at index i is added to the variable sum.
+Line 5:  The for loop ends.
+Line 6:  The value of the variable sum is printed to the console.

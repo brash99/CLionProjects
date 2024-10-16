@@ -40,14 +40,21 @@ void PrintDate(int day, string month_string, int year) {
 }
 
 int main(int argc, char** argv) {
-    
+
+
+    // print the date in two different ways
+
+    // date could be 12/5/2021 or 12/May/2021
     int d = 12;
     int m = 5;
     int y = 2021;
     string ms = "May";
-    
-    PrintDate(d,m,y);
-    PrintDate(d,ms,y);
+
+    // Same function name, but different parameters
+
+    PrintDate(d,m,y); // PrintDate(int,int,int)
+
+    PrintDate(d,ms,y); // PrintDate(int,string,int)
 
     return 0;
 }

@@ -49,6 +49,7 @@ add_executable(q1a_solution Examples/Midterm2_Solutions/q1a.c)
 add_executable(q1b_solution Examples/Midterm2_Solutions/q1b.c)
 add_executable(q3a_solution Examples/Midterm2_Solutions/q3a.c)
 add_executable(q3b_solution Examples/Midterm2_Solutions/q3b.c)
+add_executable(factorial_solution Examples/Midterm2_Solutions/factorial.c)
 
 # Week 6
 add_executable(HelloWorldCPP Examples/Week6/HelloWorldCPP/main.cpp)
