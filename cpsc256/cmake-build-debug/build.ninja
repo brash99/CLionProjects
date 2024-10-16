@@ -62,14 +62,14 @@ build CMakeFiles/HelloWorld.dir/Examples/Week1/HelloWorld/main.c.o: C_COMPILER__
 
 
 #############################################
-# Link the executable HelloWorld
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week1/HelloWorld/HelloWorld
 
-build HelloWorld: C_EXECUTABLE_LINKER__HelloWorld_Debug CMakeFiles/HelloWorld.dir/Examples/Week1/HelloWorld/main.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week1/HelloWorld/HelloWorld: C_EXECUTABLE_LINKER__HelloWorld_Debug CMakeFiles/HelloWorld.dir/Examples/Week1/HelloWorld/main.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/HelloWorld.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = HelloWorld
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week1/HelloWorld/HelloWorld
   TARGET_PDB = HelloWorld.dbg
 
 # =============================================================================
@@ -94,14 +94,14 @@ build CMakeFiles/PrimitiveDataTypes.dir/Examples/Week1/PrimitiveDataTypes/main.c
 
 
 #############################################
-# Link the executable PrimitiveDataTypes
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week1/PrimitiveDataTypes/PrimitiveDataTypes
 
-build PrimitiveDataTypes: C_EXECUTABLE_LINKER__PrimitiveDataTypes_Debug CMakeFiles/PrimitiveDataTypes.dir/Examples/Week1/PrimitiveDataTypes/main.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week1/PrimitiveDataTypes/PrimitiveDataTypes: C_EXECUTABLE_LINKER__PrimitiveDataTypes_Debug CMakeFiles/PrimitiveDataTypes.dir/Examples/Week1/PrimitiveDataTypes/main.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/PrimitiveDataTypes.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = PrimitiveDataTypes
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week1/PrimitiveDataTypes/PrimitiveDataTypes
   TARGET_PDB = PrimitiveDataTypes.dbg
 
 # =============================================================================
@@ -190,14 +190,14 @@ build CMakeFiles/Declarations.dir/Examples/Week3/Declarations/main.c.o: C_COMPIL
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week3/Declarations/Declarations
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations: C_EXECUTABLE_LINKER__Declarations_Debug CMakeFiles/Declarations.dir/Examples/Week3/Declarations/main.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week3/Declarations/Declarations: C_EXECUTABLE_LINKER__Declarations_Debug CMakeFiles/Declarations.dir/Examples/Week3/Declarations/main.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/Declarations.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week3/Declarations/Declarations
   TARGET_PDB = Declarations.dbg
 
 # =============================================================================
@@ -222,14 +222,14 @@ build CMakeFiles/FormatSpecifiers.dir/Examples/Week3/FormatSpecifiers/main.c.o: 
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week3/FormatSpecifiers/FormatSpecifiers
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers: C_EXECUTABLE_LINKER__FormatSpecifiers_Debug CMakeFiles/FormatSpecifiers.dir/Examples/Week3/FormatSpecifiers/main.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week3/FormatSpecifiers/FormatSpecifiers: C_EXECUTABLE_LINKER__FormatSpecifiers_Debug CMakeFiles/FormatSpecifiers.dir/Examples/Week3/FormatSpecifiers/main.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/FormatSpecifiers.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FormatSpecifiers/FormatSpecifiers
   TARGET_PDB = FormatSpecifiers.dbg
 
 # =============================================================================
@@ -254,14 +254,14 @@ build CMakeFiles/FunctionExample.dir/Examples/Week3/FunctionExample/main.c.o: C_
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week3/FunctionExample/FunctionExample
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample: C_EXECUTABLE_LINKER__FunctionExample_Debug CMakeFiles/FunctionExample.dir/Examples/Week3/FunctionExample/main.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week3/FunctionExample/FunctionExample: C_EXECUTABLE_LINKER__FunctionExample_Debug CMakeFiles/FunctionExample.dir/Examples/Week3/FunctionExample/main.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/FunctionExample.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FunctionExample/FunctionExample
   TARGET_PDB = FunctionExample.dbg
 
 # =============================================================================
@@ -417,14 +417,14 @@ build CMakeFiles/VoidPointers.dir/Examples/Week4/VoidPointers/main.c.o: C_COMPIL
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week3/VoidPointers/VoidPointers
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers: C_EXECUTABLE_LINKER__VoidPointers_Debug CMakeFiles/VoidPointers.dir/Examples/Week4/VoidPointers/main.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week3/VoidPointers/VoidPointers: C_EXECUTABLE_LINKER__VoidPointers_Debug CMakeFiles/VoidPointers.dir/Examples/Week4/VoidPointers/main.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/VoidPointers.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week3/VoidPointers/VoidPointers
   TARGET_PDB = VoidPointers.dbg
 
 # =============================================================================
@@ -449,14 +449,14 @@ build CMakeFiles/QuickSort.dir/Examples/Week4/QuickSort/main.c.o: C_COMPILER__Qu
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/PointerQuickSort/QuickSort
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort: C_EXECUTABLE_LINKER__QuickSort_Debug CMakeFiles/QuickSort.dir/Examples/Week4/QuickSort/main.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/PointerQuickSort/QuickSort: C_EXECUTABLE_LINKER__QuickSort_Debug CMakeFiles/QuickSort.dir/Examples/Week4/QuickSort/main.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/QuickSort.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/PointerQuickSort/QuickSort
   TARGET_PDB = QuickSort.dbg
 
 # =============================================================================
@@ -481,14 +481,14 @@ build CMakeFiles/LockerProblem.dir/Examples/Week4/LockerProblem/main.c.o: C_COMP
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LockerProblem
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/LockerProblem/LockerProblem
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LockerProblem: C_EXECUTABLE_LINKER__LockerProblem_Debug CMakeFiles/LockerProblem.dir/Examples/Week4/LockerProblem/main.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/LockerProblem/LockerProblem: C_EXECUTABLE_LINKER__LockerProblem_Debug CMakeFiles/LockerProblem.dir/Examples/Week4/LockerProblem/main.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/LockerProblem.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LockerProblem
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/LockerProblem/LockerProblem
   TARGET_PDB = LockerProblem.dbg
 
 # =============================================================================
@@ -513,14 +513,14 @@ build CMakeFiles/Tristan.dir/Examples/Week4/Tristan/main.c.o: C_COMPILER__Trista
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Tristan
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/LockerProblem/Tristan
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Tristan: C_EXECUTABLE_LINKER__Tristan_Debug CMakeFiles/Tristan.dir/Examples/Week4/Tristan/main.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/LockerProblem/Tristan: C_EXECUTABLE_LINKER__Tristan_Debug CMakeFiles/Tristan.dir/Examples/Week4/Tristan/main.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/Tristan.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Tristan
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/LockerProblem/Tristan
   TARGET_PDB = Tristan.dbg
 
 # =============================================================================
@@ -545,14 +545,14 @@ build CMakeFiles/Restaurant_C_Example.dir/Examples/Week5/Restaurant_C_Example/ma
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week5/Restaurant_C_Example/Restaurant_C_Example
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example: C_EXECUTABLE_LINKER__Restaurant_C_Example_Debug CMakeFiles/Restaurant_C_Example.dir/Examples/Week5/Restaurant_C_Example/main.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week5/Restaurant_C_Example/Restaurant_C_Example: C_EXECUTABLE_LINKER__Restaurant_C_Example_Debug CMakeFiles/Restaurant_C_Example.dir/Examples/Week5/Restaurant_C_Example/main.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/Restaurant_C_Example.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week5/Restaurant_C_Example/Restaurant_C_Example
   TARGET_PDB = Restaurant_C_Example.dbg
 
 # =============================================================================
@@ -584,14 +584,14 @@ build CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/PointerCar.c.o: C_COMP
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week5/PointerCar/PointerCar
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar: C_EXECUTABLE_LINKER__PointerCar_Debug CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/main.c.o CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/PointerCar.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week5/PointerCar/PointerCar: C_EXECUTABLE_LINKER__PointerCar_Debug CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/main.c.o CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/PointerCar.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/PointerCar.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week5/PointerCar/PointerCar
   TARGET_PDB = PointerCar.dbg
 
 # =============================================================================
@@ -623,14 +623,14 @@ build CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/SimpleCar.c.o: C_COMPILE
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCar/SimpleCar
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar: C_EXECUTABLE_LINKER__SimpleCar_Debug CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/main.c.o CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/SimpleCar.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCar/SimpleCar: C_EXECUTABLE_LINKER__SimpleCar_Debug CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/main.c.o CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/SimpleCar.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/SimpleCar.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCar/SimpleCar
   TARGET_PDB = SimpleCar.dbg
 
 # =============================================================================
@@ -655,14 +655,14 @@ build CMakeFiles/SimpleCarOneFile.dir/Examples/Week5/SimpleCarOneFile/main.c.o: 
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCarOneFile
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCarOneFile/SimpleCarOneFile
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCarOneFile: C_EXECUTABLE_LINKER__SimpleCarOneFile_Debug CMakeFiles/SimpleCarOneFile.dir/Examples/Week5/SimpleCarOneFile/main.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCarOneFile/SimpleCarOneFile: C_EXECUTABLE_LINKER__SimpleCarOneFile_Debug CMakeFiles/SimpleCarOneFile.dir/Examples/Week5/SimpleCarOneFile/main.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/SimpleCarOneFile.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCarOneFile
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCarOneFile/SimpleCarOneFile
   TARGET_PDB = SimpleCarOneFile.dbg
 
 # =============================================================================
@@ -694,14 +694,14 @@ build CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip/Coin.c.o: C_COMPILER__Coin
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week5/CoinFlip/CoinFlip
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip: C_EXECUTABLE_LINKER__CoinFlip_Debug CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip/main.c.o CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip/Coin.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week5/CoinFlip/CoinFlip: C_EXECUTABLE_LINKER__CoinFlip_Debug CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip/main.c.o CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip/Coin.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/CoinFlip.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week5/CoinFlip/CoinFlip
   TARGET_PDB = CoinFlip.dbg
 
 # =============================================================================
@@ -726,14 +726,14 @@ build CMakeFiles/q1a.dir/Examples/Midterm2_Practice/q1a.c.o: C_COMPILER__q1a_uns
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1a
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q1a
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1a: C_EXECUTABLE_LINKER__q1a_Debug CMakeFiles/q1a.dir/Examples/Midterm2_Practice/q1a.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q1a: C_EXECUTABLE_LINKER__q1a_Debug CMakeFiles/q1a.dir/Examples/Midterm2_Practice/q1a.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/q1a.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1a
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q1a
   TARGET_PDB = q1a.dbg
 
 # =============================================================================
@@ -758,14 +758,14 @@ build CMakeFiles/q1b.dir/Examples/Midterm2_Practice/q1b.c.o: C_COMPILER__q1b_uns
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1b
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q1b
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1b: C_EXECUTABLE_LINKER__q1b_Debug CMakeFiles/q1b.dir/Examples/Midterm2_Practice/q1b.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q1b: C_EXECUTABLE_LINKER__q1b_Debug CMakeFiles/q1b.dir/Examples/Midterm2_Practice/q1b.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/q1b.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1b
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q1b
   TARGET_PDB = q1b.dbg
 
 # =============================================================================
@@ -790,14 +790,14 @@ build CMakeFiles/q3a.dir/Examples/Midterm2_Practice/q3a.c.o: C_COMPILER__q3a_uns
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3a
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q3a
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3a: C_EXECUTABLE_LINKER__q3a_Debug CMakeFiles/q3a.dir/Examples/Midterm2_Practice/q3a.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q3a: C_EXECUTABLE_LINKER__q3a_Debug CMakeFiles/q3a.dir/Examples/Midterm2_Practice/q3a.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/q3a.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3a
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q3a
   TARGET_PDB = q3a.dbg
 
 # =============================================================================
@@ -822,14 +822,14 @@ build CMakeFiles/q3b.dir/Examples/Midterm2_Practice/q3b.c.o: C_COMPILER__q3b_uns
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3b
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q3b
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3b: C_EXECUTABLE_LINKER__q3b_Debug CMakeFiles/q3b.dir/Examples/Midterm2_Practice/q3b.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q3b: C_EXECUTABLE_LINKER__q3b_Debug CMakeFiles/q3b.dir/Examples/Midterm2_Practice/q3b.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/q3b.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3b
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q3b
   TARGET_PDB = q3b.dbg
 
 # =============================================================================
@@ -854,14 +854,14 @@ build CMakeFiles/q1a_solution.dir/Examples/Midterm2_Solutions/q1a.c.o: C_COMPILE
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1a_solution
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q1a_solution
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1a_solution: C_EXECUTABLE_LINKER__q1a_solution_Debug CMakeFiles/q1a_solution.dir/Examples/Midterm2_Solutions/q1a.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q1a_solution: C_EXECUTABLE_LINKER__q1a_solution_Debug CMakeFiles/q1a_solution.dir/Examples/Midterm2_Solutions/q1a.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/q1a_solution.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1a_solution
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q1a_solution
   TARGET_PDB = q1a_solution.dbg
 
 # =============================================================================
@@ -886,14 +886,14 @@ build CMakeFiles/q1b_solution.dir/Examples/Midterm2_Solutions/q1b.c.o: C_COMPILE
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1b_solution
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q1b_solution
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1b_solution: C_EXECUTABLE_LINKER__q1b_solution_Debug CMakeFiles/q1b_solution.dir/Examples/Midterm2_Solutions/q1b.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q1b_solution: C_EXECUTABLE_LINKER__q1b_solution_Debug CMakeFiles/q1b_solution.dir/Examples/Midterm2_Solutions/q1b.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/q1b_solution.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1b_solution
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q1b_solution
   TARGET_PDB = q1b_solution.dbg
 
 # =============================================================================
@@ -918,14 +918,14 @@ build CMakeFiles/q3a_solution.dir/Examples/Midterm2_Solutions/q3a.c.o: C_COMPILE
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3a_solution
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q3a_solution
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3a_solution: C_EXECUTABLE_LINKER__q3a_solution_Debug CMakeFiles/q3a_solution.dir/Examples/Midterm2_Solutions/q3a.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q3a_solution: C_EXECUTABLE_LINKER__q3a_solution_Debug CMakeFiles/q3a_solution.dir/Examples/Midterm2_Solutions/q3a.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/q3a_solution.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3a_solution
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q3a_solution
   TARGET_PDB = q3a_solution.dbg
 
 # =============================================================================
@@ -950,14 +950,14 @@ build CMakeFiles/q3b_solution.dir/Examples/Midterm2_Solutions/q3b.c.o: C_COMPILE
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3b_solution
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q3b_solution
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3b_solution: C_EXECUTABLE_LINKER__q3b_solution_Debug CMakeFiles/q3b_solution.dir/Examples/Midterm2_Solutions/q3b.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q3b_solution: C_EXECUTABLE_LINKER__q3b_solution_Debug CMakeFiles/q3b_solution.dir/Examples/Midterm2_Solutions/q3b.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/q3b_solution.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3b_solution
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q3b_solution
   TARGET_PDB = q3b_solution.dbg
 
 # =============================================================================
@@ -982,14 +982,14 @@ build CMakeFiles/factorial_solution.dir/Examples/Midterm2_Solutions/factorial.c.
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/factorial_solution
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/factorial_solution
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/factorial_solution: C_EXECUTABLE_LINKER__factorial_solution_Debug CMakeFiles/factorial_solution.dir/Examples/Midterm2_Solutions/factorial.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/factorial_solution: C_EXECUTABLE_LINKER__factorial_solution_Debug CMakeFiles/factorial_solution.dir/Examples/Midterm2_Solutions/factorial.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/factorial_solution.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/factorial_solution
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/factorial_solution
   TARGET_PDB = factorial_solution.dbg
 
 # =============================================================================
@@ -1014,14 +1014,14 @@ build CMakeFiles/HelloWorldCPP.dir/Examples/Week6/HelloWorldCPP/main.cpp.o: CXX_
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week6/HelloWorldCPP/HelloWorldCPP
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP: CXX_EXECUTABLE_LINKER__HelloWorldCPP_Debug CMakeFiles/HelloWorldCPP.dir/Examples/Week6/HelloWorldCPP/main.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week6/HelloWorldCPP/HelloWorldCPP: CXX_EXECUTABLE_LINKER__HelloWorldCPP_Debug CMakeFiles/HelloWorldCPP.dir/Examples/Week6/HelloWorldCPP/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/HelloWorldCPP.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week6/HelloWorldCPP/HelloWorldCPP
   TARGET_PDB = HelloWorldCPP.dbg
 
 # =============================================================================
@@ -1046,14 +1046,14 @@ build CMakeFiles/BasicVectorCPP.dir/Examples/Week6/BasicVectorCPP/main.cpp.o: CX
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicVectorCPP
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week6/BasicVectorCPP/BasicVectorCPP
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicVectorCPP: CXX_EXECUTABLE_LINKER__BasicVectorCPP_Debug CMakeFiles/BasicVectorCPP.dir/Examples/Week6/BasicVectorCPP/main.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week6/BasicVectorCPP/BasicVectorCPP: CXX_EXECUTABLE_LINKER__BasicVectorCPP_Debug CMakeFiles/BasicVectorCPP.dir/Examples/Week6/BasicVectorCPP/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/BasicVectorCPP.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicVectorCPP
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week6/BasicVectorCPP/BasicVectorCPP
   TARGET_PDB = BasicVectorCPP.dbg
 
 # =============================================================================
@@ -1078,14 +1078,14 @@ build CMakeFiles/FunctionOverloading.dir/Examples/Week6/FunctionOverloading/main
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionOverloading
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week6/FunctionOverloading/FunctionOverloading
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionOverloading: CXX_EXECUTABLE_LINKER__FunctionOverloading_Debug CMakeFiles/FunctionOverloading.dir/Examples/Week6/FunctionOverloading/main.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week6/FunctionOverloading/FunctionOverloading: CXX_EXECUTABLE_LINKER__FunctionOverloading_Debug CMakeFiles/FunctionOverloading.dir/Examples/Week6/FunctionOverloading/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/FunctionOverloading.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionOverloading
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week6/FunctionOverloading/FunctionOverloading
   TARGET_PDB = FunctionOverloading.dbg
 
 # =============================================================================
@@ -1110,14 +1110,14 @@ build CMakeFiles/PassBy.dir/Examples/Week7/PassBy/main.cpp.o: CXX_COMPILER__Pass
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week7/PassBy/PassBy
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy: CXX_EXECUTABLE_LINKER__PassBy_Debug CMakeFiles/PassBy.dir/Examples/Week7/PassBy/main.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week7/PassBy/PassBy: CXX_EXECUTABLE_LINKER__PassBy_Debug CMakeFiles/PassBy.dir/Examples/Week7/PassBy/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/PassBy.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week7/PassBy/PassBy
   TARGET_PDB = PassBy.dbg
 
 # =============================================================================
@@ -1149,14 +1149,14 @@ build CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/Restaurant.cpp.o: 
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week7/BasicObjects/BasicObjects
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects: CXX_EXECUTABLE_LINKER__BasicObjects_Debug CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/main.cpp.o CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/Restaurant.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week7/BasicObjects/BasicObjects: CXX_EXECUTABLE_LINKER__BasicObjects_Debug CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/main.cpp.o CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/Restaurant.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/BasicObjects.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week7/BasicObjects/BasicObjects
   TARGET_PDB = BasicObjects.dbg
 
 # =============================================================================
@@ -1181,14 +1181,14 @@ build CMakeFiles/MultipleClasses.dir/Examples/Week7/MultipleClasses/main.cpp.o: 
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week7/MultipleClasses/MultipleClasses
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses: CXX_EXECUTABLE_LINKER__MultipleClasses_Debug CMakeFiles/MultipleClasses.dir/Examples/Week7/MultipleClasses/main.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week7/MultipleClasses/MultipleClasses: CXX_EXECUTABLE_LINKER__MultipleClasses_Debug CMakeFiles/MultipleClasses.dir/Examples/Week7/MultipleClasses/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/MultipleClasses.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week7/MultipleClasses/MultipleClasses
   TARGET_PDB = MultipleClasses.dbg
 
 # =============================================================================
@@ -1213,14 +1213,14 @@ build CMakeFiles/PointersCPP.dir/Examples/Week8/PointersCPP/main.cpp.o: CXX_COMP
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week8/PointersCPP/PointersCPP
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP: CXX_EXECUTABLE_LINKER__PointersCPP_Debug CMakeFiles/PointersCPP.dir/Examples/Week8/PointersCPP/main.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week8/PointersCPP/PointersCPP: CXX_EXECUTABLE_LINKER__PointersCPP_Debug CMakeFiles/PointersCPP.dir/Examples/Week8/PointersCPP/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/PointersCPP.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week8/PointersCPP/PointersCPP
   TARGET_PDB = PointersCPP.dbg
 
 # =============================================================================
@@ -1252,14 +1252,14 @@ build CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers/Re
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjectsPointers
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week8/BasicObjectsPointers/BasicObjectsPointers
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjectsPointers: CXX_EXECUTABLE_LINKER__BasicObjectsPointers_Debug CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers/main.cpp.o CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers/Restaurant.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week8/BasicObjectsPointers/BasicObjectsPointers: CXX_EXECUTABLE_LINKER__BasicObjectsPointers_Debug CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers/main.cpp.o CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers/Restaurant.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/BasicObjectsPointers.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjectsPointers
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week8/BasicObjectsPointers/BasicObjectsPointers
   TARGET_PDB = BasicObjectsPointers.dbg
 
 # =============================================================================
@@ -1298,14 +1298,14 @@ build CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artwork.cp
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week9/ArtistAndArtwork/ArtistAndArtwork
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork: CXX_EXECUTABLE_LINKER__ArtistAndArtwork_Debug CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/main.cpp.o CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artist.cpp.o CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artwork.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week9/ArtistAndArtwork/ArtistAndArtwork: CXX_EXECUTABLE_LINKER__ArtistAndArtwork_Debug CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/main.cpp.o CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artist.cpp.o CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artwork.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/ArtistAndArtwork.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week9/ArtistAndArtwork/ArtistAndArtwork
   TARGET_PDB = ArtistAndArtwork.dbg
 
 # =============================================================================
@@ -1330,14 +1330,14 @@ build CMakeFiles/CopyConstructorExample.dir/Examples/Week9/CopyConstructorExampl
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CopyConstructorExample
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week9/CopyConstructorExample/CopyConstructorExample
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CopyConstructorExample: CXX_EXECUTABLE_LINKER__CopyConstructorExample_Debug CMakeFiles/CopyConstructorExample.dir/Examples/Week9/CopyConstructorExample/main.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week9/CopyConstructorExample/CopyConstructorExample: CXX_EXECUTABLE_LINKER__CopyConstructorExample_Debug CMakeFiles/CopyConstructorExample.dir/Examples/Week9/CopyConstructorExample/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/CopyConstructorExample.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CopyConstructorExample
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week9/CopyConstructorExample/CopyConstructorExample
   TARGET_PDB = CopyConstructorExample.dbg
 
 # =============================================================================
@@ -1362,14 +1362,14 @@ build CMakeFiles/FunctionTemplates.dir/Examples/Week10/FunctionTemplates/main.cp
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionTemplates
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week10/FunctionTemplates/FunctionTemplates
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionTemplates: CXX_EXECUTABLE_LINKER__FunctionTemplates_Debug CMakeFiles/FunctionTemplates.dir/Examples/Week10/FunctionTemplates/main.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week10/FunctionTemplates/FunctionTemplates: CXX_EXECUTABLE_LINKER__FunctionTemplates_Debug CMakeFiles/FunctionTemplates.dir/Examples/Week10/FunctionTemplates/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/FunctionTemplates.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionTemplates
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week10/FunctionTemplates/FunctionTemplates
   TARGET_PDB = FunctionTemplates.dbg
 
 # =============================================================================
@@ -1401,14 +1401,14 @@ build CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/Tim
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/OperatorOverloading
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week10/OperatorOverloading/OperatorOverloading
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/OperatorOverloading: CXX_EXECUTABLE_LINKER__OperatorOverloading_Debug CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/main.cpp.o CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/TimeHrMn.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week10/OperatorOverloading/OperatorOverloading: CXX_EXECUTABLE_LINKER__OperatorOverloading_Debug CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/main.cpp.o CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/TimeHrMn.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/OperatorOverloading.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/OperatorOverloading
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week10/OperatorOverloading/OperatorOverloading
   TARGET_PDB = OperatorOverloading.dbg
 
 # =============================================================================
@@ -1433,14 +1433,14 @@ build CMakeFiles/InheritancePolymorphism.dir/Examples/Week10/InheritancePolymorp
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/InheritancePolymorphism
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week10/InheritancePolymorphism/InheritancePolymorphism
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/InheritancePolymorphism: CXX_EXECUTABLE_LINKER__InheritancePolymorphism_Debug CMakeFiles/InheritancePolymorphism.dir/Examples/Week10/InheritancePolymorphism/main.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week10/InheritancePolymorphism/InheritancePolymorphism: CXX_EXECUTABLE_LINKER__InheritancePolymorphism_Debug CMakeFiles/InheritancePolymorphism.dir/Examples/Week10/InheritancePolymorphism/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/InheritancePolymorphism.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/InheritancePolymorphism
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week10/InheritancePolymorphism/InheritancePolymorphism
   TARGET_PDB = InheritancePolymorphism.dbg
 
 # =============================================================================
@@ -1472,14 +1472,14 @@ build CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/IntNode.cpp
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicLinkedList
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week11/BasicLinkedList/BasicLinkedList
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicLinkedList: CXX_EXECUTABLE_LINKER__BasicLinkedList_Debug CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/main.cpp.o CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/IntNode.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week11/BasicLinkedList/BasicLinkedList: CXX_EXECUTABLE_LINKER__BasicLinkedList_Debug CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/main.cpp.o CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/IntNode.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/BasicLinkedList.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicLinkedList
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week11/BasicLinkedList/BasicLinkedList
   TARGET_PDB = BasicLinkedList.dbg
 
 # =============================================================================
@@ -1518,14 +1518,14 @@ build CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/Linke
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LinkListDestructor
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week11/LinkListDestructor/LinkListDestructor
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LinkListDestructor: CXX_EXECUTABLE_LINKER__LinkListDestructor_Debug CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/main.cpp.o CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/IntNode.cpp.o CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/LinkedList.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week11/LinkListDestructor/LinkListDestructor: CXX_EXECUTABLE_LINKER__LinkListDestructor_Debug CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/main.cpp.o CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/IntNode.cpp.o CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/LinkedList.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/LinkListDestructor.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LinkListDestructor
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week11/LinkListDestructor/LinkListDestructor
   TARGET_PDB = LinkListDestructor.dbg
 
 # =============================================================================
@@ -1557,14 +1557,14 @@ build CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary/BookLibary.cpp.o: C
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibrary
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibrary/BookLibrary
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibrary: CXX_EXECUTABLE_LINKER__BookLibrary_Debug CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary/main.cpp.o CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary/BookLibary.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibrary/BookLibrary: CXX_EXECUTABLE_LINKER__BookLibrary_Debug CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary/main.cpp.o CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary/BookLibary.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/BookLibrary.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibrary
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibrary/BookLibrary
   TARGET_PDB = BookLibrary.dbg
 
 # =============================================================================
@@ -1596,14 +1596,14 @@ build CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks/BookL
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibraryZybooks
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibraryZybooks/BookLibraryZybooks
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibraryZybooks: CXX_EXECUTABLE_LINKER__BookLibraryZybooks_Debug CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks/main.cpp.o CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks/BookLibary.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibraryZybooks/BookLibraryZybooks: CXX_EXECUTABLE_LINKER__BookLibraryZybooks_Debug CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks/main.cpp.o CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks/BookLibary.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/BookLibraryZybooks.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibraryZybooks
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibraryZybooks/BookLibraryZybooks
   TARGET_PDB = BookLibraryZybooks.dbg
 
 # =============================================================================
@@ -1635,14 +1635,14 @@ build CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker/MileageTracke
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MileageTracker
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week11/MileageTracker/MileageTracker
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MileageTracker: CXX_EXECUTABLE_LINKER__MileageTracker_Debug CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker/main.cpp.o CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker/MileageTrackerNode.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week11/MileageTracker/MileageTracker: CXX_EXECUTABLE_LINKER__MileageTracker_Debug CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker/main.cpp.o CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker/MileageTrackerNode.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/MileageTracker.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MileageTracker
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week11/MileageTracker/MileageTracker
   TARGET_PDB = MileageTracker.dbg
 
 # =============================================================================
@@ -1681,14 +1681,14 @@ build CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/IntNode.cpp.o: CX
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VectorOfInts
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week11/VectorOfInts/VectorOfInts
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VectorOfInts: CXX_EXECUTABLE_LINKER__VectorOfInts_Debug CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/main.cpp.o CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/LinkedList.cpp.o CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/IntNode.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week11/VectorOfInts/VectorOfInts: CXX_EXECUTABLE_LINKER__VectorOfInts_Debug CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/main.cpp.o CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/LinkedList.cpp.o CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/IntNode.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/VectorOfInts.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VectorOfInts
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week11/VectorOfInts/VectorOfInts
   TARGET_PDB = VectorOfInts.dbg
 
 # =============================================================================
@@ -1713,14 +1713,14 @@ build CMakeFiles/TemplatedVector.dir/Examples/Week11/TemplatedVector/main.cpp.o:
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector/TemplatedVector
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector: CXX_EXECUTABLE_LINKER__TemplatedVector_Debug CMakeFiles/TemplatedVector.dir/Examples/Week11/TemplatedVector/main.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector/TemplatedVector: CXX_EXECUTABLE_LINKER__TemplatedVector_Debug CMakeFiles/TemplatedVector.dir/Examples/Week11/TemplatedVector/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/TemplatedVector.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector/TemplatedVector
   TARGET_PDB = TemplatedVector.dbg
 
 # =============================================================================
@@ -1745,14 +1745,14 @@ build CMakeFiles/TemplatedVector2.dir/Examples/Week11/TemplatedVector2/main.cpp.
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector2
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector2/TemplatedVector2
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector2: CXX_EXECUTABLE_LINKER__TemplatedVector2_Debug CMakeFiles/TemplatedVector2.dir/Examples/Week11/TemplatedVector2/main.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector2/TemplatedVector2: CXX_EXECUTABLE_LINKER__TemplatedVector2_Debug CMakeFiles/TemplatedVector2.dir/Examples/Week11/TemplatedVector2/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/TemplatedVector2.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector2
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector2/TemplatedVector2
   TARGET_PDB = TemplatedVector2.dbg
 
 # =============================================================================
@@ -1777,14 +1777,14 @@ build CMakeFiles/BinarySearchTree.dir/Examples/Week12/BinarySearchTree/main.cpp.
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree/BinarySearchTree
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree: CXX_EXECUTABLE_LINKER__BinarySearchTree_Debug CMakeFiles/BinarySearchTree.dir/Examples/Week12/BinarySearchTree/main.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree/BinarySearchTree: CXX_EXECUTABLE_LINKER__BinarySearchTree_Debug CMakeFiles/BinarySearchTree.dir/Examples/Week12/BinarySearchTree/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/BinarySearchTree.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree/BinarySearchTree
   TARGET_PDB = BinarySearchTree.dbg
 
 # =============================================================================
@@ -1816,14 +1816,14 @@ build CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/BinaryS
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree2
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree2/BinarySearchTree2
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree2: CXX_EXECUTABLE_LINKER__BinarySearchTree2_Debug CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/main.cpp.o CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/BinarySearchTree.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree2/BinarySearchTree2: CXX_EXECUTABLE_LINKER__BinarySearchTree2_Debug CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/main.cpp.o CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/BinarySearchTree.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/BinarySearchTree2.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree2
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree2/BinarySearchTree2
   TARGET_PDB = BinarySearchTree2.dbg
 
 # =============================================================================
@@ -1848,14 +1848,14 @@ build CMakeFiles/BinarySearchTreePerformance.dir/Examples/Week12/BinarySearchTre
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTreePerformance
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTreePerformance/BinarySearchTreePerformance
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTreePerformance: CXX_EXECUTABLE_LINKER__BinarySearchTreePerformance_Debug CMakeFiles/BinarySearchTreePerformance.dir/Examples/Week12/BinarySearchTreePerformance/main.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTreePerformance/BinarySearchTreePerformance: CXX_EXECUTABLE_LINKER__BinarySearchTreePerformance_Debug CMakeFiles/BinarySearchTreePerformance.dir/Examples/Week12/BinarySearchTreePerformance/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/BinarySearchTreePerformance.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTreePerformance
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTreePerformance/BinarySearchTreePerformance
   TARGET_PDB = BinarySearchTreePerformance.dbg
 
 # =============================================================================
@@ -1880,14 +1880,14 @@ build CMakeFiles/StackHeap.dir/Examples/Week13/StackHeap/main.cpp.o: CXX_COMPILE
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/StackHeap
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week13/StackHeap/StackHeap
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/StackHeap: CXX_EXECUTABLE_LINKER__StackHeap_Debug CMakeFiles/StackHeap.dir/Examples/Week13/StackHeap/main.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week13/StackHeap/StackHeap: CXX_EXECUTABLE_LINKER__StackHeap_Debug CMakeFiles/StackHeap.dir/Examples/Week13/StackHeap/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/StackHeap.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/StackHeap
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week13/StackHeap/StackHeap
   TARGET_PDB = StackHeap.dbg
 
 # =============================================================================
@@ -1919,14 +1919,14 @@ build CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/ItemToPurchas
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Project1Part1
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Projects/Project1Part1/Project1Part1
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Project1Part1: CXX_EXECUTABLE_LINKER__Project1Part1_Debug CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/main.cpp.o CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/ItemToPurchase.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Projects/Project1Part1/Project1Part1: CXX_EXECUTABLE_LINKER__Project1Part1_Debug CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/main.cpp.o CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/ItemToPurchase.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/Project1Part1.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Project1Part1
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Projects/Project1Part1/Project1Part1
   TARGET_PDB = Project1Part1.dbg
 
 # =============================================================================
@@ -1965,14 +1965,14 @@ build CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ShoppingCart.cp
 
 
 #############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ProjectPart2
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Projects/ProjectPart2/ProjectPart2
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ProjectPart2: CXX_EXECUTABLE_LINKER__ProjectPart2_Debug CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/main.cpp.o CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ItemToPurchase.cpp.o CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ShoppingCart.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Projects/ProjectPart2/ProjectPart2: CXX_EXECUTABLE_LINKER__ProjectPart2_Debug CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/main.cpp.o CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ItemToPurchase.cpp.o CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ShoppingCart.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/ProjectPart2.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ProjectPart2
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Projects/ProjectPart2/ProjectPart2
   TARGET_PDB = ProjectPart2.dbg
 
 # =============================================================================
@@ -2096,35 +2096,35 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build ArtistAndArtwork: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork
+build ArtistAndArtwork: phony /Users/brash/CLionProjects/cpsc256/Examples/Week9/ArtistAndArtwork/ArtistAndArtwork
 
-build BasicLinkedList: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicLinkedList
+build BasicLinkedList: phony /Users/brash/CLionProjects/cpsc256/Examples/Week11/BasicLinkedList/BasicLinkedList
 
-build BasicObjects: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects
+build BasicObjects: phony /Users/brash/CLionProjects/cpsc256/Examples/Week7/BasicObjects/BasicObjects
 
-build BasicObjectsPointers: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjectsPointers
+build BasicObjectsPointers: phony /Users/brash/CLionProjects/cpsc256/Examples/Week8/BasicObjectsPointers/BasicObjectsPointers
 
 build BasicPointers: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers
 
-build BasicVectorCPP: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicVectorCPP
+build BasicVectorCPP: phony /Users/brash/CLionProjects/cpsc256/Examples/Week6/BasicVectorCPP/BasicVectorCPP
 
-build BinarySearchTree: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree
+build BinarySearchTree: phony /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree/BinarySearchTree
 
-build BinarySearchTree2: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree2
+build BinarySearchTree2: phony /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree2/BinarySearchTree2
 
-build BinarySearchTreePerformance: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTreePerformance
+build BinarySearchTreePerformance: phony /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTreePerformance/BinarySearchTreePerformance
 
-build BookLibrary: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibrary
+build BookLibrary: phony /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibrary/BookLibrary
 
-build BookLibraryZybooks: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibraryZybooks
+build BookLibraryZybooks: phony /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibraryZybooks/BookLibraryZybooks
 
 build CSVFileReader: phony /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader
 
-build CoinFlip: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip
+build CoinFlip: phony /Users/brash/CLionProjects/cpsc256/Examples/Week5/CoinFlip/CoinFlip
 
-build CopyConstructorExample: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CopyConstructorExample
+build CopyConstructorExample: phony /Users/brash/CLionProjects/cpsc256/Examples/Week9/CopyConstructorExample/CopyConstructorExample
 
-build Declarations: phony /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations
+build Declarations: phony /Users/brash/CLionProjects/cpsc256/Examples/Week3/Declarations/Declarations
 
 build FileReader: phony /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader
 
@@ -2132,79 +2132,83 @@ build FileStatistics: phony /Users/brash/CLionProjects/cpsc256/Examples/Week3/Fi
 
 build FileStatistics_Headers: phony /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers
 
-build FormatSpecifiers: phony /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers
+build FormatSpecifiers: phony /Users/brash/CLionProjects/cpsc256/Examples/Week3/FormatSpecifiers/FormatSpecifiers
 
-build FunctionExample: phony /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample
+build FunctionExample: phony /Users/brash/CLionProjects/cpsc256/Examples/Week3/FunctionExample/FunctionExample
 
-build FunctionOverloading: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionOverloading
+build FunctionOverloading: phony /Users/brash/CLionProjects/cpsc256/Examples/Week6/FunctionOverloading/FunctionOverloading
 
-build FunctionTemplates: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionTemplates
+build FunctionTemplates: phony /Users/brash/CLionProjects/cpsc256/Examples/Week10/FunctionTemplates/FunctionTemplates
 
-build HelloWorldCPP: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP
+build HelloWorld: phony /Users/brash/CLionProjects/cpsc256/Examples/Week1/HelloWorld/HelloWorld
 
-build InheritancePolymorphism: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/InheritancePolymorphism
+build HelloWorldCPP: phony /Users/brash/CLionProjects/cpsc256/Examples/Week6/HelloWorldCPP/HelloWorldCPP
 
-build LinkListDestructor: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LinkListDestructor
+build InheritancePolymorphism: phony /Users/brash/CLionProjects/cpsc256/Examples/Week10/InheritancePolymorphism/InheritancePolymorphism
 
-build LockerProblem: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LockerProblem
+build LinkListDestructor: phony /Users/brash/CLionProjects/cpsc256/Examples/Week11/LinkListDestructor/LinkListDestructor
 
-build MileageTracker: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MileageTracker
+build LockerProblem: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/LockerProblem/LockerProblem
 
-build MultipleClasses: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses
+build MileageTracker: phony /Users/brash/CLionProjects/cpsc256/Examples/Week11/MileageTracker/MileageTracker
 
-build OperatorOverloading: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/OperatorOverloading
+build MultipleClasses: phony /Users/brash/CLionProjects/cpsc256/Examples/Week7/MultipleClasses/MultipleClasses
 
-build PassBy: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy
+build OperatorOverloading: phony /Users/brash/CLionProjects/cpsc256/Examples/Week10/OperatorOverloading/OperatorOverloading
 
-build PointerCar: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar
+build PassBy: phony /Users/brash/CLionProjects/cpsc256/Examples/Week7/PassBy/PassBy
 
-build PointersCPP: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP
+build PointerCar: phony /Users/brash/CLionProjects/cpsc256/Examples/Week5/PointerCar/PointerCar
 
-build Project1Part1: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Project1Part1
+build PointersCPP: phony /Users/brash/CLionProjects/cpsc256/Examples/Week8/PointersCPP/PointersCPP
 
-build ProjectPart2: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ProjectPart2
+build PrimitiveDataTypes: phony /Users/brash/CLionProjects/cpsc256/Examples/Week1/PrimitiveDataTypes/PrimitiveDataTypes
 
-build QuickSort: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort
+build Project1Part1: phony /Users/brash/CLionProjects/cpsc256/Examples/Projects/Project1Part1/Project1Part1
 
-build Restaurant_C_Example: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example
+build ProjectPart2: phony /Users/brash/CLionProjects/cpsc256/Examples/Projects/ProjectPart2/ProjectPart2
 
-build SimpleCar: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar
+build QuickSort: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/PointerQuickSort/QuickSort
 
-build SimpleCarOneFile: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCarOneFile
+build Restaurant_C_Example: phony /Users/brash/CLionProjects/cpsc256/Examples/Week5/Restaurant_C_Example/Restaurant_C_Example
 
-build StackHeap: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/StackHeap
+build SimpleCar: phony /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCar/SimpleCar
 
-build TemplatedVector: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector
+build SimpleCarOneFile: phony /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCarOneFile/SimpleCarOneFile
 
-build TemplatedVector2: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector2
+build StackHeap: phony /Users/brash/CLionProjects/cpsc256/Examples/Week13/StackHeap/StackHeap
 
-build Tristan: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Tristan
+build TemplatedVector: phony /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector/TemplatedVector
 
-build VectorOfInts: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VectorOfInts
+build TemplatedVector2: phony /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector2/TemplatedVector2
 
-build VoidPointers: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers
+build Tristan: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/LockerProblem/Tristan
 
-build factorial_solution: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/factorial_solution
+build VectorOfInts: phony /Users/brash/CLionProjects/cpsc256/Examples/Week11/VectorOfInts/VectorOfInts
+
+build VoidPointers: phony /Users/brash/CLionProjects/cpsc256/Examples/Week3/VoidPointers/VoidPointers
+
+build factorial_solution: phony /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/factorial_solution
 
 build gplot: phony libgplot.dylib
 
 build gplot_test: phony /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/gplot_test/gplot_test
 
-build q1a: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1a
+build q1a: phony /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q1a
 
-build q1a_solution: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1a_solution
+build q1a_solution: phony /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q1a_solution
 
-build q1b: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1b
+build q1b: phony /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q1b
 
-build q1b_solution: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1b_solution
+build q1b_solution: phony /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q1b_solution
 
-build q3a: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3a
+build q3a: phony /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q3a
 
-build q3a_solution: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3a_solution
+build q3a_solution: phony /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q3a_solution
 
-build q3b: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3b
+build q3b: phony /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q3b
 
-build q3b_solution: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3b_solution
+build q3b_solution: phony /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q3b_solution
 
 # =============================================================================
 # Folder targets.
@@ -2214,7 +2218,7 @@ build q3b_solution: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/Basi
 #############################################
 # Folder: /Users/brash/CLionProjects/cpsc256/cmake-build-debug
 
-build all: phony HelloWorld PrimitiveDataTypes /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LockerProblem /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Tristan /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCarOneFile /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1a /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1b /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3a /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3b /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1a_solution /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1b_solution /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3a_solution /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3b_solution /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/factorial_solution /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicVectorCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjectsPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CopyConstructorExample /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionTemplates /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/OperatorOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/InheritancePolymorphism /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicLinkedList /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LinkListDestructor /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibrary /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibraryZybooks /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MileageTracker /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VectorOfInts /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector2 /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree2 /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTreePerformance /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/StackHeap /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Project1Part1 /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ProjectPart2 libgplot.dylib /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/gplot_test/gplot_test
+build all: phony /Users/brash/CLionProjects/cpsc256/Examples/Week1/HelloWorld/HelloWorld /Users/brash/CLionProjects/cpsc256/Examples/Week1/PrimitiveDataTypes/PrimitiveDataTypes /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader /Users/brash/CLionProjects/cpsc256/Examples/Week3/Declarations/Declarations /Users/brash/CLionProjects/cpsc256/Examples/Week3/FormatSpecifiers/FormatSpecifiers /Users/brash/CLionProjects/cpsc256/Examples/Week3/FunctionExample/FunctionExample /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers /Users/brash/CLionProjects/cpsc256/Examples/Week3/VoidPointers/VoidPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/PointerQuickSort/QuickSort /Users/brash/CLionProjects/cpsc256/Examples/Week4/LockerProblem/LockerProblem /Users/brash/CLionProjects/cpsc256/Examples/Week4/LockerProblem/Tristan /Users/brash/CLionProjects/cpsc256/Examples/Week5/Restaurant_C_Example/Restaurant_C_Example /Users/brash/CLionProjects/cpsc256/Examples/Week5/PointerCar/PointerCar /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCar/SimpleCar /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCarOneFile/SimpleCarOneFile /Users/brash/CLionProjects/cpsc256/Examples/Week5/CoinFlip/CoinFlip /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q1a /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q1b /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q3a /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q3b /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q1a_solution /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q1b_solution /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q3a_solution /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q3b_solution /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/factorial_solution /Users/brash/CLionProjects/cpsc256/Examples/Week6/HelloWorldCPP/HelloWorldCPP /Users/brash/CLionProjects/cpsc256/Examples/Week6/BasicVectorCPP/BasicVectorCPP /Users/brash/CLionProjects/cpsc256/Examples/Week6/FunctionOverloading/FunctionOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week7/PassBy/PassBy /Users/brash/CLionProjects/cpsc256/Examples/Week7/BasicObjects/BasicObjects /Users/brash/CLionProjects/cpsc256/Examples/Week7/MultipleClasses/MultipleClasses /Users/brash/CLionProjects/cpsc256/Examples/Week8/PointersCPP/PointersCPP /Users/brash/CLionProjects/cpsc256/Examples/Week8/BasicObjectsPointers/BasicObjectsPointers /Users/brash/CLionProjects/cpsc256/Examples/Week9/ArtistAndArtwork/ArtistAndArtwork /Users/brash/CLionProjects/cpsc256/Examples/Week9/CopyConstructorExample/CopyConstructorExample /Users/brash/CLionProjects/cpsc256/Examples/Week10/FunctionTemplates/FunctionTemplates /Users/brash/CLionProjects/cpsc256/Examples/Week10/OperatorOverloading/OperatorOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week10/InheritancePolymorphism/InheritancePolymorphism /Users/brash/CLionProjects/cpsc256/Examples/Week11/BasicLinkedList/BasicLinkedList /Users/brash/CLionProjects/cpsc256/Examples/Week11/LinkListDestructor/LinkListDestructor /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibrary/BookLibrary /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibraryZybooks/BookLibraryZybooks /Users/brash/CLionProjects/cpsc256/Examples/Week11/MileageTracker/MileageTracker /Users/brash/CLionProjects/cpsc256/Examples/Week11/VectorOfInts/VectorOfInts /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector/TemplatedVector /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector2/TemplatedVector2 /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree/BinarySearchTree /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree2/BinarySearchTree2 /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTreePerformance/BinarySearchTreePerformance /Users/brash/CLionProjects/cpsc256/Examples/Week13/StackHeap/StackHeap /Users/brash/CLionProjects/cpsc256/Examples/Projects/Project1Part1/Project1Part1 /Users/brash/CLionProjects/cpsc256/Examples/Projects/ProjectPart2/ProjectPart2 libgplot.dylib /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/gplot_test/gplot_test
 
 # =============================================================================
 # Built-in targets
