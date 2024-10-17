@@ -15,7 +15,7 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include <math.h>
-#include <gplot.h>
+#include "../gplot/gplot.h"
 #include <time.h>
 
 #ifndef M_PI
@@ -30,8 +30,8 @@ int main(int argc, char** argv) {
     t = clock();
     printf("%ju\n",(uintmax_t)t/CLOCKS_PER_SEC);
     
-    const int N_max = 9;
-    int nexp[] = {2,3,4,5,6,7,8,9,10};
+    const int N_max = 7;
+    int nexp[] = {2,3,4,5,6,7,8};
     long n[N_max];
     double nd[N_max];
     double sum_up[N_max];

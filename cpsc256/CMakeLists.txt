@@ -149,3 +149,8 @@ link_directories(${CMAKE_SOURCE_DIR}/lib)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Other_Examples/gplot_test)
 add_executable(gplot_test Examples/Other_Examples/gplot_test/main.c)
 target_link_libraries(gplot_test gplot) # libgplot.so is found in ${CMAKE_SOURCE_DIR}/lib
+
+# Compile SumOrdering
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Other_Examples/SumOrdering)
+add_executable(SumOrdering Examples/Other_Examples/SumOrdering/main.c)
+target_link_libraries(SumOrdering gplot) # libgplot.so is found in ${CMAKE_SOURCE_DIR}/lib
