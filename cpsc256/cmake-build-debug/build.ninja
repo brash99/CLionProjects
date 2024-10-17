@@ -2396,6 +2396,310 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/SockPulling/Soc
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/SockPulling/SockPulling
   TARGET_PDB = SockPulling.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ECalc
+
+
+#############################################
+# Order-only phony target for ECalc
+
+build cmake_object_order_depends_target_ECalc: phony || CMakeFiles/ECalc.dir
+
+build CMakeFiles/ECalc.dir/Examples/Other_Examples/ECalc/main.c.o: C_COMPILER__ECalc_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/ECalc/main.c || cmake_object_order_depends_target_ECalc
+  DEP_FILE = CMakeFiles/ECalc.dir/Examples/Other_Examples/ECalc/main.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
+  OBJECT_DIR = CMakeFiles/ECalc.dir
+  OBJECT_FILE_DIR = CMakeFiles/ECalc.dir/Examples/Other_Examples/ECalc
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ECalc
+
+
+#############################################
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/ECalc/ECalc
+
+build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/ECalc/ECalc: C_EXECUTABLE_LINKER__ECalc_Debug CMakeFiles/ECalc.dir/Examples/Other_Examples/ECalc/main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  LINK_PATH = -L/Users/brash/CLionProjects/cpsc256/lib
+  OBJECT_DIR = CMakeFiles/ECalc.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/ECalc/ECalc
+  TARGET_PDB = ECalc.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target FloatingPoint64
+
+
+#############################################
+# Order-only phony target for FloatingPoint64
+
+build cmake_object_order_depends_target_FloatingPoint64: phony || CMakeFiles/FloatingPoint64.dir
+
+build CMakeFiles/FloatingPoint64.dir/Examples/Other_Examples/FloatingPoint64/main.c.o: C_COMPILER__FloatingPoint64_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/FloatingPoint64/main.c || cmake_object_order_depends_target_FloatingPoint64
+  DEP_FILE = CMakeFiles/FloatingPoint64.dir/Examples/Other_Examples/FloatingPoint64/main.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
+  OBJECT_DIR = CMakeFiles/FloatingPoint64.dir
+  OBJECT_FILE_DIR = CMakeFiles/FloatingPoint64.dir/Examples/Other_Examples/FloatingPoint64
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FloatingPoint64
+
+
+#############################################
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/FloatingPoint64/FloatingPoint64
+
+build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/FloatingPoint64/FloatingPoint64: C_EXECUTABLE_LINKER__FloatingPoint64_Debug CMakeFiles/FloatingPoint64.dir/Examples/Other_Examples/FloatingPoint64/main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  LINK_PATH = -L/Users/brash/CLionProjects/cpsc256/lib
+  OBJECT_DIR = CMakeFiles/FloatingPoint64.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/FloatingPoint64/FloatingPoint64
+  TARGET_PDB = FloatingPoint64.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target FloattingPointBinaryRepresentation
+
+
+#############################################
+# Order-only phony target for FloattingPointBinaryRepresentation
+
+build cmake_object_order_depends_target_FloattingPointBinaryRepresentation: phony || CMakeFiles/FloattingPointBinaryRepresentation.dir
+
+build CMakeFiles/FloattingPointBinaryRepresentation.dir/Examples/Other_Examples/FloattingPointBinaryRepresentation/main.c.o: C_COMPILER__FloattingPointBinaryRepresentation_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/FloattingPointBinaryRepresentation/main.c || cmake_object_order_depends_target_FloattingPointBinaryRepresentation
+  DEP_FILE = CMakeFiles/FloattingPointBinaryRepresentation.dir/Examples/Other_Examples/FloattingPointBinaryRepresentation/main.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
+  OBJECT_DIR = CMakeFiles/FloattingPointBinaryRepresentation.dir
+  OBJECT_FILE_DIR = CMakeFiles/FloattingPointBinaryRepresentation.dir/Examples/Other_Examples/FloattingPointBinaryRepresentation
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FloattingPointBinaryRepresentation
+
+
+#############################################
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/FloattingPointBinaryRepresentation/FloattingPointBinaryRepresentation
+
+build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/FloattingPointBinaryRepresentation/FloattingPointBinaryRepresentation: C_EXECUTABLE_LINKER__FloattingPointBinaryRepresentation_Debug CMakeFiles/FloattingPointBinaryRepresentation.dir/Examples/Other_Examples/FloattingPointBinaryRepresentation/main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  LINK_PATH = -L/Users/brash/CLionProjects/cpsc256/lib
+  OBJECT_DIR = CMakeFiles/FloattingPointBinaryRepresentation.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/FloattingPointBinaryRepresentation/FloattingPointBinaryRepresentation
+  TARGET_PDB = FloattingPointBinaryRepresentation.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target GitHubCoPilot
+
+
+#############################################
+# Order-only phony target for GitHubCoPilot
+
+build cmake_object_order_depends_target_GitHubCoPilot: phony || CMakeFiles/GitHubCoPilot.dir
+
+build CMakeFiles/GitHubCoPilot.dir/Examples/Other_Examples/GitHubCoPilot/main.cpp.o: CXX_COMPILER__GitHubCoPilot_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/GitHubCoPilot/main.cpp || cmake_object_order_depends_target_GitHubCoPilot
+  DEP_FILE = CMakeFiles/GitHubCoPilot.dir/Examples/Other_Examples/GitHubCoPilot/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
+  OBJECT_DIR = CMakeFiles/GitHubCoPilot.dir
+  OBJECT_FILE_DIR = CMakeFiles/GitHubCoPilot.dir/Examples/Other_Examples/GitHubCoPilot
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target GitHubCoPilot
+
+
+#############################################
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/GitHubCoPilot/GitHubCoPilot
+
+build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/GitHubCoPilot/GitHubCoPilot: CXX_EXECUTABLE_LINKER__GitHubCoPilot_Debug CMakeFiles/GitHubCoPilot.dir/Examples/Other_Examples/GitHubCoPilot/main.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  LINK_PATH = -L/Users/brash/CLionProjects/cpsc256/lib
+  OBJECT_DIR = CMakeFiles/GitHubCoPilot.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/GitHubCoPilot/GitHubCoPilot
+  TARGET_PDB = GitHubCoPilot.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Midterm_Solutions
+
+
+#############################################
+# Order-only phony target for Midterm_Solutions
+
+build cmake_object_order_depends_target_Midterm_Solutions: phony || CMakeFiles/Midterm_Solutions.dir
+
+build CMakeFiles/Midterm_Solutions.dir/Examples/Other_Examples/Midterm_Solutions/main.c.o: C_COMPILER__Midterm_Solutions_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/Midterm_Solutions/main.c || cmake_object_order_depends_target_Midterm_Solutions
+  DEP_FILE = CMakeFiles/Midterm_Solutions.dir/Examples/Other_Examples/Midterm_Solutions/main.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
+  OBJECT_DIR = CMakeFiles/Midterm_Solutions.dir
+  OBJECT_FILE_DIR = CMakeFiles/Midterm_Solutions.dir/Examples/Other_Examples/Midterm_Solutions
+
+build CMakeFiles/Midterm_Solutions.dir/Examples/Other_Examples/Midterm_Solutions/GVCoin.c.o: C_COMPILER__Midterm_Solutions_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/Midterm_Solutions/GVCoin.c || cmake_object_order_depends_target_Midterm_Solutions
+  DEP_FILE = CMakeFiles/Midterm_Solutions.dir/Examples/Other_Examples/Midterm_Solutions/GVCoin.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
+  OBJECT_DIR = CMakeFiles/Midterm_Solutions.dir
+  OBJECT_FILE_DIR = CMakeFiles/Midterm_Solutions.dir/Examples/Other_Examples/Midterm_Solutions
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Midterm_Solutions
+
+
+#############################################
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/Midterm_Solutions/Midterm_Solutions
+
+build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/Midterm_Solutions/Midterm_Solutions: C_EXECUTABLE_LINKER__Midterm_Solutions_Debug CMakeFiles/Midterm_Solutions.dir/Examples/Other_Examples/Midterm_Solutions/main.c.o CMakeFiles/Midterm_Solutions.dir/Examples/Other_Examples/Midterm_Solutions/GVCoin.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  LINK_PATH = -L/Users/brash/CLionProjects/cpsc256/lib
+  OBJECT_DIR = CMakeFiles/Midterm_Solutions.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/Midterm_Solutions/Midterm_Solutions
+  TARGET_PDB = Midterm_Solutions.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target NewtonsAlgorithm
+
+
+#############################################
+# Order-only phony target for NewtonsAlgorithm
+
+build cmake_object_order_depends_target_NewtonsAlgorithm: phony || CMakeFiles/NewtonsAlgorithm.dir
+
+build CMakeFiles/NewtonsAlgorithm.dir/Examples/Other_Examples/NewtonsAlgorithm/main.c.o: C_COMPILER__NewtonsAlgorithm_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorithm/main.c || cmake_object_order_depends_target_NewtonsAlgorithm
+  DEP_FILE = CMakeFiles/NewtonsAlgorithm.dir/Examples/Other_Examples/NewtonsAlgorithm/main.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
+  OBJECT_DIR = CMakeFiles/NewtonsAlgorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles/NewtonsAlgorithm.dir/Examples/Other_Examples/NewtonsAlgorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NewtonsAlgorithm
+
+
+#############################################
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorithm/NewtonsAlgorithm
+
+build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorithm/NewtonsAlgorithm: C_EXECUTABLE_LINKER__NewtonsAlgorithm_Debug CMakeFiles/NewtonsAlgorithm.dir/Examples/Other_Examples/NewtonsAlgorithm/main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  LINK_PATH = -L/Users/brash/CLionProjects/cpsc256/lib
+  OBJECT_DIR = CMakeFiles/NewtonsAlgorithm.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorithm/NewtonsAlgorithm
+  TARGET_PDB = NewtonsAlgorithm.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target NewtonsAlgorithmComplete
+
+
+#############################################
+# Order-only phony target for NewtonsAlgorithmComplete
+
+build cmake_object_order_depends_target_NewtonsAlgorithmComplete: phony || CMakeFiles/NewtonsAlgorithmComplete.dir
+
+build CMakeFiles/NewtonsAlgorithmComplete.dir/Examples/Other_Examples/NewtonsAlgorithmComplete/main.c.o: C_COMPILER__NewtonsAlgorithmComplete_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorithmComplete/main.c || cmake_object_order_depends_target_NewtonsAlgorithmComplete
+  DEP_FILE = CMakeFiles/NewtonsAlgorithmComplete.dir/Examples/Other_Examples/NewtonsAlgorithmComplete/main.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
+  OBJECT_DIR = CMakeFiles/NewtonsAlgorithmComplete.dir
+  OBJECT_FILE_DIR = CMakeFiles/NewtonsAlgorithmComplete.dir/Examples/Other_Examples/NewtonsAlgorithmComplete
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NewtonsAlgorithmComplete
+
+
+#############################################
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorithmComplete/NewtonsAlgorithmComplete
+
+build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorithmComplete/NewtonsAlgorithmComplete: C_EXECUTABLE_LINKER__NewtonsAlgorithmComplete_Debug CMakeFiles/NewtonsAlgorithmComplete.dir/Examples/Other_Examples/NewtonsAlgorithmComplete/main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  LINK_PATH = -L/Users/brash/CLionProjects/cpsc256/lib
+  OBJECT_DIR = CMakeFiles/NewtonsAlgorithmComplete.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorithmComplete/NewtonsAlgorithmComplete
+  TARGET_PDB = NewtonsAlgorithmComplete.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target RandomNumberGenerator
+
+
+#############################################
+# Order-only phony target for RandomNumberGenerator
+
+build cmake_object_order_depends_target_RandomNumberGenerator: phony || CMakeFiles/RandomNumberGenerator.dir
+
+build CMakeFiles/RandomNumberGenerator.dir/Examples/Other_Examples/RandomNumberGenerator/main.c.o: C_COMPILER__RandomNumberGenerator_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/RandomNumberGenerator/main.c || cmake_object_order_depends_target_RandomNumberGenerator
+  DEP_FILE = CMakeFiles/RandomNumberGenerator.dir/Examples/Other_Examples/RandomNumberGenerator/main.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
+  OBJECT_DIR = CMakeFiles/RandomNumberGenerator.dir
+  OBJECT_FILE_DIR = CMakeFiles/RandomNumberGenerator.dir/Examples/Other_Examples/RandomNumberGenerator
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RandomNumberGenerator
+
+
+#############################################
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/RandomNumberGenerator/RandomNumberGenerator
+
+build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/RandomNumberGenerator/RandomNumberGenerator: C_EXECUTABLE_LINKER__RandomNumberGenerator_Debug CMakeFiles/RandomNumberGenerator.dir/Examples/Other_Examples/RandomNumberGenerator/main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  LINK_PATH = -L/Users/brash/CLionProjects/cpsc256/lib
+  OBJECT_DIR = CMakeFiles/RandomNumberGenerator.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/RandomNumberGenerator/RandomNumberGenerator
+  TARGET_PDB = RandomNumberGenerator.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UnitTesting
+
+
+#############################################
+# Order-only phony target for UnitTesting
+
+build cmake_object_order_depends_target_UnitTesting: phony || CMakeFiles/UnitTesting.dir
+
+build CMakeFiles/UnitTesting.dir/Examples/Other_Examples/UnitTesting/main.cpp.o: CXX_COMPILER__UnitTesting_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/UnitTesting/main.cpp || cmake_object_order_depends_target_UnitTesting
+  DEP_FILE = CMakeFiles/UnitTesting.dir/Examples/Other_Examples/UnitTesting/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
+  OBJECT_DIR = CMakeFiles/UnitTesting.dir
+  OBJECT_FILE_DIR = CMakeFiles/UnitTesting.dir/Examples/Other_Examples/UnitTesting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UnitTesting
+
+
+#############################################
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/UnitTesting/UnitTesting
+
+build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/UnitTesting/UnitTesting: CXX_EXECUTABLE_LINKER__UnitTesting_Debug CMakeFiles/UnitTesting.dir/Examples/Other_Examples/UnitTesting/main.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  LINK_PATH = -L/Users/brash/CLionProjects/cpsc256/lib
+  OBJECT_DIR = CMakeFiles/UnitTesting.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/UnitTesting/UnitTesting
+  TARGET_PDB = UnitTesting.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2456,6 +2760,8 @@ build CopyConstructorExample: phony /Users/brash/CLionProjects/cpsc256/Examples/
 
 build Declarations: phony /Users/brash/CLionProjects/cpsc256/Examples/Week3/Declarations/Declarations
 
+build ECalc: phony /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/ECalc/ECalc
+
 build ECalcPlot: phony /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/ECalcPlot/ECalcPlot
 
 build FileReader: phony /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader
@@ -2464,6 +2770,10 @@ build FileStatistics: phony /Users/brash/CLionProjects/cpsc256/Examples/Week3/Fi
 
 build FileStatistics_Headers: phony /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers
 
+build FloatingPoint64: phony /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/FloatingPoint64/FloatingPoint64
+
+build FloattingPointBinaryRepresentation: phony /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/FloattingPointBinaryRepresentation/FloattingPointBinaryRepresentation
+
 build FormatSpecifiers: phony /Users/brash/CLionProjects/cpsc256/Examples/Week3/FormatSpecifiers/FormatSpecifiers
 
 build FunctionExample: phony /Users/brash/CLionProjects/cpsc256/Examples/Week3/FunctionExample/FunctionExample
@@ -2471,6 +2781,8 @@ build FunctionExample: phony /Users/brash/CLionProjects/cpsc256/Examples/Week3/F
 build FunctionOverloading: phony /Users/brash/CLionProjects/cpsc256/Examples/Week6/FunctionOverloading/FunctionOverloading
 
 build FunctionTemplates: phony /Users/brash/CLionProjects/cpsc256/Examples/Week10/FunctionTemplates/FunctionTemplates
+
+build GitHubCoPilot: phony /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/GitHubCoPilot/GitHubCoPilot
 
 build HelloWorld: phony /Users/brash/CLionProjects/cpsc256/Examples/Week1/HelloWorld/HelloWorld
 
@@ -2482,9 +2794,15 @@ build LinkListDestructor: phony /Users/brash/CLionProjects/cpsc256/Examples/Week
 
 build LockerProblem: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/LockerProblem/LockerProblem
 
+build Midterm_Solutions: phony /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/Midterm_Solutions/Midterm_Solutions
+
 build MileageTracker: phony /Users/brash/CLionProjects/cpsc256/Examples/Week11/MileageTracker/MileageTracker
 
 build MultipleClasses: phony /Users/brash/CLionProjects/cpsc256/Examples/Week7/MultipleClasses/MultipleClasses
+
+build NewtonsAlgorithm: phony /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorithm/NewtonsAlgorithm
+
+build NewtonsAlgorithmComplete: phony /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorithmComplete/NewtonsAlgorithmComplete
 
 build NewtonsAlgorithmVisualization: phony /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorithmVisualization/NewtonsAlgorithmVisualization
 
@@ -2505,6 +2823,8 @@ build Project1Part1: phony /Users/brash/CLionProjects/cpsc256/Examples/Projects/
 build ProjectPart2: phony /Users/brash/CLionProjects/cpsc256/Examples/Projects/ProjectPart2/ProjectPart2
 
 build QuickSort: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/PointerQuickSort/QuickSort
+
+build RandomNumberGenerator: phony /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/RandomNumberGenerator/RandomNumberGenerator
 
 build Restaurant_C_Example: phony /Users/brash/CLionProjects/cpsc256/Examples/Week5/Restaurant_C_Example/Restaurant_C_Example
 
@@ -2527,6 +2847,8 @@ build TemplatedVector2: phony /Users/brash/CLionProjects/cpsc256/Examples/Week11
 build TriangleArea: phony /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/TriangleArea/TriangleArea
 
 build Tristan: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/LockerProblem/Tristan
+
+build UnitTesting: phony /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/UnitTesting/UnitTesting
 
 build VectorOfInts: phony /Users/brash/CLionProjects/cpsc256/Examples/Week11/VectorOfInts/VectorOfInts
 
@@ -2562,7 +2884,7 @@ build q3b_solution: phony /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_S
 #############################################
 # Folder: /Users/brash/CLionProjects/cpsc256/cmake-build-debug
 
-build all: phony /Users/brash/CLionProjects/cpsc256/Examples/Week1/HelloWorld/HelloWorld /Users/brash/CLionProjects/cpsc256/Examples/Week1/PrimitiveDataTypes/PrimitiveDataTypes /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader /Users/brash/CLionProjects/cpsc256/Examples/Week3/Declarations/Declarations /Users/brash/CLionProjects/cpsc256/Examples/Week3/FormatSpecifiers/FormatSpecifiers /Users/brash/CLionProjects/cpsc256/Examples/Week3/FunctionExample/FunctionExample /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers /Users/brash/CLionProjects/cpsc256/Examples/Week3/VoidPointers/VoidPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/PointerQuickSort/QuickSort /Users/brash/CLionProjects/cpsc256/Examples/Week4/LockerProblem/LockerProblem /Users/brash/CLionProjects/cpsc256/Examples/Week4/LockerProblem/Tristan /Users/brash/CLionProjects/cpsc256/Examples/Week5/Restaurant_C_Example/Restaurant_C_Example /Users/brash/CLionProjects/cpsc256/Examples/Week5/PointerCar/PointerCar /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCar/SimpleCar /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCarOneFile/SimpleCarOneFile /Users/brash/CLionProjects/cpsc256/Examples/Week5/CoinFlip/CoinFlip /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q1a /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q1b /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q3a /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q3b /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q1a_solution /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q1b_solution /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q3a_solution /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q3b_solution /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/factorial_solution /Users/brash/CLionProjects/cpsc256/Examples/Week6/HelloWorldCPP/HelloWorldCPP /Users/brash/CLionProjects/cpsc256/Examples/Week6/BasicVectorCPP/BasicVectorCPP /Users/brash/CLionProjects/cpsc256/Examples/Week6/FunctionOverloading/FunctionOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week7/PassBy/PassBy /Users/brash/CLionProjects/cpsc256/Examples/Week7/BasicObjects/BasicObjects /Users/brash/CLionProjects/cpsc256/Examples/Week7/MultipleClasses/MultipleClasses /Users/brash/CLionProjects/cpsc256/Examples/Week8/PointersCPP/PointersCPP /Users/brash/CLionProjects/cpsc256/Examples/Week8/BasicObjectsPointers/BasicObjectsPointers /Users/brash/CLionProjects/cpsc256/Examples/Week9/ArtistAndArtwork/ArtistAndArtwork /Users/brash/CLionProjects/cpsc256/Examples/Week9/CopyConstructorExample/CopyConstructorExample /Users/brash/CLionProjects/cpsc256/Examples/Week10/FunctionTemplates/FunctionTemplates /Users/brash/CLionProjects/cpsc256/Examples/Week10/OperatorOverloading/OperatorOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week10/InheritancePolymorphism/InheritancePolymorphism /Users/brash/CLionProjects/cpsc256/Examples/Week11/BasicLinkedList/BasicLinkedList /Users/brash/CLionProjects/cpsc256/Examples/Week11/LinkListDestructor/LinkListDestructor /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibrary/BookLibrary /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibraryZybooks/BookLibraryZybooks /Users/brash/CLionProjects/cpsc256/Examples/Week11/MileageTracker/MileageTracker /Users/brash/CLionProjects/cpsc256/Examples/Week11/VectorOfInts/VectorOfInts /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector/TemplatedVector /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector2/TemplatedVector2 /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree/BinarySearchTree /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree2/BinarySearchTree2 /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTreePerformance/BinarySearchTreePerformance /Users/brash/CLionProjects/cpsc256/Examples/Week13/StackHeap/StackHeap /Users/brash/CLionProjects/cpsc256/Examples/Projects/Project1Part1/Project1Part1 /Users/brash/CLionProjects/cpsc256/Examples/Projects/ProjectPart2/ProjectPart2 libgplot.dylib /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/gplot_test/gplot_test /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/SumOrdering/SumOrdering /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/AverageDistance/AverageDistance /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/Solitaire/Solitaire /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NumericalPrecision/NumericalPrecision /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/ArchimedianSpiral/ArchimedianSpiral /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/TriangleArea/TriangleArea /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorithmVisualization/NewtonsAlgorithmVisualization /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/ECalcPlot/ECalcPlot /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/SockPulling/SockPulling
+build all: phony /Users/brash/CLionProjects/cpsc256/Examples/Week1/HelloWorld/HelloWorld /Users/brash/CLionProjects/cpsc256/Examples/Week1/PrimitiveDataTypes/PrimitiveDataTypes /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader /Users/brash/CLionProjects/cpsc256/Examples/Week3/Declarations/Declarations /Users/brash/CLionProjects/cpsc256/Examples/Week3/FormatSpecifiers/FormatSpecifiers /Users/brash/CLionProjects/cpsc256/Examples/Week3/FunctionExample/FunctionExample /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers /Users/brash/CLionProjects/cpsc256/Examples/Week3/VoidPointers/VoidPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/PointerQuickSort/QuickSort /Users/brash/CLionProjects/cpsc256/Examples/Week4/LockerProblem/LockerProblem /Users/brash/CLionProjects/cpsc256/Examples/Week4/LockerProblem/Tristan /Users/brash/CLionProjects/cpsc256/Examples/Week5/Restaurant_C_Example/Restaurant_C_Example /Users/brash/CLionProjects/cpsc256/Examples/Week5/PointerCar/PointerCar /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCar/SimpleCar /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCarOneFile/SimpleCarOneFile /Users/brash/CLionProjects/cpsc256/Examples/Week5/CoinFlip/CoinFlip /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q1a /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q1b /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q3a /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q3b /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q1a_solution /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q1b_solution /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q3a_solution /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q3b_solution /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/factorial_solution /Users/brash/CLionProjects/cpsc256/Examples/Week6/HelloWorldCPP/HelloWorldCPP /Users/brash/CLionProjects/cpsc256/Examples/Week6/BasicVectorCPP/BasicVectorCPP /Users/brash/CLionProjects/cpsc256/Examples/Week6/FunctionOverloading/FunctionOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week7/PassBy/PassBy /Users/brash/CLionProjects/cpsc256/Examples/Week7/BasicObjects/BasicObjects /Users/brash/CLionProjects/cpsc256/Examples/Week7/MultipleClasses/MultipleClasses /Users/brash/CLionProjects/cpsc256/Examples/Week8/PointersCPP/PointersCPP /Users/brash/CLionProjects/cpsc256/Examples/Week8/BasicObjectsPointers/BasicObjectsPointers /Users/brash/CLionProjects/cpsc256/Examples/Week9/ArtistAndArtwork/ArtistAndArtwork /Users/brash/CLionProjects/cpsc256/Examples/Week9/CopyConstructorExample/CopyConstructorExample /Users/brash/CLionProjects/cpsc256/Examples/Week10/FunctionTemplates/FunctionTemplates /Users/brash/CLionProjects/cpsc256/Examples/Week10/OperatorOverloading/OperatorOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week10/InheritancePolymorphism/InheritancePolymorphism /Users/brash/CLionProjects/cpsc256/Examples/Week11/BasicLinkedList/BasicLinkedList /Users/brash/CLionProjects/cpsc256/Examples/Week11/LinkListDestructor/LinkListDestructor /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibrary/BookLibrary /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibraryZybooks/BookLibraryZybooks /Users/brash/CLionProjects/cpsc256/Examples/Week11/MileageTracker/MileageTracker /Users/brash/CLionProjects/cpsc256/Examples/Week11/VectorOfInts/VectorOfInts /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector/TemplatedVector /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector2/TemplatedVector2 /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree/BinarySearchTree /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree2/BinarySearchTree2 /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTreePerformance/BinarySearchTreePerformance /Users/brash/CLionProjects/cpsc256/Examples/Week13/StackHeap/StackHeap /Users/brash/CLionProjects/cpsc256/Examples/Projects/Project1Part1/Project1Part1 /Users/brash/CLionProjects/cpsc256/Examples/Projects/ProjectPart2/ProjectPart2 libgplot.dylib /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/gplot_test/gplot_test /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/SumOrdering/SumOrdering /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/AverageDistance/AverageDistance /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/Solitaire/Solitaire /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NumericalPrecision/NumericalPrecision /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/ArchimedianSpiral/ArchimedianSpiral /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/TriangleArea/TriangleArea /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorithmVisualization/NewtonsAlgorithmVisualization /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/ECalcPlot/ECalcPlot /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/SockPulling/SockPulling /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/ECalc/ECalc /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/FloatingPoint64/FloatingPoint64 /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/FloattingPointBinaryRepresentation/FloattingPointBinaryRepresentation /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/GitHubCoPilot/GitHubCoPilot /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/Midterm_Solutions/Midterm_Solutions /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorithm/NewtonsAlgorithm /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorithmComplete/NewtonsAlgorithmComplete /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/RandomNumberGenerator/RandomNumberGenerator /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/UnitTesting/UnitTesting
 
 # =============================================================================
 # Built-in targets
