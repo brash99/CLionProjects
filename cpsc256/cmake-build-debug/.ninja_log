@@ -102,3 +102,6 @@
 5	43	1729176589286722999	CMakeFiles/SockPulling.dir/Examples/Other_Examples/SockPulling/mtwister.c.o	4cf99625521c2bbc
 4	53	1729176589303865534	CMakeFiles/SockPulling.dir/Examples/Other_Examples/SockPulling/main.c.o	92d1d582333125d6
 53	83	1729176589338728192	/Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/SockPulling/SockPulling	680b6f008255c4e
+7	416	1729176709456469685	CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/Restaurant.cpp.o	c70b5449d9589fd
+6	453	1729176709484591811	CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/main.cpp.o	6edc7a5ffb895433
+453	530	1729176709578298899	/Users/brash/CLionProjects/cpsc256/Examples/Week7/BasicObjects/BasicObjects	4b073bf3fd3be3c5
