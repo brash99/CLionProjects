@@ -15,9 +15,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <gplot.h>
+#include "../gplot/gplot.h"
 #include <time.h>
-#include <mtwister.h>
+#include "mtwister.h"
 
 /*
  * 

@@ -15,8 +15,8 @@
 #include <stdlib.h>
 #include <math.h>
 #include <time.h>
-#include <gplot.h>
-#include <mtwister.h>
+#include "../gplot/gplot.h"
+#include "mtwister.h"
 
 /*
  * Simulate online solitaire

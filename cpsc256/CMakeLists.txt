@@ -154,3 +154,13 @@ target_link_libraries(gplot_test gplot) # libgplot.so is found in ${CMAKE_SOURCE
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Other_Examples/SumOrdering)
 add_executable(SumOrdering Examples/Other_Examples/SumOrdering/main.c)
 target_link_libraries(SumOrdering gplot) # libgplot.so is found in ${CMAKE_SOURCE_DIR}/lib
+
+# Compile AverageDistance
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Other_Examples/AverageDistance)
+add_executable(AverageDistance Examples/Other_Examples/AverageDistance/main.c Examples/Other_Examples/AverageDistance/mtwister.c)
+target_link_libraries(AverageDistance gplot) # libgplot.so is found in ${CMAKE_SOURCE_DIR}/lib
+
+# Compile Solitaire
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Other_Examples/Solitaire)
+add_executable(Solitaire Examples/Other_Examples/Solitaire/main.c Examples/Other_Examples/Solitaire/mtwister.c)
+target_link_libraries(Solitaire gplot) # libgplot.so is found in ${CMAKE_SOURCE_DIR}/lib
