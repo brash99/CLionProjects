@@ -14,7 +14,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <gplot.h>
+#include "../gplot/gplot.h"
 
 /* Define a function, of type double, that will take the x-value and return
  the triangle area at that x-value */

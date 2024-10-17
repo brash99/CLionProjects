@@ -164,3 +164,19 @@ target_link_libraries(AverageDistance gplot) # libgplot.so is found in ${CMAKE_S
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Other_Examples/Solitaire)
 add_executable(Solitaire Examples/Other_Examples/Solitaire/main.c Examples/Other_Examples/Solitaire/mtwister.c)
 target_link_libraries(Solitaire gplot) # libgplot.so is found in ${CMAKE_SOURCE_DIR}/lib
+
+# Compile NumericalPrecision
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Other_Examples/NumericalPrecision)
+add_executable(NumericalPrecision Examples/Other_Examples/NumericalPrecision/main.c)
+target_link_libraries(NumericalPrecision gplot) # libgplot.so is found in ${CMAKE_SOURCE_DIR}/lib
+
+# Compile ArchimedianSpiral
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Other_Examples/ArchimedianSpiral)
+add_executable(ArchimedianSpiral Examples/Other_Examples/ArchimedianSpiral/main.c)
+target_link_libraries(ArchimedianSpiral gplot) # libgplot.so is found in ${CMAKE_SOURCE_DIR}/lib
+
+# Compile TriangleArea
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Other_Examples/TriangleArea)
+add_executable(TriangleArea Examples/Other_Examples/TriangleArea/main.c)
+target_link_libraries(TriangleArea gplot) # libgplot.so is found in ${CMAKE_SOURCE_DIR}/lib
+

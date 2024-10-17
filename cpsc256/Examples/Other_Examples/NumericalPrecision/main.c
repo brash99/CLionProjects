@@ -13,7 +13,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <gplot.h>
+#include "../gplot/gplot.h"
 
 #define REALTYPE double
 

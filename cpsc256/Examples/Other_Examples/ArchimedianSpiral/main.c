@@ -13,7 +13,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <gplot.h>
+#include "../gplot/gplot.h"
 #include <math.h>
 
 /*
@@ -60,7 +60,7 @@ int main(){
         //printf("%d %g %g\n",idx,xcoord[1570],ycoord[1570]);
         
         gplot_basicline(xcoord,ycoord,idx-1," "," "," "," ","Unix");
-        system("/usr/local/bin/gnuplot -persistent /Users/brash/NetBeansProjects/ArchimedianSpiral/gnuplotScript");
+        system("gnuplot -persistent /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/ArchimedianSpiral/gnuplotScript");
 
     return (EXIT_SUCCESS);
 }
