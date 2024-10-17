@@ -75,11 +75,15 @@ int main(int argc, char** argv) {
     
     FILE *gnuplot = fopen("gnuplotScript", "w");
     FILE *gnudata = fopen("gnuplotData", "w");
-    
-    /* Mac OS terminal type */
+
+    /* terminal type */
+#ifdef __linux__
     fprintf(gnuplot, "set terminal x11\n");
-    /* Windows 10 terminal type */
-    /* fprintf(gnuplot, "set terminal qt\n"); */
+#elif __APPLE__
+    fprintf(gnuplot, "set terminal qt\n");
+#elif __WIN32__
+    fprintf(gnuplot, "set terminal qt\n");
+#endif
     
     /* Set logscale, title, and axis labels */
     fprintf(gnuplot, "set logscale xy\n");

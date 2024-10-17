@@ -184,3 +184,12 @@ target_link_libraries(TriangleArea gplot) # libgplot.so is found in ${CMAKE_SOUR
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Other_Examples/NewtonsAlgorithmVisualization)
 add_executable(NewtonsAlgorithmVisualization Examples/Other_Examples/NewtonsAlgorithmVisualization/main.c)
 target_link_libraries(NewtonsAlgorithmVisualization gplot) # libgplot.so is found in ${CMAKE_SOURCE_DIR}/lib
+
+# Compile ECalcPlot
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Other_Examples/ECalcPlot)
+add_executable(ECalcPlot Examples/Other_Examples/ECalcPlot/main.c)
+
+# Compile SockPulling
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Other_Examples/SockPulling)
+add_executable(SockPulling Examples/Other_Examples/SockPulling/main.c Examples/Other_Examples/SockPulling/mtwister.c)
+target_link_libraries(SockPulling gplot) # libgplot.so is found in ${CMAKE_SOURCE_DIR}/lib
