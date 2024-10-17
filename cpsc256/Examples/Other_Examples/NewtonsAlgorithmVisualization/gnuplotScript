@@ -1,0 +1,10 @@
+set terminal qt
+set key outside
+set key font 'Arial,10'
+set tics font 'Arial,12'
+set grid
+set title 'Newtons Root Finding' font 'Arial,20'
+set xlabel 'Number of Interval Points' font 'Arial,16'
+set ylabel 'Time (s)' font 'Arial,16'
+set style line 1 linecolor rgb '#0060ad' linetype 1 linewidth 2 pointtype 7 pointsize 1.5
+plot 'gnuplotData' using 1:2 title 'Data' with linespoints linestyle 1

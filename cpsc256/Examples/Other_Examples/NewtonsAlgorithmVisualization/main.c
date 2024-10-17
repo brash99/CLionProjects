@@ -15,7 +15,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <time.h>
-#include <gplot.h>
+#include "../gplot/gplot.h"
 
 /*
  * Program to calculate the roots of a function, given the function and its

@@ -180,3 +180,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Other_Examples
 add_executable(TriangleArea Examples/Other_Examples/TriangleArea/main.c)
 target_link_libraries(TriangleArea gplot) # libgplot.so is found in ${CMAKE_SOURCE_DIR}/lib
 
+# Compile NewtonsAlgorithmVisualization
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Other_Examples/NewtonsAlgorithmVisualization)
+add_executable(NewtonsAlgorithmVisualization Examples/Other_Examples/NewtonsAlgorithmVisualization/main.c)
+target_link_libraries(NewtonsAlgorithmVisualization gplot) # libgplot.so is found in ${CMAKE_SOURCE_DIR}/lib
