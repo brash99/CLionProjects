@@ -26,9 +26,9 @@ class Restaurant {
                             // not to any particular object of the class!!!!!!!
     
     public:
-        // Restaurant(); // Default Constructor
-        // Restaurant(string userName, int userRating,
-        //           string price, string cuisineType); // Initialization Constructor
+        //Restaurant(); // Default Constructor
+        //Restaurant(string userName, int userRating,
+                   string price, string cuisineType); // Initialization Constructor
         
         Restaurant(string userName = "No Name", int userRating = -1,
                 string price = "No Price",string cuisineType = "No Type");
