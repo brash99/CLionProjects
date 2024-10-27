@@ -23,11 +23,11 @@ namespace Imperial {
    float yard = 0.333;
         
    void SmallerUnit() {
-      cout << "1ft = " << inch << "in" << endl;
+      cout << foot << " ft = " << inch << " in" << endl;
    }
 
    void BiggerUnit() {
-      cout << "1ft = " << yard << "yd" << endl;
+      cout << foot << " ft = " << yard << " yd" << endl;
    }
 }
 

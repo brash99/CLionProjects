@@ -28,7 +28,7 @@ public:
 };
 
 // Define constructor method
-Point:: Point(double xValue, double yValue) {
+Point::Point(double xValue, double yValue) {
    X = xValue;
    Y = yValue;
 }

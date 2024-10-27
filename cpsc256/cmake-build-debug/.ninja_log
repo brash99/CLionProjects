@@ -119,3 +119,13 @@
 5	550	1729190787559016512	CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/ItemToPurchase.cpp.o	b9795cd5b734d214
 5	561	1729190787569959381	CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/main.cpp.o	e5f80dce31fffa48
 561	590	1729190787603594192	/Users/brash/CLionProjects/cpsc256/Examples/Projects/Project1Part1/Project1Part1	5f7ced1d8b7e1fee
+35	698	1729522501202468386	CMakeFiles/MultipleClasses.dir/Examples/Week7/MultipleClasses/main.cpp.o	4c8ab8d7c3f99c54
+699	939	1729522501456281583	/Users/brash/CLionProjects/cpsc256/Examples/Week7/MultipleClasses/MultipleClasses	c51e1c9bff7c4e64
+9	441	1729522527708018343	CMakeFiles/MultipleClasses.dir/Examples/Week7/MultipleClasses/main.cpp.o	4c8ab8d7c3f99c54
+441	468	1729522527755626112	/Users/brash/CLionProjects/cpsc256/Examples/Week7/MultipleClasses/MultipleClasses	c51e1c9bff7c4e64
+4	500	1729523100910325545	CMakeFiles/PassBy.dir/Examples/Week7/PassBy/main.cpp.o	d33a9c2851cb52d5
+500	532	1729523100949799804	/Users/brash/CLionProjects/cpsc256/Examples/Week7/PassBy/PassBy	fced915208e995b9
+33	2300	1729870851086715681	CMakeFiles/PointersCPP.dir/Examples/Week8/PointersCPP/main.cpp.o	ef07eeaa2f9f93d7
+2300	2492	1729870851282734298	/Users/brash/CLionProjects/cpsc256/Examples/Week8/PointersCPP/PointersCPP	e394a3309b24d143
+22	650	1730045442033679446	CMakeFiles/CopyConstructorExample.dir/Examples/Week9/CopyConstructorExample/main.cpp.o	a46b9f336a0981e
+650	851	1730045442240968141	/Users/brash/CLionProjects/cpsc256/Examples/Week9/CopyConstructorExample/CopyConstructorExample	1efb987469562ee7

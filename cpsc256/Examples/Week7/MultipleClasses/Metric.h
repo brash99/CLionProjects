@@ -23,11 +23,11 @@ namespace Metric {
    float kilometer = 0.001;
         
    void SmallerUnit() {
-      cout << "1m = " << millimeter << "mm" << endl;
+      cout << meter << " m = " << millimeter << " mm" << endl;
    }
 
    void BiggerUnit() {
-      cout << "1m = " << kilometer << "km" << endl;
+      cout << meter << " m = " << kilometer << " km" << endl;
    }
 }
 

@@ -34,6 +34,13 @@ class MyClassInt {
 
 class MyClassIntPointer {
   public:
+
+    // Note:  In principle, we can make dataObject private, but in
+    // this example, we actually access it directly in the main program,
+    // so we need to leave it public.
+    // private:
+
+    int* dataObject;
       
      MyClassIntPointer() {
 
@@ -76,12 +83,6 @@ class MyClassIntPointer {
      
      }
 
-     // Note:  In principle, we can make dataObject private, but in
-     // this example, we actually access it directly in the main program,
-     // so we need to leave it public.
-     // private:
-
-     int* dataObject;
 };
 
 
