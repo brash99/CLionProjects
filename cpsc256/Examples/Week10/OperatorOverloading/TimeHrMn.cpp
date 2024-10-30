@@ -3,7 +3,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/cppFiles/file.cc to edit this template
  */
 
+#include <iostream>
 #include "TimeHrMn.h"
+
+using namespace std;
 
 TimeHrMn::TimeHrMn(int timeHours, int timeMinutes, double timeSeconds) {
    hours  = timeHours;
@@ -39,7 +42,7 @@ double TimeHrMn::GetSec() const {
 
 
 void TimeHrMn::Print() const {
-   cout << "H:" << hours << ", " << "M:" << minutes << ", " << "S:" << seconds << endl;
+   std::cout << "H:" << hours << ", " << "M:" << minutes << ", " << "S:" << seconds << std::endl;
 }
 
 // Overload + operator for TimeHrMn
