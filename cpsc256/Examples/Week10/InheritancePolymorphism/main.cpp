@@ -54,8 +54,20 @@ int main(int argc, char** argv) {
     cout << businessPtr->GetDescription() << endl;
 
     // Point to favoritePlace
+    //
+    // Note that businessPtr is a pointer to a Business object,
+    // but it can point to a Restaurant object!!!!
+    //
     businessPtr = &favoritePlace;
 
+    // This is the power of polymorphism ... the GetDescription method of the
+    // Restaurant class should be called, right?  But it is not, because the
+    // GetDescription method of the Business class is not virtual (i.e. it is not
+    // defined as virtual in the Business class definition).
+    //
+    // This is a good example of why we should use the virtual keyword in the
+    // base class definition for methods that we want to override in derived classes!!
+    //
     cout << businessPtr->GetDescription() << endl << endl;
 
     return 0;

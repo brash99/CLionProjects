@@ -26,14 +26,25 @@ class Business {
         string address;
 
     public:
+
+        // Constructor for the Business class
+        Business(string name = "no name", string address = "no address") {
+            this->name = name;
+            this->address = address;
+        }
+
+        // Add setter and getter methods for the private member variables
         void SetName(string name) {this->name = name;}
         string GetName() const {return name;}
        
         void SetAddress(string address) {this->address = address;}
         string GetAddress() const {return address;}
-       
+
+        // Add a method to return a description of the object
+
         string GetDescription() const { cout << "Business GetDescription: "
                     << endl; return name + " -- " + address;}
+
         //virtual string GetDescription() const { cout << "Business GetDescription: "
         //    << endl; return name + " -- " + address;}
 
@@ -46,13 +57,23 @@ class Restaurant : public Business {
         int rating;
 
     public:
+
+        // Constructor for the Restaurant class
+        Restaurant(string name = "no name", string address = "no address", int rating = 0) :
+            Business(name, address) {
+            this->rating = rating;
+        }
        
-        // Add additional methods for the private member variables of the
-        // derived class
+        // Add setter and getter methods for the additional private member variables
         void SetRating(int rating) {this->rating = rating;}
         int GetRating() const {return rating;}
        
         // Override the GetDescription method of the base class!
+        // This is an example of RUN-TIME polymorphism
+        // The compiler cannot figure out which GetDescription method to call
+        // until the program is actually running.
+        //
+        // Note that we can access the member variables of the base class directly
        
         string GetDescription() const {
            cout << "Restaurant GetDescription: " << endl;
