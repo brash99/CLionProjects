@@ -5,10 +5,7 @@
  * Created on October 25, 2021, 10:38 PM
  */
 
-using namespace std;
-
 #include <iostream>
-#include "TimeHrMn.h"
 
 /*
  * Demonstration of some of the important aspects of operator overloading
@@ -56,30 +53,31 @@ bool operator==(const TimeHrMn& lhs, const TimeHrMn& rhs) {
 bool operator<(const TimeHrMn& lhs, const TimeHrMn& rhs) {
 
     // Algorithm 1: Compare hours, then minutes, then seconds
-   if (lhs.GetHr() < rhs.GetHr()) {
-       return true;
-   } else {
-       if (lhs.GetHr() > rhs.GetHr()) {
-           return false;
-       } else {
-           if (lhs.GetMn() < rhs.GetMn()) {
-               return false;
-           } else {
-               if (lhs.GetMn() > rhs.GetMn()) {
-                   return true;
-               } else {
-                   if (lhs.GetSec() < rhs.GetSec()) {
-                       return true;
-                   } else {
-                       return false;
-                   }
-           }
-       }
-   }
+    if (lhs.GetHr() < rhs.GetHr()) {
+        return true;
+    } else {
+        if (lhs.GetHr() > rhs.GetHr()) {
+            return false;
+        } else {
+            if (lhs.GetMn() < rhs.GetMn()) {
+                return false;
+            } else {
+                if (lhs.GetMn() > rhs.GetMn()) {
+                    return true;
+                } else {
+                    if (lhs.GetSec() < rhs.GetSec()) {
+                        return true;
+                    } else {
+                        return false;
+                    }
+                }
+            }
+        }
 
-       // Algorithm 2: Convert everything to seconds and compare
-       //return (lhs.GetHr()*3600 + lhs.GetMn()*60 + lhs.GetSec()) <
-       //         (rhs.GetHr()*3600 + rhs.GetMn()*60 + rhs.GetSec());
+        // Algorithm 2: Convert everything to seconds and compare
+        //return (lhs.GetHr()*3600 + lhs.GetMn()*60 + lhs.GetSec()) <
+        //         (rhs.GetHr()*3600 + rhs.GetMn()*60 + rhs.GetSec());
+    }
 }
 
 
