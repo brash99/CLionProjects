@@ -42,11 +42,11 @@ class Business {
 
         // Add a method to return a description of the object
 
-        string GetDescription() const { cout << "Business GetDescription: "
-                    << endl; return name + " -- " + address;}
+        //string GetDescription() const { cout << "Business GetDescription: "
+        //            << endl; return name + " -- " + address;}
 
-        //virtual string GetDescription() const { cout << "Business GetDescription: "
-        //    << endl; return name + " -- " + address;}
+        virtual string GetDescription() const { cout << "Business GetDescription: "
+            << endl; return name + " -- " + address;}
 
 };
 
@@ -75,17 +75,17 @@ class Restaurant : public Business {
         //
         // Note that we can access the member variables of the base class directly
        
-        string GetDescription() const {
+        /*string GetDescription() const {
            cout << "Restaurant GetDescription: " << endl;
            return name + " -- " + address +
               "\n  Rating: " + to_string(rating);
-        }
+        }*/
       
-        /*string GetDescription() const override {
+        string GetDescription() const override {
              cout << "Restaurant GetDescription: " << endl;
              return name + " -- " + address +
                 "\n  Rating: " + to_string(rating);
-        }*/
+        }
 
 };
 
