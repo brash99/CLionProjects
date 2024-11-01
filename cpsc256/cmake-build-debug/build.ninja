@@ -55,8 +55,6 @@ build CMakeFiles/HelloWorld.dir/Examples/Week1/HelloWorld/main.c.o: C_COMPILER__
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/HelloWorld.dir
   OBJECT_FILE_DIR = CMakeFiles/HelloWorld.dir/Examples/Week1/HelloWorld
-  TARGET_COMPILE_PDB = CMakeFiles/HelloWorld.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week1/HelloWorld/HelloWorld.pdb
 
 
 # =============================================================================
@@ -71,9 +69,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week1/HelloWorld/HelloWorld: C
   OBJECT_DIR = CMakeFiles/HelloWorld.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/HelloWorld.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week1/HelloWorld/HelloWorld
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week1/HelloWorld/HelloWorld.pdb
+  TARGET_PDB = HelloWorld.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target PrimitiveDataTypes
@@ -90,8 +87,6 @@ build CMakeFiles/PrimitiveDataTypes.dir/Examples/Week1/PrimitiveDataTypes/main.c
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/PrimitiveDataTypes.dir
   OBJECT_FILE_DIR = CMakeFiles/PrimitiveDataTypes.dir/Examples/Week1/PrimitiveDataTypes
-  TARGET_COMPILE_PDB = CMakeFiles/PrimitiveDataTypes.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week1/PrimitiveDataTypes/PrimitiveDataTypes.pdb
 
 
 # =============================================================================
@@ -106,9 +101,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week1/PrimitiveDataTypes/Primi
   OBJECT_DIR = CMakeFiles/PrimitiveDataTypes.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/PrimitiveDataTypes.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week1/PrimitiveDataTypes/PrimitiveDataTypes
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week1/PrimitiveDataTypes/PrimitiveDataTypes.pdb
+  TARGET_PDB = PrimitiveDataTypes.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target FileReader
@@ -125,8 +119,6 @@ build CMakeFiles/FileReader.dir/Examples/Week2/FileReader/main.c.o: C_COMPILER__
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/FileReader.dir
   OBJECT_FILE_DIR = CMakeFiles/FileReader.dir/Examples/Week2/FileReader
-  TARGET_COMPILE_PDB = CMakeFiles/FileReader.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader.pdb
 
 
 # =============================================================================
@@ -141,9 +133,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader: C
   OBJECT_DIR = CMakeFiles/FileReader.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/FileReader.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader.pdb
+  TARGET_PDB = FileReader.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CSVFileReader
@@ -160,8 +151,6 @@ build CMakeFiles/CSVFileReader.dir/Examples/Week2/CSVFileReader/main.c.o: C_COMP
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/CSVFileReader.dir
   OBJECT_FILE_DIR = CMakeFiles/CSVFileReader.dir/Examples/Week2/CSVFileReader
-  TARGET_COMPILE_PDB = CMakeFiles/CSVFileReader.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader.pdb
 
 
 # =============================================================================
@@ -176,9 +165,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileRea
   OBJECT_DIR = CMakeFiles/CSVFileReader.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/CSVFileReader.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader.pdb
+  TARGET_PDB = CSVFileReader.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Declarations
@@ -195,8 +183,6 @@ build CMakeFiles/Declarations.dir/Examples/Week3/Declarations/main.c.o: C_COMPIL
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/Declarations.dir
   OBJECT_FILE_DIR = CMakeFiles/Declarations.dir/Examples/Week3/Declarations
-  TARGET_COMPILE_PDB = CMakeFiles/Declarations.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week3/Declarations/Declarations.pdb
 
 
 # =============================================================================
@@ -211,9 +197,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week3/Declarations/Declaration
   OBJECT_DIR = CMakeFiles/Declarations.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/Declarations.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week3/Declarations/Declarations
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week3/Declarations/Declarations.pdb
+  TARGET_PDB = Declarations.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target FormatSpecifiers
@@ -230,8 +215,6 @@ build CMakeFiles/FormatSpecifiers.dir/Examples/Week3/FormatSpecifiers/main.c.o: 
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/FormatSpecifiers.dir
   OBJECT_FILE_DIR = CMakeFiles/FormatSpecifiers.dir/Examples/Week3/FormatSpecifiers
-  TARGET_COMPILE_PDB = CMakeFiles/FormatSpecifiers.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FormatSpecifiers/FormatSpecifiers.pdb
 
 
 # =============================================================================
@@ -246,9 +229,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week3/FormatSpecifiers/FormatS
   OBJECT_DIR = CMakeFiles/FormatSpecifiers.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/FormatSpecifiers.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FormatSpecifiers/FormatSpecifiers
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FormatSpecifiers/FormatSpecifiers.pdb
+  TARGET_PDB = FormatSpecifiers.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target FunctionExample
@@ -265,8 +247,6 @@ build CMakeFiles/FunctionExample.dir/Examples/Week3/FunctionExample/main.c.o: C_
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/FunctionExample.dir
   OBJECT_FILE_DIR = CMakeFiles/FunctionExample.dir/Examples/Week3/FunctionExample
-  TARGET_COMPILE_PDB = CMakeFiles/FunctionExample.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FunctionExample/FunctionExample.pdb
 
 
 # =============================================================================
@@ -281,9 +261,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week3/FunctionExample/Function
   OBJECT_DIR = CMakeFiles/FunctionExample.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/FunctionExample.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FunctionExample/FunctionExample
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FunctionExample/FunctionExample.pdb
+  TARGET_PDB = FunctionExample.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target FileStatistics
@@ -300,8 +279,6 @@ build CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/main.c.o: C_CO
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/FileStatistics.dir
   OBJECT_FILE_DIR = CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics
-  TARGET_COMPILE_PDB = CMakeFiles/FileStatistics.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics.pdb
 
 build CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/mean.c.o: C_COMPILER__FileStatistics_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/mean.c || cmake_object_order_depends_target_FileStatistics
   DEP_FILE = CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/mean.c.o.d
@@ -309,8 +286,6 @@ build CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/mean.c.o: C_CO
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/FileStatistics.dir
   OBJECT_FILE_DIR = CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics
-  TARGET_COMPILE_PDB = CMakeFiles/FileStatistics.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics.pdb
 
 build CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/stdev.c.o: C_COMPILER__FileStatistics_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/stdev.c || cmake_object_order_depends_target_FileStatistics
   DEP_FILE = CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/stdev.c.o.d
@@ -318,8 +293,6 @@ build CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/stdev.c.o: C_C
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/FileStatistics.dir
   OBJECT_FILE_DIR = CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics
-  TARGET_COMPILE_PDB = CMakeFiles/FileStatistics.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics.pdb
 
 
 # =============================================================================
@@ -334,9 +307,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStati
   OBJECT_DIR = CMakeFiles/FileStatistics.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/FileStatistics.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics.pdb
+  TARGET_PDB = FileStatistics.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target FileStatistics_Headers
@@ -353,8 +325,6 @@ build CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Header
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/FileStatistics_Headers.dir
   OBJECT_FILE_DIR = CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers
-  TARGET_COMPILE_PDB = CMakeFiles/FileStatistics_Headers.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers.pdb
 
 build CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers/mean.c.o: C_COMPILER__FileStatistics_Headers_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/mean.c || cmake_object_order_depends_target_FileStatistics_Headers
   DEP_FILE = CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers/mean.c.o.d
@@ -362,8 +332,6 @@ build CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Header
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/FileStatistics_Headers.dir
   OBJECT_FILE_DIR = CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers
-  TARGET_COMPILE_PDB = CMakeFiles/FileStatistics_Headers.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers.pdb
 
 build CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers/stdev.c.o: C_COMPILER__FileStatistics_Headers_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/stdev.c || cmake_object_order_depends_target_FileStatistics_Headers
   DEP_FILE = CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers/stdev.c.o.d
@@ -371,8 +339,6 @@ build CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Header
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/FileStatistics_Headers.dir
   OBJECT_FILE_DIR = CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers
-  TARGET_COMPILE_PDB = CMakeFiles/FileStatistics_Headers.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers.pdb
 
 
 # =============================================================================
@@ -387,9 +353,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/F
   OBJECT_DIR = CMakeFiles/FileStatistics_Headers.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/FileStatistics_Headers.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers.pdb
+  TARGET_PDB = FileStatistics_Headers.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target BasicPointers
@@ -406,8 +371,6 @@ build CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers/main.c.o: C_COMP
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BasicPointers.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers
-  TARGET_COMPILE_PDB = CMakeFiles/BasicPointers.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers.pdb
 
 build CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers/functions.c.o: C_COMPILER__BasicPointers_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/functions.c || cmake_object_order_depends_target_BasicPointers
   DEP_FILE = CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers/functions.c.o.d
@@ -415,8 +378,6 @@ build CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers/functions.c.o: C
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BasicPointers.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers
-  TARGET_COMPILE_PDB = CMakeFiles/BasicPointers.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers.pdb
 
 
 # =============================================================================
@@ -431,9 +392,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPoint
   OBJECT_DIR = CMakeFiles/BasicPointers.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/BasicPointers.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers.pdb
+  TARGET_PDB = BasicPointers.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target VoidPointers
@@ -450,8 +410,6 @@ build CMakeFiles/VoidPointers.dir/Examples/Week4/VoidPointers/main.c.o: C_COMPIL
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/VoidPointers.dir
   OBJECT_FILE_DIR = CMakeFiles/VoidPointers.dir/Examples/Week4/VoidPointers
-  TARGET_COMPILE_PDB = CMakeFiles/VoidPointers.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week3/VoidPointers/VoidPointers.pdb
 
 
 # =============================================================================
@@ -466,9 +424,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week3/VoidPointers/VoidPointer
   OBJECT_DIR = CMakeFiles/VoidPointers.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/VoidPointers.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week3/VoidPointers/VoidPointers
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week3/VoidPointers/VoidPointers.pdb
+  TARGET_PDB = VoidPointers.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target QuickSort
@@ -485,8 +442,6 @@ build CMakeFiles/QuickSort.dir/Examples/Week4/QuickSort/main.c.o: C_COMPILER__Qu
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/QuickSort.dir
   OBJECT_FILE_DIR = CMakeFiles/QuickSort.dir/Examples/Week4/QuickSort
-  TARGET_COMPILE_PDB = CMakeFiles/QuickSort.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/PointerQuickSort/QuickSort.pdb
 
 
 # =============================================================================
@@ -501,9 +456,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/PointerQuickSort/QuickSo
   OBJECT_DIR = CMakeFiles/QuickSort.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/QuickSort.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/PointerQuickSort/QuickSort
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/PointerQuickSort/QuickSort.pdb
+  TARGET_PDB = QuickSort.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target LockerProblem
@@ -520,8 +474,6 @@ build CMakeFiles/LockerProblem.dir/Examples/Week4/LockerProblem/main.c.o: C_COMP
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/LockerProblem.dir
   OBJECT_FILE_DIR = CMakeFiles/LockerProblem.dir/Examples/Week4/LockerProblem
-  TARGET_COMPILE_PDB = CMakeFiles/LockerProblem.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/LockerProblem/LockerProblem.pdb
 
 
 # =============================================================================
@@ -536,9 +488,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/LockerProblem/LockerProb
   OBJECT_DIR = CMakeFiles/LockerProblem.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/LockerProblem.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/LockerProblem/LockerProblem
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/LockerProblem/LockerProblem.pdb
+  TARGET_PDB = LockerProblem.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Tristan
@@ -555,8 +506,6 @@ build CMakeFiles/Tristan.dir/Examples/Week4/Tristan/main.c.o: C_COMPILER__Trista
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/Tristan.dir
   OBJECT_FILE_DIR = CMakeFiles/Tristan.dir/Examples/Week4/Tristan
-  TARGET_COMPILE_PDB = CMakeFiles/Tristan.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/LockerProblem/Tristan.pdb
 
 
 # =============================================================================
@@ -571,9 +520,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/LockerProblem/Tristan: C
   OBJECT_DIR = CMakeFiles/Tristan.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/Tristan.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/LockerProblem/Tristan
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/LockerProblem/Tristan.pdb
+  TARGET_PDB = Tristan.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Restaurant_C_Example
@@ -590,8 +538,6 @@ build CMakeFiles/Restaurant_C_Example.dir/Examples/Week5/Restaurant_C_Example/ma
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/Restaurant_C_Example.dir
   OBJECT_FILE_DIR = CMakeFiles/Restaurant_C_Example.dir/Examples/Week5/Restaurant_C_Example
-  TARGET_COMPILE_PDB = CMakeFiles/Restaurant_C_Example.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week5/Restaurant_C_Example/Restaurant_C_Example.pdb
 
 
 # =============================================================================
@@ -606,9 +552,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week5/Restaurant_C_Example/Res
   OBJECT_DIR = CMakeFiles/Restaurant_C_Example.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/Restaurant_C_Example.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week5/Restaurant_C_Example/Restaurant_C_Example
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week5/Restaurant_C_Example/Restaurant_C_Example.pdb
+  TARGET_PDB = Restaurant_C_Example.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target PointerCar
@@ -625,8 +570,6 @@ build CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/main.c.o: C_COMPILER__
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/PointerCar.dir
   OBJECT_FILE_DIR = CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar
-  TARGET_COMPILE_PDB = CMakeFiles/PointerCar.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week5/PointerCar/PointerCar.pdb
 
 build CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/PointerCar.c.o: C_COMPILER__PointerCar_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week5/PointerCar/PointerCar.c || cmake_object_order_depends_target_PointerCar
   DEP_FILE = CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/PointerCar.c.o.d
@@ -634,8 +577,6 @@ build CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/PointerCar.c.o: C_COMP
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/PointerCar.dir
   OBJECT_FILE_DIR = CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar
-  TARGET_COMPILE_PDB = CMakeFiles/PointerCar.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week5/PointerCar/PointerCar.pdb
 
 
 # =============================================================================
@@ -650,9 +591,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week5/PointerCar/PointerCar: C
   OBJECT_DIR = CMakeFiles/PointerCar.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/PointerCar.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week5/PointerCar/PointerCar
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week5/PointerCar/PointerCar.pdb
+  TARGET_PDB = PointerCar.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target SimpleCar
@@ -669,8 +609,6 @@ build CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/main.c.o: C_COMPILER__Si
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/SimpleCar.dir
   OBJECT_FILE_DIR = CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar
-  TARGET_COMPILE_PDB = CMakeFiles/SimpleCar.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCar/SimpleCar.pdb
 
 build CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/SimpleCar.c.o: C_COMPILER__SimpleCar_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCar/SimpleCar.c || cmake_object_order_depends_target_SimpleCar
   DEP_FILE = CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/SimpleCar.c.o.d
@@ -678,8 +616,6 @@ build CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/SimpleCar.c.o: C_COMPILE
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/SimpleCar.dir
   OBJECT_FILE_DIR = CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar
-  TARGET_COMPILE_PDB = CMakeFiles/SimpleCar.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCar/SimpleCar.pdb
 
 
 # =============================================================================
@@ -694,9 +630,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCar/SimpleCar: C_E
   OBJECT_DIR = CMakeFiles/SimpleCar.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/SimpleCar.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCar/SimpleCar
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCar/SimpleCar.pdb
+  TARGET_PDB = SimpleCar.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target SimpleCarOneFile
@@ -713,8 +648,6 @@ build CMakeFiles/SimpleCarOneFile.dir/Examples/Week5/SimpleCarOneFile/main.c.o: 
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/SimpleCarOneFile.dir
   OBJECT_FILE_DIR = CMakeFiles/SimpleCarOneFile.dir/Examples/Week5/SimpleCarOneFile
-  TARGET_COMPILE_PDB = CMakeFiles/SimpleCarOneFile.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCarOneFile/SimpleCarOneFile.pdb
 
 
 # =============================================================================
@@ -729,9 +662,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCarOneFile/SimpleC
   OBJECT_DIR = CMakeFiles/SimpleCarOneFile.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/SimpleCarOneFile.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCarOneFile/SimpleCarOneFile
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCarOneFile/SimpleCarOneFile.pdb
+  TARGET_PDB = SimpleCarOneFile.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CoinFlip
@@ -748,8 +680,6 @@ build CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip/main.c.o: C_COMPILER__Coin
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/CoinFlip.dir
   OBJECT_FILE_DIR = CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip
-  TARGET_COMPILE_PDB = CMakeFiles/CoinFlip.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week5/CoinFlip/CoinFlip.pdb
 
 build CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip/Coin.c.o: C_COMPILER__CoinFlip_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week5/CoinFlip/Coin.c || cmake_object_order_depends_target_CoinFlip
   DEP_FILE = CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip/Coin.c.o.d
@@ -757,8 +687,6 @@ build CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip/Coin.c.o: C_COMPILER__Coin
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/CoinFlip.dir
   OBJECT_FILE_DIR = CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip
-  TARGET_COMPILE_PDB = CMakeFiles/CoinFlip.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week5/CoinFlip/CoinFlip.pdb
 
 
 # =============================================================================
@@ -773,9 +701,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week5/CoinFlip/CoinFlip: C_EXE
   OBJECT_DIR = CMakeFiles/CoinFlip.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/CoinFlip.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week5/CoinFlip/CoinFlip
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week5/CoinFlip/CoinFlip.pdb
+  TARGET_PDB = CoinFlip.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target q1a
@@ -792,8 +719,6 @@ build CMakeFiles/q1a.dir/Examples/Midterm2_Practice/q1a.c.o: C_COMPILER__q1a_uns
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/q1a.dir
   OBJECT_FILE_DIR = CMakeFiles/q1a.dir/Examples/Midterm2_Practice
-  TARGET_COMPILE_PDB = CMakeFiles/q1a.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q1a.pdb
 
 
 # =============================================================================
@@ -808,9 +733,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q1a: C_EXECU
   OBJECT_DIR = CMakeFiles/q1a.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/q1a.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q1a
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q1a.pdb
+  TARGET_PDB = q1a.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target q1b
@@ -827,8 +751,6 @@ build CMakeFiles/q1b.dir/Examples/Midterm2_Practice/q1b.c.o: C_COMPILER__q1b_uns
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/q1b.dir
   OBJECT_FILE_DIR = CMakeFiles/q1b.dir/Examples/Midterm2_Practice
-  TARGET_COMPILE_PDB = CMakeFiles/q1b.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q1b.pdb
 
 
 # =============================================================================
@@ -843,9 +765,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q1b: C_EXECU
   OBJECT_DIR = CMakeFiles/q1b.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/q1b.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q1b
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q1b.pdb
+  TARGET_PDB = q1b.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target q3a
@@ -862,8 +783,6 @@ build CMakeFiles/q3a.dir/Examples/Midterm2_Practice/q3a.c.o: C_COMPILER__q3a_uns
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/q3a.dir
   OBJECT_FILE_DIR = CMakeFiles/q3a.dir/Examples/Midterm2_Practice
-  TARGET_COMPILE_PDB = CMakeFiles/q3a.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q3a.pdb
 
 
 # =============================================================================
@@ -878,9 +797,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q3a: C_EXECU
   OBJECT_DIR = CMakeFiles/q3a.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/q3a.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q3a
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q3a.pdb
+  TARGET_PDB = q3a.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target q3b
@@ -897,8 +815,6 @@ build CMakeFiles/q3b.dir/Examples/Midterm2_Practice/q3b.c.o: C_COMPILER__q3b_uns
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/q3b.dir
   OBJECT_FILE_DIR = CMakeFiles/q3b.dir/Examples/Midterm2_Practice
-  TARGET_COMPILE_PDB = CMakeFiles/q3b.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q3b.pdb
 
 
 # =============================================================================
@@ -913,9 +829,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q3b: C_EXECU
   OBJECT_DIR = CMakeFiles/q3b.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/q3b.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q3b
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q3b.pdb
+  TARGET_PDB = q3b.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target q1a_solution
@@ -932,8 +847,6 @@ build CMakeFiles/q1a_solution.dir/Examples/Midterm2_Solutions/q1a.c.o: C_COMPILE
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/q1a_solution.dir
   OBJECT_FILE_DIR = CMakeFiles/q1a_solution.dir/Examples/Midterm2_Solutions
-  TARGET_COMPILE_PDB = CMakeFiles/q1a_solution.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q1a_solution.pdb
 
 
 # =============================================================================
@@ -948,9 +861,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q1a_solutio
   OBJECT_DIR = CMakeFiles/q1a_solution.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/q1a_solution.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q1a_solution
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q1a_solution.pdb
+  TARGET_PDB = q1a_solution.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target q1b_solution
@@ -967,8 +879,6 @@ build CMakeFiles/q1b_solution.dir/Examples/Midterm2_Solutions/q1b.c.o: C_COMPILE
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/q1b_solution.dir
   OBJECT_FILE_DIR = CMakeFiles/q1b_solution.dir/Examples/Midterm2_Solutions
-  TARGET_COMPILE_PDB = CMakeFiles/q1b_solution.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q1b_solution.pdb
 
 
 # =============================================================================
@@ -983,9 +893,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q1b_solutio
   OBJECT_DIR = CMakeFiles/q1b_solution.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/q1b_solution.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q1b_solution
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q1b_solution.pdb
+  TARGET_PDB = q1b_solution.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target q3a_solution
@@ -1002,8 +911,6 @@ build CMakeFiles/q3a_solution.dir/Examples/Midterm2_Solutions/q3a.c.o: C_COMPILE
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/q3a_solution.dir
   OBJECT_FILE_DIR = CMakeFiles/q3a_solution.dir/Examples/Midterm2_Solutions
-  TARGET_COMPILE_PDB = CMakeFiles/q3a_solution.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q3a_solution.pdb
 
 
 # =============================================================================
@@ -1018,9 +925,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q3a_solutio
   OBJECT_DIR = CMakeFiles/q3a_solution.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/q3a_solution.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q3a_solution
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q3a_solution.pdb
+  TARGET_PDB = q3a_solution.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target q3b_solution
@@ -1037,8 +943,6 @@ build CMakeFiles/q3b_solution.dir/Examples/Midterm2_Solutions/q3b.c.o: C_COMPILE
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/q3b_solution.dir
   OBJECT_FILE_DIR = CMakeFiles/q3b_solution.dir/Examples/Midterm2_Solutions
-  TARGET_COMPILE_PDB = CMakeFiles/q3b_solution.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q3b_solution.pdb
 
 
 # =============================================================================
@@ -1053,9 +957,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q3b_solutio
   OBJECT_DIR = CMakeFiles/q3b_solution.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/q3b_solution.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q3b_solution
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/q3b_solution.pdb
+  TARGET_PDB = q3b_solution.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target factorial_solution
@@ -1072,8 +975,6 @@ build CMakeFiles/factorial_solution.dir/Examples/Midterm2_Solutions/factorial.c.
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/factorial_solution.dir
   OBJECT_FILE_DIR = CMakeFiles/factorial_solution.dir/Examples/Midterm2_Solutions
-  TARGET_COMPILE_PDB = CMakeFiles/factorial_solution.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/factorial_solution.pdb
 
 
 # =============================================================================
@@ -1088,9 +989,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/factorial_s
   OBJECT_DIR = CMakeFiles/factorial_solution.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/factorial_solution.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/factorial_solution
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Solutions/factorial_solution.pdb
+  TARGET_PDB = factorial_solution.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target HelloWorldCPP
@@ -1107,8 +1007,6 @@ build CMakeFiles/HelloWorldCPP.dir/Examples/Week6/HelloWorldCPP/main.cpp.o: CXX_
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/HelloWorldCPP.dir
   OBJECT_FILE_DIR = CMakeFiles/HelloWorldCPP.dir/Examples/Week6/HelloWorldCPP
-  TARGET_COMPILE_PDB = CMakeFiles/HelloWorldCPP.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week6/HelloWorldCPP/HelloWorldCPP.pdb
 
 
 # =============================================================================
@@ -1123,9 +1021,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week6/HelloWorldCPP/HelloWorld
   OBJECT_DIR = CMakeFiles/HelloWorldCPP.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/HelloWorldCPP.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week6/HelloWorldCPP/HelloWorldCPP
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week6/HelloWorldCPP/HelloWorldCPP.pdb
+  TARGET_PDB = HelloWorldCPP.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target BasicVectorCPP
@@ -1142,8 +1039,6 @@ build CMakeFiles/BasicVectorCPP.dir/Examples/Week6/BasicVectorCPP/main.cpp.o: CX
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BasicVectorCPP.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicVectorCPP.dir/Examples/Week6/BasicVectorCPP
-  TARGET_COMPILE_PDB = CMakeFiles/BasicVectorCPP.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week6/BasicVectorCPP/BasicVectorCPP.pdb
 
 
 # =============================================================================
@@ -1158,9 +1053,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week6/BasicVectorCPP/BasicVect
   OBJECT_DIR = CMakeFiles/BasicVectorCPP.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/BasicVectorCPP.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week6/BasicVectorCPP/BasicVectorCPP
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week6/BasicVectorCPP/BasicVectorCPP.pdb
+  TARGET_PDB = BasicVectorCPP.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target FunctionOverloading
@@ -1177,8 +1071,6 @@ build CMakeFiles/FunctionOverloading.dir/Examples/Week6/FunctionOverloading/main
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/FunctionOverloading.dir
   OBJECT_FILE_DIR = CMakeFiles/FunctionOverloading.dir/Examples/Week6/FunctionOverloading
-  TARGET_COMPILE_PDB = CMakeFiles/FunctionOverloading.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week6/FunctionOverloading/FunctionOverloading.pdb
 
 
 # =============================================================================
@@ -1193,9 +1085,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week6/FunctionOverloading/Func
   OBJECT_DIR = CMakeFiles/FunctionOverloading.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/FunctionOverloading.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week6/FunctionOverloading/FunctionOverloading
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week6/FunctionOverloading/FunctionOverloading.pdb
+  TARGET_PDB = FunctionOverloading.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target PassBy
@@ -1212,8 +1103,6 @@ build CMakeFiles/PassBy.dir/Examples/Week7/PassBy/main.cpp.o: CXX_COMPILER__Pass
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/PassBy.dir
   OBJECT_FILE_DIR = CMakeFiles/PassBy.dir/Examples/Week7/PassBy
-  TARGET_COMPILE_PDB = CMakeFiles/PassBy.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week7/PassBy/PassBy.pdb
 
 
 # =============================================================================
@@ -1228,9 +1117,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week7/PassBy/PassBy: CXX_EXECU
   OBJECT_DIR = CMakeFiles/PassBy.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/PassBy.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week7/PassBy/PassBy
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week7/PassBy/PassBy.pdb
+  TARGET_PDB = PassBy.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target BasicObjects
@@ -1247,8 +1135,6 @@ build CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/main.cpp.o: CXX_CO
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BasicObjects.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects
-  TARGET_COMPILE_PDB = CMakeFiles/BasicObjects.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week7/BasicObjects/BasicObjects.pdb
 
 build CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/Restaurant.cpp.o: CXX_COMPILER__BasicObjects_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week7/BasicObjects/Restaurant.cpp || cmake_object_order_depends_target_BasicObjects
   DEP_FILE = CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/Restaurant.cpp.o.d
@@ -1256,8 +1142,6 @@ build CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/Restaurant.cpp.o: 
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BasicObjects.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects
-  TARGET_COMPILE_PDB = CMakeFiles/BasicObjects.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week7/BasicObjects/BasicObjects.pdb
 
 
 # =============================================================================
@@ -1272,9 +1156,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week7/BasicObjects/BasicObject
   OBJECT_DIR = CMakeFiles/BasicObjects.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/BasicObjects.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week7/BasicObjects/BasicObjects
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week7/BasicObjects/BasicObjects.pdb
+  TARGET_PDB = BasicObjects.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target MultipleClasses
@@ -1291,8 +1174,6 @@ build CMakeFiles/MultipleClasses.dir/Examples/Week7/MultipleClasses/main.cpp.o: 
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/MultipleClasses.dir
   OBJECT_FILE_DIR = CMakeFiles/MultipleClasses.dir/Examples/Week7/MultipleClasses
-  TARGET_COMPILE_PDB = CMakeFiles/MultipleClasses.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week7/MultipleClasses/MultipleClasses.pdb
 
 
 # =============================================================================
@@ -1307,9 +1188,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week7/MultipleClasses/Multiple
   OBJECT_DIR = CMakeFiles/MultipleClasses.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/MultipleClasses.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week7/MultipleClasses/MultipleClasses
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week7/MultipleClasses/MultipleClasses.pdb
+  TARGET_PDB = MultipleClasses.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target PointersCPP
@@ -1326,8 +1206,6 @@ build CMakeFiles/PointersCPP.dir/Examples/Week8/PointersCPP/main.cpp.o: CXX_COMP
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/PointersCPP.dir
   OBJECT_FILE_DIR = CMakeFiles/PointersCPP.dir/Examples/Week8/PointersCPP
-  TARGET_COMPILE_PDB = CMakeFiles/PointersCPP.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week8/PointersCPP/PointersCPP.pdb
 
 
 # =============================================================================
@@ -1342,9 +1220,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week8/PointersCPP/PointersCPP:
   OBJECT_DIR = CMakeFiles/PointersCPP.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/PointersCPP.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week8/PointersCPP/PointersCPP
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week8/PointersCPP/PointersCPP.pdb
+  TARGET_PDB = PointersCPP.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target BasicObjectsPointers
@@ -1361,8 +1238,6 @@ build CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers/ma
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BasicObjectsPointers.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers
-  TARGET_COMPILE_PDB = CMakeFiles/BasicObjectsPointers.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week8/BasicObjectsPointers/BasicObjectsPointers.pdb
 
 build CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers/Restaurant.cpp.o: CXX_COMPILER__BasicObjectsPointers_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week8/BasicObjectsPointers/Restaurant.cpp || cmake_object_order_depends_target_BasicObjectsPointers
   DEP_FILE = CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers/Restaurant.cpp.o.d
@@ -1370,8 +1245,6 @@ build CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers/Re
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BasicObjectsPointers.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers
-  TARGET_COMPILE_PDB = CMakeFiles/BasicObjectsPointers.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week8/BasicObjectsPointers/BasicObjectsPointers.pdb
 
 
 # =============================================================================
@@ -1386,9 +1259,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week8/BasicObjectsPointers/Bas
   OBJECT_DIR = CMakeFiles/BasicObjectsPointers.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/BasicObjectsPointers.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week8/BasicObjectsPointers/BasicObjectsPointers
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week8/BasicObjectsPointers/BasicObjectsPointers.pdb
+  TARGET_PDB = BasicObjectsPointers.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ArtistAndArtwork
@@ -1405,8 +1277,6 @@ build CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/main.cpp.o
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/ArtistAndArtwork.dir
   OBJECT_FILE_DIR = CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork
-  TARGET_COMPILE_PDB = CMakeFiles/ArtistAndArtwork.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week9/ArtistAndArtwork/ArtistAndArtwork.pdb
 
 build CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artist.cpp.o: CXX_COMPILER__ArtistAndArtwork_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week9/ArtistAndArtwork/Artist.cpp || cmake_object_order_depends_target_ArtistAndArtwork
   DEP_FILE = CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artist.cpp.o.d
@@ -1414,8 +1284,6 @@ build CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artist.cpp
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/ArtistAndArtwork.dir
   OBJECT_FILE_DIR = CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork
-  TARGET_COMPILE_PDB = CMakeFiles/ArtistAndArtwork.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week9/ArtistAndArtwork/ArtistAndArtwork.pdb
 
 build CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artwork.cpp.o: CXX_COMPILER__ArtistAndArtwork_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week9/ArtistAndArtwork/Artwork.cpp || cmake_object_order_depends_target_ArtistAndArtwork
   DEP_FILE = CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artwork.cpp.o.d
@@ -1423,8 +1291,6 @@ build CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artwork.cp
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/ArtistAndArtwork.dir
   OBJECT_FILE_DIR = CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork
-  TARGET_COMPILE_PDB = CMakeFiles/ArtistAndArtwork.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week9/ArtistAndArtwork/ArtistAndArtwork.pdb
 
 
 # =============================================================================
@@ -1439,9 +1305,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week9/ArtistAndArtwork/ArtistA
   OBJECT_DIR = CMakeFiles/ArtistAndArtwork.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/ArtistAndArtwork.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week9/ArtistAndArtwork/ArtistAndArtwork
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week9/ArtistAndArtwork/ArtistAndArtwork.pdb
+  TARGET_PDB = ArtistAndArtwork.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CopyConstructorExample
@@ -1458,8 +1323,6 @@ build CMakeFiles/CopyConstructorExample.dir/Examples/Week9/CopyConstructorExampl
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/CopyConstructorExample.dir
   OBJECT_FILE_DIR = CMakeFiles/CopyConstructorExample.dir/Examples/Week9/CopyConstructorExample
-  TARGET_COMPILE_PDB = CMakeFiles/CopyConstructorExample.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week9/CopyConstructorExample/CopyConstructorExample.pdb
 
 
 # =============================================================================
@@ -1474,9 +1337,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week9/CopyConstructorExample/C
   OBJECT_DIR = CMakeFiles/CopyConstructorExample.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/CopyConstructorExample.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week9/CopyConstructorExample/CopyConstructorExample
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week9/CopyConstructorExample/CopyConstructorExample.pdb
+  TARGET_PDB = CopyConstructorExample.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target FunctionTemplates
@@ -1493,8 +1355,6 @@ build CMakeFiles/FunctionTemplates.dir/Examples/Week10/FunctionTemplates/main.cp
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/FunctionTemplates.dir
   OBJECT_FILE_DIR = CMakeFiles/FunctionTemplates.dir/Examples/Week10/FunctionTemplates
-  TARGET_COMPILE_PDB = CMakeFiles/FunctionTemplates.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week10/FunctionTemplates/FunctionTemplates.pdb
 
 
 # =============================================================================
@@ -1509,9 +1369,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week10/FunctionTemplates/Funct
   OBJECT_DIR = CMakeFiles/FunctionTemplates.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/FunctionTemplates.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week10/FunctionTemplates/FunctionTemplates
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week10/FunctionTemplates/FunctionTemplates.pdb
+  TARGET_PDB = FunctionTemplates.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target OperatorOverloading
@@ -1528,8 +1387,6 @@ build CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/mai
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/OperatorOverloading.dir
   OBJECT_FILE_DIR = CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading
-  TARGET_COMPILE_PDB = CMakeFiles/OperatorOverloading.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week10/OperatorOverloading/OperatorOverloading.pdb
 
 build CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/TimeHrMn.cpp.o: CXX_COMPILER__OperatorOverloading_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week10/OperatorOverloading/TimeHrMn.cpp || cmake_object_order_depends_target_OperatorOverloading
   DEP_FILE = CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/TimeHrMn.cpp.o.d
@@ -1537,8 +1394,6 @@ build CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/Tim
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/OperatorOverloading.dir
   OBJECT_FILE_DIR = CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading
-  TARGET_COMPILE_PDB = CMakeFiles/OperatorOverloading.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week10/OperatorOverloading/OperatorOverloading.pdb
 
 
 # =============================================================================
@@ -1553,9 +1408,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week10/OperatorOverloading/Ope
   OBJECT_DIR = CMakeFiles/OperatorOverloading.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/OperatorOverloading.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week10/OperatorOverloading/OperatorOverloading
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week10/OperatorOverloading/OperatorOverloading.pdb
+  TARGET_PDB = OperatorOverloading.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target InheritancePolymorphism
@@ -1572,8 +1426,6 @@ build CMakeFiles/InheritancePolymorphism.dir/Examples/Week10/InheritancePolymorp
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/InheritancePolymorphism.dir
   OBJECT_FILE_DIR = CMakeFiles/InheritancePolymorphism.dir/Examples/Week10/InheritancePolymorphism
-  TARGET_COMPILE_PDB = CMakeFiles/InheritancePolymorphism.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week10/InheritancePolymorphism/InheritancePolymorphism.pdb
 
 
 # =============================================================================
@@ -1588,9 +1440,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week10/InheritancePolymorphism
   OBJECT_DIR = CMakeFiles/InheritancePolymorphism.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/InheritancePolymorphism.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week10/InheritancePolymorphism/InheritancePolymorphism
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week10/InheritancePolymorphism/InheritancePolymorphism.pdb
+  TARGET_PDB = InheritancePolymorphism.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target BasicLinkedList
@@ -1607,8 +1458,6 @@ build CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/main.cpp.o:
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BasicLinkedList.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList
-  TARGET_COMPILE_PDB = CMakeFiles/BasicLinkedList.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week11/BasicLinkedList/BasicLinkedList.pdb
 
 build CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/IntNode.cpp.o: CXX_COMPILER__BasicLinkedList_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/BasicLinkedList/IntNode.cpp || cmake_object_order_depends_target_BasicLinkedList
   DEP_FILE = CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/IntNode.cpp.o.d
@@ -1616,8 +1465,6 @@ build CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/IntNode.cpp
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BasicLinkedList.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList
-  TARGET_COMPILE_PDB = CMakeFiles/BasicLinkedList.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week11/BasicLinkedList/BasicLinkedList.pdb
 
 
 # =============================================================================
@@ -1632,9 +1479,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week11/BasicLinkedList/BasicLi
   OBJECT_DIR = CMakeFiles/BasicLinkedList.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/BasicLinkedList.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week11/BasicLinkedList/BasicLinkedList
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week11/BasicLinkedList/BasicLinkedList.pdb
+  TARGET_PDB = BasicLinkedList.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target LinkListDestructor
@@ -1651,8 +1497,6 @@ build CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/main.
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/LinkListDestructor.dir
   OBJECT_FILE_DIR = CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor
-  TARGET_COMPILE_PDB = CMakeFiles/LinkListDestructor.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week11/LinkListDestructor/LinkListDestructor.pdb
 
 build CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/IntNode.cpp.o: CXX_COMPILER__LinkListDestructor_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/LinkListDestructor/IntNode.cpp || cmake_object_order_depends_target_LinkListDestructor
   DEP_FILE = CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/IntNode.cpp.o.d
@@ -1660,8 +1504,6 @@ build CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/IntNo
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/LinkListDestructor.dir
   OBJECT_FILE_DIR = CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor
-  TARGET_COMPILE_PDB = CMakeFiles/LinkListDestructor.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week11/LinkListDestructor/LinkListDestructor.pdb
 
 build CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/LinkedList.cpp.o: CXX_COMPILER__LinkListDestructor_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/LinkListDestructor/LinkedList.cpp || cmake_object_order_depends_target_LinkListDestructor
   DEP_FILE = CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/LinkedList.cpp.o.d
@@ -1669,8 +1511,6 @@ build CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/Linke
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/LinkListDestructor.dir
   OBJECT_FILE_DIR = CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor
-  TARGET_COMPILE_PDB = CMakeFiles/LinkListDestructor.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week11/LinkListDestructor/LinkListDestructor.pdb
 
 
 # =============================================================================
@@ -1685,9 +1525,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week11/LinkListDestructor/Link
   OBJECT_DIR = CMakeFiles/LinkListDestructor.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/LinkListDestructor.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week11/LinkListDestructor/LinkListDestructor
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week11/LinkListDestructor/LinkListDestructor.pdb
+  TARGET_PDB = LinkListDestructor.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target BookLibrary
@@ -1704,8 +1543,6 @@ build CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary/main.cpp.o: CXX_COM
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BookLibrary.dir
   OBJECT_FILE_DIR = CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary
-  TARGET_COMPILE_PDB = CMakeFiles/BookLibrary.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibrary/BookLibrary.pdb
 
 build CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary/BookLibary.cpp.o: CXX_COMPILER__BookLibrary_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibrary/BookLibary.cpp || cmake_object_order_depends_target_BookLibrary
   DEP_FILE = CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary/BookLibary.cpp.o.d
@@ -1713,8 +1550,6 @@ build CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary/BookLibary.cpp.o: C
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BookLibrary.dir
   OBJECT_FILE_DIR = CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary
-  TARGET_COMPILE_PDB = CMakeFiles/BookLibrary.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibrary/BookLibrary.pdb
 
 
 # =============================================================================
@@ -1729,9 +1564,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibrary/BookLibrary
   OBJECT_DIR = CMakeFiles/BookLibrary.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/BookLibrary.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibrary/BookLibrary
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibrary/BookLibrary.pdb
+  TARGET_PDB = BookLibrary.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target BookLibraryZybooks
@@ -1748,8 +1582,6 @@ build CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks/main.
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BookLibraryZybooks.dir
   OBJECT_FILE_DIR = CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks
-  TARGET_COMPILE_PDB = CMakeFiles/BookLibraryZybooks.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibraryZybooks/BookLibraryZybooks.pdb
 
 build CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks/BookLibary.cpp.o: CXX_COMPILER__BookLibraryZybooks_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibraryZybooks/BookLibary.cpp || cmake_object_order_depends_target_BookLibraryZybooks
   DEP_FILE = CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks/BookLibary.cpp.o.d
@@ -1757,8 +1589,6 @@ build CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks/BookL
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BookLibraryZybooks.dir
   OBJECT_FILE_DIR = CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks
-  TARGET_COMPILE_PDB = CMakeFiles/BookLibraryZybooks.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibraryZybooks/BookLibraryZybooks.pdb
 
 
 # =============================================================================
@@ -1773,9 +1603,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibraryZybooks/Book
   OBJECT_DIR = CMakeFiles/BookLibraryZybooks.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/BookLibraryZybooks.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibraryZybooks/BookLibraryZybooks
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibraryZybooks/BookLibraryZybooks.pdb
+  TARGET_PDB = BookLibraryZybooks.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target MileageTracker
@@ -1792,8 +1621,6 @@ build CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker/main.cpp.o: C
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/MileageTracker.dir
   OBJECT_FILE_DIR = CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker
-  TARGET_COMPILE_PDB = CMakeFiles/MileageTracker.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week11/MileageTracker/MileageTracker.pdb
 
 build CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker/MileageTrackerNode.cpp.o: CXX_COMPILER__MileageTracker_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/MileageTracker/MileageTrackerNode.cpp || cmake_object_order_depends_target_MileageTracker
   DEP_FILE = CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker/MileageTrackerNode.cpp.o.d
@@ -1801,8 +1628,6 @@ build CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker/MileageTracke
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/MileageTracker.dir
   OBJECT_FILE_DIR = CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker
-  TARGET_COMPILE_PDB = CMakeFiles/MileageTracker.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week11/MileageTracker/MileageTracker.pdb
 
 
 # =============================================================================
@@ -1817,9 +1642,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week11/MileageTracker/MileageT
   OBJECT_DIR = CMakeFiles/MileageTracker.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/MileageTracker.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week11/MileageTracker/MileageTracker
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week11/MileageTracker/MileageTracker.pdb
+  TARGET_PDB = MileageTracker.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target VectorOfInts
@@ -1836,8 +1660,6 @@ build CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/main.cpp.o: CXX_C
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/VectorOfInts.dir
   OBJECT_FILE_DIR = CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts
-  TARGET_COMPILE_PDB = CMakeFiles/VectorOfInts.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week11/VectorOfInts/VectorOfInts.pdb
 
 build CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/LinkedList.cpp.o: CXX_COMPILER__VectorOfInts_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/VectorOfInts/LinkedList.cpp || cmake_object_order_depends_target_VectorOfInts
   DEP_FILE = CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/LinkedList.cpp.o.d
@@ -1845,8 +1667,6 @@ build CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/LinkedList.cpp.o:
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/VectorOfInts.dir
   OBJECT_FILE_DIR = CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts
-  TARGET_COMPILE_PDB = CMakeFiles/VectorOfInts.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week11/VectorOfInts/VectorOfInts.pdb
 
 build CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/IntNode.cpp.o: CXX_COMPILER__VectorOfInts_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/VectorOfInts/IntNode.cpp || cmake_object_order_depends_target_VectorOfInts
   DEP_FILE = CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/IntNode.cpp.o.d
@@ -1854,8 +1674,6 @@ build CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/IntNode.cpp.o: CX
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/VectorOfInts.dir
   OBJECT_FILE_DIR = CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts
-  TARGET_COMPILE_PDB = CMakeFiles/VectorOfInts.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week11/VectorOfInts/VectorOfInts.pdb
 
 
 # =============================================================================
@@ -1870,9 +1688,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week11/VectorOfInts/VectorOfIn
   OBJECT_DIR = CMakeFiles/VectorOfInts.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/VectorOfInts.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week11/VectorOfInts/VectorOfInts
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week11/VectorOfInts/VectorOfInts.pdb
+  TARGET_PDB = VectorOfInts.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target TemplatedVector
@@ -1889,8 +1706,6 @@ build CMakeFiles/TemplatedVector.dir/Examples/Week11/TemplatedVector/main.cpp.o:
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/TemplatedVector.dir
   OBJECT_FILE_DIR = CMakeFiles/TemplatedVector.dir/Examples/Week11/TemplatedVector
-  TARGET_COMPILE_PDB = CMakeFiles/TemplatedVector.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector/TemplatedVector.pdb
 
 
 # =============================================================================
@@ -1905,9 +1720,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector/Templat
   OBJECT_DIR = CMakeFiles/TemplatedVector.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/TemplatedVector.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector/TemplatedVector
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector/TemplatedVector.pdb
+  TARGET_PDB = TemplatedVector.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target TemplatedVector2
@@ -1924,8 +1738,6 @@ build CMakeFiles/TemplatedVector2.dir/Examples/Week11/TemplatedVector2/main.cpp.
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/TemplatedVector2.dir
   OBJECT_FILE_DIR = CMakeFiles/TemplatedVector2.dir/Examples/Week11/TemplatedVector2
-  TARGET_COMPILE_PDB = CMakeFiles/TemplatedVector2.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector2/TemplatedVector2.pdb
 
 
 # =============================================================================
@@ -1940,9 +1752,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector2/Templa
   OBJECT_DIR = CMakeFiles/TemplatedVector2.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/TemplatedVector2.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector2/TemplatedVector2
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector2/TemplatedVector2.pdb
+  TARGET_PDB = TemplatedVector2.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target BinarySearchTree
@@ -1959,8 +1770,6 @@ build CMakeFiles/BinarySearchTree.dir/Examples/Week12/BinarySearchTree/main.cpp.
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BinarySearchTree.dir
   OBJECT_FILE_DIR = CMakeFiles/BinarySearchTree.dir/Examples/Week12/BinarySearchTree
-  TARGET_COMPILE_PDB = CMakeFiles/BinarySearchTree.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree/BinarySearchTree.pdb
 
 
 # =============================================================================
@@ -1975,9 +1784,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree/Binary
   OBJECT_DIR = CMakeFiles/BinarySearchTree.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/BinarySearchTree.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree/BinarySearchTree
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree/BinarySearchTree.pdb
+  TARGET_PDB = BinarySearchTree.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target BinarySearchTree2
@@ -1994,8 +1802,6 @@ build CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/main.cp
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BinarySearchTree2.dir
   OBJECT_FILE_DIR = CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2
-  TARGET_COMPILE_PDB = CMakeFiles/BinarySearchTree2.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree2/BinarySearchTree2.pdb
 
 build CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/BinarySearchTree.cpp.o: CXX_COMPILER__BinarySearchTree2_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree2/BinarySearchTree.cpp || cmake_object_order_depends_target_BinarySearchTree2
   DEP_FILE = CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/BinarySearchTree.cpp.o.d
@@ -2003,8 +1809,6 @@ build CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/BinaryS
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BinarySearchTree2.dir
   OBJECT_FILE_DIR = CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2
-  TARGET_COMPILE_PDB = CMakeFiles/BinarySearchTree2.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree2/BinarySearchTree2.pdb
 
 
 # =============================================================================
@@ -2019,9 +1823,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree2/Binar
   OBJECT_DIR = CMakeFiles/BinarySearchTree2.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/BinarySearchTree2.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree2/BinarySearchTree2
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree2/BinarySearchTree2.pdb
+  TARGET_PDB = BinarySearchTree2.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target BinarySearchTreePerformance
@@ -2038,8 +1841,6 @@ build CMakeFiles/BinarySearchTreePerformance.dir/Examples/Week12/BinarySearchTre
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/BinarySearchTreePerformance.dir
   OBJECT_FILE_DIR = CMakeFiles/BinarySearchTreePerformance.dir/Examples/Week12/BinarySearchTreePerformance
-  TARGET_COMPILE_PDB = CMakeFiles/BinarySearchTreePerformance.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTreePerformance/BinarySearchTreePerformance.pdb
 
 
 # =============================================================================
@@ -2054,9 +1855,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTreePerform
   OBJECT_DIR = CMakeFiles/BinarySearchTreePerformance.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/BinarySearchTreePerformance.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTreePerformance/BinarySearchTreePerformance
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTreePerformance/BinarySearchTreePerformance.pdb
+  TARGET_PDB = BinarySearchTreePerformance.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target StackHeap
@@ -2073,8 +1873,6 @@ build CMakeFiles/StackHeap.dir/Examples/Week13/StackHeap/main.cpp.o: CXX_COMPILE
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/StackHeap.dir
   OBJECT_FILE_DIR = CMakeFiles/StackHeap.dir/Examples/Week13/StackHeap
-  TARGET_COMPILE_PDB = CMakeFiles/StackHeap.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week13/StackHeap/StackHeap.pdb
 
 
 # =============================================================================
@@ -2089,9 +1887,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week13/StackHeap/StackHeap: CX
   OBJECT_DIR = CMakeFiles/StackHeap.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/StackHeap.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week13/StackHeap/StackHeap
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week13/StackHeap/StackHeap.pdb
+  TARGET_PDB = StackHeap.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Project1Part1
@@ -2108,8 +1905,6 @@ build CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/main.cpp.o: C
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/Project1Part1.dir
   OBJECT_FILE_DIR = CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1
-  TARGET_COMPILE_PDB = CMakeFiles/Project1Part1.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Projects/Project1Part1/Project1Part1.pdb
 
 build CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/ItemToPurchase.cpp.o: CXX_COMPILER__Project1Part1_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Projects/Project1Part1/ItemToPurchase.cpp || cmake_object_order_depends_target_Project1Part1
   DEP_FILE = CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/ItemToPurchase.cpp.o.d
@@ -2117,8 +1912,6 @@ build CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/ItemToPurchas
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/Project1Part1.dir
   OBJECT_FILE_DIR = CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1
-  TARGET_COMPILE_PDB = CMakeFiles/Project1Part1.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Projects/Project1Part1/Project1Part1.pdb
 
 
 # =============================================================================
@@ -2133,9 +1926,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Projects/Project1Part1/Project
   OBJECT_DIR = CMakeFiles/Project1Part1.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/Project1Part1.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Projects/Project1Part1/Project1Part1
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Projects/Project1Part1/Project1Part1.pdb
+  TARGET_PDB = Project1Part1.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ProjectPart2
@@ -2152,8 +1944,6 @@ build CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/main.cpp.o: CXX
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/ProjectPart2.dir
   OBJECT_FILE_DIR = CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2
-  TARGET_COMPILE_PDB = CMakeFiles/ProjectPart2.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Projects/ProjectPart2/ProjectPart2.pdb
 
 build CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ItemToPurchase.cpp.o: CXX_COMPILER__ProjectPart2_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Projects/ProjectPart2/ItemToPurchase.cpp || cmake_object_order_depends_target_ProjectPart2
   DEP_FILE = CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ItemToPurchase.cpp.o.d
@@ -2161,8 +1951,6 @@ build CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ItemToPurchase.
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/ProjectPart2.dir
   OBJECT_FILE_DIR = CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2
-  TARGET_COMPILE_PDB = CMakeFiles/ProjectPart2.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Projects/ProjectPart2/ProjectPart2.pdb
 
 build CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ShoppingCart.cpp.o: CXX_COMPILER__ProjectPart2_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Projects/ProjectPart2/ShoppingCart.cpp || cmake_object_order_depends_target_ProjectPart2
   DEP_FILE = CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ShoppingCart.cpp.o.d
@@ -2170,8 +1958,6 @@ build CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ShoppingCart.cp
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/ProjectPart2.dir
   OBJECT_FILE_DIR = CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2
-  TARGET_COMPILE_PDB = CMakeFiles/ProjectPart2.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Projects/ProjectPart2/ProjectPart2.pdb
 
 
 # =============================================================================
@@ -2186,9 +1972,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Projects/ProjectPart2/ProjectP
   OBJECT_DIR = CMakeFiles/ProjectPart2.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/ProjectPart2.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Projects/ProjectPart2/ProjectPart2
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Projects/ProjectPart2/ProjectPart2.pdb
+  TARGET_PDB = ProjectPart2.dbg
 
 # =============================================================================
 # Object build statements for SHARED_LIBRARY target gplot
@@ -2206,8 +1991,6 @@ build CMakeFiles/gplot.dir/Examples/Other_Examples/gplot/gplot_basic.c.o: C_COMP
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/gplot.dir
   OBJECT_FILE_DIR = CMakeFiles/gplot.dir/Examples/Other_Examples/gplot
-  TARGET_COMPILE_PDB = CMakeFiles/gplot.dir/
-  TARGET_PDB = libgplot.pdb
 
 build CMakeFiles/gplot.dir/Examples/Other_Examples/gplot/gplot_errors.c.o: C_COMPILER__gplot_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/gplot/gplot_errors.c || cmake_object_order_depends_target_gplot
   DEFINES = -Dgplot_EXPORTS
@@ -2216,8 +1999,6 @@ build CMakeFiles/gplot.dir/Examples/Other_Examples/gplot/gplot_errors.c.o: C_COM
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/gplot.dir
   OBJECT_FILE_DIR = CMakeFiles/gplot.dir/Examples/Other_Examples/gplot
-  TARGET_COMPILE_PDB = CMakeFiles/gplot.dir/
-  TARGET_PDB = libgplot.pdb
 
 build CMakeFiles/gplot.dir/Examples/Other_Examples/gplot/gplot_errorstheory.c.o: C_COMPILER__gplot_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/gplot/gplot_errorstheory.c || cmake_object_order_depends_target_gplot
   DEFINES = -Dgplot_EXPORTS
@@ -2226,8 +2007,6 @@ build CMakeFiles/gplot.dir/Examples/Other_Examples/gplot/gplot_errorstheory.c.o:
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/gplot.dir
   OBJECT_FILE_DIR = CMakeFiles/gplot.dir/Examples/Other_Examples/gplot
-  TARGET_COMPILE_PDB = CMakeFiles/gplot.dir/
-  TARGET_PDB = libgplot.pdb
 
 build CMakeFiles/gplot.dir/Examples/Other_Examples/gplot/gplot_theory.c.o: C_COMPILER__gplot_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/gplot/gplot_theory.c || cmake_object_order_depends_target_gplot
   DEFINES = -Dgplot_EXPORTS
@@ -2236,8 +2015,6 @@ build CMakeFiles/gplot.dir/Examples/Other_Examples/gplot/gplot_theory.c.o: C_COM
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/gplot.dir
   OBJECT_FILE_DIR = CMakeFiles/gplot.dir/Examples/Other_Examples/gplot
-  TARGET_COMPILE_PDB = CMakeFiles/gplot.dir/
-  TARGET_PDB = libgplot.pdb
 
 
 # =============================================================================
@@ -2256,9 +2033,8 @@ build libgplot.dylib: C_SHARED_LIBRARY_LINKER__gplot_Debug CMakeFiles/gplot.dir/
   PRE_LINK = :
   SONAME = libgplot.dylib
   SONAME_FLAG = -install_name
-  TARGET_COMPILE_PDB = CMakeFiles/gplot.dir/
   TARGET_FILE = libgplot.dylib
-  TARGET_PDB = libgplot.pdb
+  TARGET_PDB = gplot.dylib.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target gplot_test
@@ -2275,8 +2051,6 @@ build CMakeFiles/gplot_test.dir/Examples/Other_Examples/gplot_test/main.c.o: C_C
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/gplot_test.dir
   OBJECT_FILE_DIR = CMakeFiles/gplot_test.dir/Examples/Other_Examples/gplot_test
-  TARGET_COMPILE_PDB = CMakeFiles/gplot_test.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/gplot_test/gplot_test.pdb
 
 
 # =============================================================================
@@ -2293,9 +2067,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/gplot_test/gplo
   OBJECT_DIR = CMakeFiles/gplot_test.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/gplot_test.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/gplot_test/gplot_test
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/gplot_test/gplot_test.pdb
+  TARGET_PDB = gplot_test.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target SumOrdering
@@ -2312,8 +2085,6 @@ build CMakeFiles/SumOrdering.dir/Examples/Other_Examples/SumOrdering/main.c.o: C
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/SumOrdering.dir
   OBJECT_FILE_DIR = CMakeFiles/SumOrdering.dir/Examples/Other_Examples/SumOrdering
-  TARGET_COMPILE_PDB = CMakeFiles/SumOrdering.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/SumOrdering/SumOrdering.pdb
 
 
 # =============================================================================
@@ -2330,9 +2101,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/SumOrdering/Sum
   OBJECT_DIR = CMakeFiles/SumOrdering.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/SumOrdering.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/SumOrdering/SumOrdering
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/SumOrdering/SumOrdering.pdb
+  TARGET_PDB = SumOrdering.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target AverageDistance
@@ -2349,8 +2119,6 @@ build CMakeFiles/AverageDistance.dir/Examples/Other_Examples/AverageDistance/mai
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/AverageDistance.dir
   OBJECT_FILE_DIR = CMakeFiles/AverageDistance.dir/Examples/Other_Examples/AverageDistance
-  TARGET_COMPILE_PDB = CMakeFiles/AverageDistance.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/AverageDistance/AverageDistance.pdb
 
 build CMakeFiles/AverageDistance.dir/Examples/Other_Examples/AverageDistance/mtwister.c.o: C_COMPILER__AverageDistance_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/AverageDistance/mtwister.c || cmake_object_order_depends_target_AverageDistance
   DEP_FILE = CMakeFiles/AverageDistance.dir/Examples/Other_Examples/AverageDistance/mtwister.c.o.d
@@ -2358,8 +2126,6 @@ build CMakeFiles/AverageDistance.dir/Examples/Other_Examples/AverageDistance/mtw
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/AverageDistance.dir
   OBJECT_FILE_DIR = CMakeFiles/AverageDistance.dir/Examples/Other_Examples/AverageDistance
-  TARGET_COMPILE_PDB = CMakeFiles/AverageDistance.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/AverageDistance/AverageDistance.pdb
 
 
 # =============================================================================
@@ -2376,9 +2142,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/AverageDistance
   OBJECT_DIR = CMakeFiles/AverageDistance.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/AverageDistance.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/AverageDistance/AverageDistance
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/AverageDistance/AverageDistance.pdb
+  TARGET_PDB = AverageDistance.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Solitaire
@@ -2395,8 +2160,6 @@ build CMakeFiles/Solitaire.dir/Examples/Other_Examples/Solitaire/main.c.o: C_COM
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/Solitaire.dir
   OBJECT_FILE_DIR = CMakeFiles/Solitaire.dir/Examples/Other_Examples/Solitaire
-  TARGET_COMPILE_PDB = CMakeFiles/Solitaire.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/Solitaire/Solitaire.pdb
 
 build CMakeFiles/Solitaire.dir/Examples/Other_Examples/Solitaire/mtwister.c.o: C_COMPILER__Solitaire_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/Solitaire/mtwister.c || cmake_object_order_depends_target_Solitaire
   DEP_FILE = CMakeFiles/Solitaire.dir/Examples/Other_Examples/Solitaire/mtwister.c.o.d
@@ -2404,8 +2167,6 @@ build CMakeFiles/Solitaire.dir/Examples/Other_Examples/Solitaire/mtwister.c.o: C
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/Solitaire.dir
   OBJECT_FILE_DIR = CMakeFiles/Solitaire.dir/Examples/Other_Examples/Solitaire
-  TARGET_COMPILE_PDB = CMakeFiles/Solitaire.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/Solitaire/Solitaire.pdb
 
 
 # =============================================================================
@@ -2422,9 +2183,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/Solitaire/Solit
   OBJECT_DIR = CMakeFiles/Solitaire.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/Solitaire.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/Solitaire/Solitaire
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/Solitaire/Solitaire.pdb
+  TARGET_PDB = Solitaire.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target NumericalPrecision
@@ -2441,8 +2201,6 @@ build CMakeFiles/NumericalPrecision.dir/Examples/Other_Examples/NumericalPrecisi
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/NumericalPrecision.dir
   OBJECT_FILE_DIR = CMakeFiles/NumericalPrecision.dir/Examples/Other_Examples/NumericalPrecision
-  TARGET_COMPILE_PDB = CMakeFiles/NumericalPrecision.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NumericalPrecision/NumericalPrecision.pdb
 
 
 # =============================================================================
@@ -2459,9 +2217,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NumericalPrecis
   OBJECT_DIR = CMakeFiles/NumericalPrecision.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/NumericalPrecision.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NumericalPrecision/NumericalPrecision
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NumericalPrecision/NumericalPrecision.pdb
+  TARGET_PDB = NumericalPrecision.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ArchimedianSpiral
@@ -2478,8 +2235,6 @@ build CMakeFiles/ArchimedianSpiral.dir/Examples/Other_Examples/ArchimedianSpiral
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/ArchimedianSpiral.dir
   OBJECT_FILE_DIR = CMakeFiles/ArchimedianSpiral.dir/Examples/Other_Examples/ArchimedianSpiral
-  TARGET_COMPILE_PDB = CMakeFiles/ArchimedianSpiral.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/ArchimedianSpiral/ArchimedianSpiral.pdb
 
 
 # =============================================================================
@@ -2496,9 +2251,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/ArchimedianSpir
   OBJECT_DIR = CMakeFiles/ArchimedianSpiral.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/ArchimedianSpiral.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/ArchimedianSpiral/ArchimedianSpiral
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/ArchimedianSpiral/ArchimedianSpiral.pdb
+  TARGET_PDB = ArchimedianSpiral.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target TriangleArea
@@ -2515,8 +2269,6 @@ build CMakeFiles/TriangleArea.dir/Examples/Other_Examples/TriangleArea/main.c.o:
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/TriangleArea.dir
   OBJECT_FILE_DIR = CMakeFiles/TriangleArea.dir/Examples/Other_Examples/TriangleArea
-  TARGET_COMPILE_PDB = CMakeFiles/TriangleArea.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/TriangleArea/TriangleArea.pdb
 
 
 # =============================================================================
@@ -2533,9 +2285,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/TriangleArea/Tr
   OBJECT_DIR = CMakeFiles/TriangleArea.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/TriangleArea.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/TriangleArea/TriangleArea
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/TriangleArea/TriangleArea.pdb
+  TARGET_PDB = TriangleArea.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target NewtonsAlgorithmVisualization
@@ -2552,8 +2303,6 @@ build CMakeFiles/NewtonsAlgorithmVisualization.dir/Examples/Other_Examples/Newto
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/NewtonsAlgorithmVisualization.dir
   OBJECT_FILE_DIR = CMakeFiles/NewtonsAlgorithmVisualization.dir/Examples/Other_Examples/NewtonsAlgorithmVisualization
-  TARGET_COMPILE_PDB = CMakeFiles/NewtonsAlgorithmVisualization.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorithmVisualization/NewtonsAlgorithmVisualization.pdb
 
 
 # =============================================================================
@@ -2570,9 +2319,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorith
   OBJECT_DIR = CMakeFiles/NewtonsAlgorithmVisualization.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/NewtonsAlgorithmVisualization.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorithmVisualization/NewtonsAlgorithmVisualization
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorithmVisualization/NewtonsAlgorithmVisualization.pdb
+  TARGET_PDB = NewtonsAlgorithmVisualization.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ECalcPlot
@@ -2589,8 +2337,6 @@ build CMakeFiles/ECalcPlot.dir/Examples/Other_Examples/ECalcPlot/main.c.o: C_COM
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/ECalcPlot.dir
   OBJECT_FILE_DIR = CMakeFiles/ECalcPlot.dir/Examples/Other_Examples/ECalcPlot
-  TARGET_COMPILE_PDB = CMakeFiles/ECalcPlot.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/ECalcPlot/ECalcPlot.pdb
 
 
 # =============================================================================
@@ -2606,9 +2352,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/ECalcPlot/ECalc
   OBJECT_DIR = CMakeFiles/ECalcPlot.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/ECalcPlot.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/ECalcPlot/ECalcPlot
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/ECalcPlot/ECalcPlot.pdb
+  TARGET_PDB = ECalcPlot.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target SockPulling
@@ -2625,8 +2370,6 @@ build CMakeFiles/SockPulling.dir/Examples/Other_Examples/SockPulling/main.c.o: C
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/SockPulling.dir
   OBJECT_FILE_DIR = CMakeFiles/SockPulling.dir/Examples/Other_Examples/SockPulling
-  TARGET_COMPILE_PDB = CMakeFiles/SockPulling.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/SockPulling/SockPulling.pdb
 
 build CMakeFiles/SockPulling.dir/Examples/Other_Examples/SockPulling/mtwister.c.o: C_COMPILER__SockPulling_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/SockPulling/mtwister.c || cmake_object_order_depends_target_SockPulling
   DEP_FILE = CMakeFiles/SockPulling.dir/Examples/Other_Examples/SockPulling/mtwister.c.o.d
@@ -2634,8 +2377,6 @@ build CMakeFiles/SockPulling.dir/Examples/Other_Examples/SockPulling/mtwister.c.
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/SockPulling.dir
   OBJECT_FILE_DIR = CMakeFiles/SockPulling.dir/Examples/Other_Examples/SockPulling
-  TARGET_COMPILE_PDB = CMakeFiles/SockPulling.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/SockPulling/SockPulling.pdb
 
 
 # =============================================================================
@@ -2652,9 +2393,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/SockPulling/Soc
   OBJECT_DIR = CMakeFiles/SockPulling.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/SockPulling.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/SockPulling/SockPulling
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/SockPulling/SockPulling.pdb
+  TARGET_PDB = SockPulling.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ECalc
@@ -2671,8 +2411,6 @@ build CMakeFiles/ECalc.dir/Examples/Other_Examples/ECalc/main.c.o: C_COMPILER__E
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/ECalc.dir
   OBJECT_FILE_DIR = CMakeFiles/ECalc.dir/Examples/Other_Examples/ECalc
-  TARGET_COMPILE_PDB = CMakeFiles/ECalc.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/ECalc/ECalc.pdb
 
 
 # =============================================================================
@@ -2688,9 +2426,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/ECalc/ECalc: C_
   OBJECT_DIR = CMakeFiles/ECalc.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/ECalc.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/ECalc/ECalc
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/ECalc/ECalc.pdb
+  TARGET_PDB = ECalc.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target FloatingPoint64
@@ -2707,8 +2444,6 @@ build CMakeFiles/FloatingPoint64.dir/Examples/Other_Examples/FloatingPoint64/mai
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/FloatingPoint64.dir
   OBJECT_FILE_DIR = CMakeFiles/FloatingPoint64.dir/Examples/Other_Examples/FloatingPoint64
-  TARGET_COMPILE_PDB = CMakeFiles/FloatingPoint64.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/FloatingPoint64/FloatingPoint64.pdb
 
 
 # =============================================================================
@@ -2724,9 +2459,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/FloatingPoint64
   OBJECT_DIR = CMakeFiles/FloatingPoint64.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/FloatingPoint64.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/FloatingPoint64/FloatingPoint64
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/FloatingPoint64/FloatingPoint64.pdb
+  TARGET_PDB = FloatingPoint64.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target FloattingPointBinaryRepresentation
@@ -2743,8 +2477,6 @@ build CMakeFiles/FloattingPointBinaryRepresentation.dir/Examples/Other_Examples/
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/FloattingPointBinaryRepresentation.dir
   OBJECT_FILE_DIR = CMakeFiles/FloattingPointBinaryRepresentation.dir/Examples/Other_Examples/FloattingPointBinaryRepresentation
-  TARGET_COMPILE_PDB = CMakeFiles/FloattingPointBinaryRepresentation.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/FloattingPointBinaryRepresentation/FloattingPointBinaryRepresentation.pdb
 
 
 # =============================================================================
@@ -2760,9 +2492,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/FloattingPointB
   OBJECT_DIR = CMakeFiles/FloattingPointBinaryRepresentation.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/FloattingPointBinaryRepresentation.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/FloattingPointBinaryRepresentation/FloattingPointBinaryRepresentation
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/FloattingPointBinaryRepresentation/FloattingPointBinaryRepresentation.pdb
+  TARGET_PDB = FloattingPointBinaryRepresentation.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target GitHubCoPilot
@@ -2779,8 +2510,6 @@ build CMakeFiles/GitHubCoPilot.dir/Examples/Other_Examples/GitHubCoPilot/main.cp
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/GitHubCoPilot.dir
   OBJECT_FILE_DIR = CMakeFiles/GitHubCoPilot.dir/Examples/Other_Examples/GitHubCoPilot
-  TARGET_COMPILE_PDB = CMakeFiles/GitHubCoPilot.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/GitHubCoPilot/GitHubCoPilot.pdb
 
 
 # =============================================================================
@@ -2796,9 +2525,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/GitHubCoPilot/G
   OBJECT_DIR = CMakeFiles/GitHubCoPilot.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/GitHubCoPilot.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/GitHubCoPilot/GitHubCoPilot
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/GitHubCoPilot/GitHubCoPilot.pdb
+  TARGET_PDB = GitHubCoPilot.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Midterm_Solutions
@@ -2815,8 +2543,6 @@ build CMakeFiles/Midterm_Solutions.dir/Examples/Other_Examples/Midterm_Solutions
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/Midterm_Solutions.dir
   OBJECT_FILE_DIR = CMakeFiles/Midterm_Solutions.dir/Examples/Other_Examples/Midterm_Solutions
-  TARGET_COMPILE_PDB = CMakeFiles/Midterm_Solutions.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/Midterm_Solutions/Midterm_Solutions.pdb
 
 build CMakeFiles/Midterm_Solutions.dir/Examples/Other_Examples/Midterm_Solutions/GVCoin.c.o: C_COMPILER__Midterm_Solutions_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/Midterm_Solutions/GVCoin.c || cmake_object_order_depends_target_Midterm_Solutions
   DEP_FILE = CMakeFiles/Midterm_Solutions.dir/Examples/Other_Examples/Midterm_Solutions/GVCoin.c.o.d
@@ -2824,8 +2550,6 @@ build CMakeFiles/Midterm_Solutions.dir/Examples/Other_Examples/Midterm_Solutions
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/Midterm_Solutions.dir
   OBJECT_FILE_DIR = CMakeFiles/Midterm_Solutions.dir/Examples/Other_Examples/Midterm_Solutions
-  TARGET_COMPILE_PDB = CMakeFiles/Midterm_Solutions.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/Midterm_Solutions/Midterm_Solutions.pdb
 
 
 # =============================================================================
@@ -2841,9 +2565,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/Midterm_Solutio
   OBJECT_DIR = CMakeFiles/Midterm_Solutions.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/Midterm_Solutions.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/Midterm_Solutions/Midterm_Solutions
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/Midterm_Solutions/Midterm_Solutions.pdb
+  TARGET_PDB = Midterm_Solutions.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target NewtonsAlgorithm
@@ -2860,8 +2583,6 @@ build CMakeFiles/NewtonsAlgorithm.dir/Examples/Other_Examples/NewtonsAlgorithm/m
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/NewtonsAlgorithm.dir
   OBJECT_FILE_DIR = CMakeFiles/NewtonsAlgorithm.dir/Examples/Other_Examples/NewtonsAlgorithm
-  TARGET_COMPILE_PDB = CMakeFiles/NewtonsAlgorithm.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorithm/NewtonsAlgorithm.pdb
 
 
 # =============================================================================
@@ -2877,9 +2598,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorith
   OBJECT_DIR = CMakeFiles/NewtonsAlgorithm.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/NewtonsAlgorithm.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorithm/NewtonsAlgorithm
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorithm/NewtonsAlgorithm.pdb
+  TARGET_PDB = NewtonsAlgorithm.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target NewtonsAlgorithmComplete
@@ -2896,8 +2616,6 @@ build CMakeFiles/NewtonsAlgorithmComplete.dir/Examples/Other_Examples/NewtonsAlg
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/NewtonsAlgorithmComplete.dir
   OBJECT_FILE_DIR = CMakeFiles/NewtonsAlgorithmComplete.dir/Examples/Other_Examples/NewtonsAlgorithmComplete
-  TARGET_COMPILE_PDB = CMakeFiles/NewtonsAlgorithmComplete.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorithmComplete/NewtonsAlgorithmComplete.pdb
 
 
 # =============================================================================
@@ -2913,9 +2631,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorith
   OBJECT_DIR = CMakeFiles/NewtonsAlgorithmComplete.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/NewtonsAlgorithmComplete.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorithmComplete/NewtonsAlgorithmComplete
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/NewtonsAlgorithmComplete/NewtonsAlgorithmComplete.pdb
+  TARGET_PDB = NewtonsAlgorithmComplete.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target RandomNumberGenerator
@@ -2932,8 +2649,6 @@ build CMakeFiles/RandomNumberGenerator.dir/Examples/Other_Examples/RandomNumberG
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/RandomNumberGenerator.dir
   OBJECT_FILE_DIR = CMakeFiles/RandomNumberGenerator.dir/Examples/Other_Examples/RandomNumberGenerator
-  TARGET_COMPILE_PDB = CMakeFiles/RandomNumberGenerator.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/RandomNumberGenerator/RandomNumberGenerator.pdb
 
 
 # =============================================================================
@@ -2949,9 +2664,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/RandomNumberGen
   OBJECT_DIR = CMakeFiles/RandomNumberGenerator.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/RandomNumberGenerator.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/RandomNumberGenerator/RandomNumberGenerator
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/RandomNumberGenerator/RandomNumberGenerator.pdb
+  TARGET_PDB = RandomNumberGenerator.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target UnitTesting
@@ -2968,8 +2682,6 @@ build CMakeFiles/UnitTesting.dir/Examples/Other_Examples/UnitTesting/main.cpp.o:
   INCLUDES = -I/Users/brash/CLionProjects/cpsc256/inc
   OBJECT_DIR = CMakeFiles/UnitTesting.dir
   OBJECT_FILE_DIR = CMakeFiles/UnitTesting.dir/Examples/Other_Examples/UnitTesting
-  TARGET_COMPILE_PDB = CMakeFiles/UnitTesting.dir/
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/UnitTesting/UnitTesting.pdb
 
 
 # =============================================================================
@@ -2985,9 +2697,8 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/UnitTesting/Uni
   OBJECT_DIR = CMakeFiles/UnitTesting.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/UnitTesting.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/UnitTesting/UnitTesting
-  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/UnitTesting/UnitTesting.pdb
+  TARGET_PDB = UnitTesting.dbg
 
 
 #############################################
@@ -3182,14 +2893,14 @@ build all: phony /Users/brash/CLionProjects/cpsc256/Examples/Week1/HelloWorld/He
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCCompilerABI.c /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCInformation.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystem.cmake.in /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-C.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-CXX.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GNU.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/HP-C-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/XL-C-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-C.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-C.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-CXX.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin-Determine-CXX.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin-Initialize.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /Users/brash/CLionProjects/cpsc256/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCInformation.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-C.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-CXX.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GNU.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-C.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-C.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-CXX.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin-Initialize.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /Users/brash/CLionProjects/cpsc256/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCCompilerABI.c /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCInformation.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystem.cmake.in /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-C.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-CXX.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GNU.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/HP-C-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/XL-C-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-C.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-C.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-CXX.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin-Determine-CXX.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin-Initialize.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /Users/brash/CLionProjects/cpsc256/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
+build /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCInformation.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-C.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-CXX.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GNU.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-C.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-C.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-CXX.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin-Initialize.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin.cmake /Users/brash/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /Users/brash/CLionProjects/cpsc256/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
 
 
 #############################################
