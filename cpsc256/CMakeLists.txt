@@ -101,6 +101,8 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Week10/Operato
 add_executable(OperatorOverloading Examples/Week10/OperatorOverloading/main.cpp Examples/Week10/OperatorOverloading/TimeHrMn.cpp)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Week10/InheritancePolymorphism)
 add_executable(InheritancePolymorphism Examples/Week10/InheritancePolymorphism/main.cpp)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Week10/AnimalsInheritancePolymorphism)
+add_executable(AnimalsInheritancePolymorphism Examples/Week10/AnimalsInheritancePolymorphism/main.cpp)
 
 # Week 11
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Week11/BasicLinkedList)
