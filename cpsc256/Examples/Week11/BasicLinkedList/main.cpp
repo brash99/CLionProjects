@@ -13,9 +13,14 @@
 #include <iostream>
 #include "IntNode.h"
 
-/*
- * 
- */
+void PrintLinkedList(IntNode* head) {
+    IntNode* curr = head;
+    while (curr != nullptr) {
+        curr->PrintNodeData();
+        curr = curr->GetNext();
+    }
+}
+
 int main(int argc, char** argv) {
 
     cout << "Contruct some nodes:\n";
@@ -26,7 +31,7 @@ int main(int argc, char** argv) {
    IntNode* nodeObj3 = new IntNode(4444);
    IntNode* nodeObj4 = new IntNode(55555);
    IntNode* nodeObj5 = new IntNode(666666);
-   IntNode* currObj  = nullptr;
+
    cout << endl;
    
    cout << "Where are these nodes actually located?\n";
@@ -36,7 +41,6 @@ int main(int argc, char** argv) {
    cout << "nodeObj3 => " << nodeObj3 << endl;
    cout << "nodeObj4 => " << nodeObj4 << endl;
    cout << "nodeObj5 => " << nodeObj5 << endl;
-   cout << "currObj => " << currObj << endl;
    cout << endl;
    
    
@@ -50,12 +54,9 @@ int main(int argc, char** argv) {
    cout << endl;
    
    // Print initial linked list
-   currObj = headObj;
+
    cout << "Initial Linked List:" << endl << endl;
-   while (currObj != nullptr) {
-      currObj->PrintNodeData();
-      currObj = currObj->GetNext();
-   }
+   PrintLinkedList(headObj);
    
    // Now, insert a new object in the middle of the list
    cout << endl;
@@ -64,27 +65,21 @@ int main(int argc, char** argv) {
    nodeObj2->InsertAfter(nodeObj6);
    
    // Print linked list
-   currObj = headObj;
-   cout << endl;
-   cout << "Linked List after insertion:" << endl;
-   cout << endl;
-   while (currObj != nullptr) {
-      currObj->PrintNodeData();
-      currObj = currObj->GetNext();
-   }
+    cout << endl;
+    cout << "Linked List after insertion:" << endl;
+    cout << endl;
+
+    PrintLinkedList(headObj);
    
    // Remove the second node
    headObj->RemoveAfter();
    
    // Print linked list
-   currObj = headObj;
    cout << endl;
    cout << "Linked List after removal:" << endl;
    cout << endl;
-   while (currObj != nullptr) {
-      currObj->PrintNodeData();
-      currObj = currObj->GetNext();
-   }
+
+    PrintLinkedList(headObj);
   
     return 0;
 }

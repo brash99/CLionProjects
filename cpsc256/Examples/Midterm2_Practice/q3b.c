@@ -9,16 +9,17 @@ typedef struct Book_struct {
 
 Book InitBook() {
     Book newbook;
+    // the following statement is what we would have hoped that newbook.title = "blah"; would do!
     strcpy(newbook.title, "blah");
-    newbook.price=9.99;
+    newbook.price = 9.99;
     return newbook;
 }
 
 int main() {
 
-    Book a = InitBook();
-    printf("%s\n", a.title);
-    printf("%f\n", a.price);
+    Book mybook = InitBook();
+    printf("%s\n", mybook.title);
+    printf("%f\n", mybook.price);
 
     return 0;
 }
