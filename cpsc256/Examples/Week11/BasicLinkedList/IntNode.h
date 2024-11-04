@@ -18,6 +18,9 @@ using namespace std;
 #define INTNODE_H
 
 class IntNode {
+private:
+   int dataVal;
+   IntNode* nextNodePtr;
 public:
    IntNode(int dataInit = 0, IntNode* nextLoc = nullptr); // constructor
    ~IntNode(); // destructor
@@ -27,9 +30,7 @@ public:
    
    IntNode* GetNext();
    void PrintNodeData();
-private:
-   int dataVal;
-   IntNode* nextNodePtr;
+
 };
 
 #endif /* INTNODE_H */

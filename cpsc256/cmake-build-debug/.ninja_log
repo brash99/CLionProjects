@@ -132,3 +132,6 @@
 3	37	1729190632743603243	CMakeFiles/NewtonsAlgorithmComplete.dir/Examples/Other_Examples/NewtonsAlgorithmComplete/main.c.o	82722e1067fc7319
 9	490	1730520377800266437	CMakeFiles/AnimalsInheritancePolymorphism.dir/Examples/Week10/AnimalsInheritancePolymorphism/main.cpp.o	3408fbcad18b925f
 491	728	1730520378050224932	/Users/brash/CLionProjects/cpsc256/Examples/Week10/AnimalsInheritancePolymorphism/AnimalsInheritancePolymorphism	ddea32e7b840fb7c
+20	683	1730687291795318431	CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/main.cpp.o	99aabac7c74d8bad
+20	688	1730687291795739515	CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/IntNode.cpp.o	df24e539baaa9b0f
+688	885	1730687292003590915	/Users/brash/CLionProjects/cpsc256/Examples/Week11/BasicLinkedList/BasicLinkedList	67ab6f51e83f4c15
