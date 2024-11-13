@@ -26,14 +26,18 @@ class Book{
       long bookISBN;
 
    public:
+        // Default Constructor
       Book();
 
+        // Initialization Constructor
       Book(string userBookTitle, string userBookAuthor, long userBookISBN);
 
+        // Getters
       long GetBookISBN() const { return bookISBN; };
       string GetBookTitle() const { return bookTitle; };
       string GetBookAuthor() const { return bookAuthor; };
 
+        // Print book information
       void PrintInfo() const;
 };
 
@@ -57,6 +61,7 @@ class BookNode {
       // Get location pointed by nextNodePtr
       BookNode* GetNext() const;
 
+      // Get book ISBN
       long GetBookISBN() const;
 
       // Print book information

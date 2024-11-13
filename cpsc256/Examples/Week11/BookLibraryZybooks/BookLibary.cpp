@@ -13,14 +13,31 @@ Book::Book() {
    bookISBN = 0;
 }
 
-// Initialization Constructor without nextLoc pointer
+// Initialization Constructor for Book
 Book::Book(string userBookTitle, string userBookAuthor, long userBookISBN) {
    bookTitle = userBookTitle;
    bookAuthor = userBookAuthor;
    bookISBN = userBookISBN;
 }
 
-// Initialization Constructor with nextLoc pointer
+// Print book information for a Book object
+void Book::PrintInfo() const{
+    cout << "Title: " << bookTitle << endl;
+    cout << "Author: " << bookAuthor << endl;
+    cout << "ISBN: " << bookISBN << endl;
+}
+
+//-----------------------------------------------------------------------------------------------
+
+// Default Constructor for BookNode
+BookNode::BookNode() {
+    bookTitle = "";
+    bookAuthor = "";
+    bookISBN = 0;
+    nextNodePtr = nullptr;
+}
+
+// Initialization Constructor without nextLoc pointer for BookNode
 BookNode::BookNode(string bookTitleInit, string bookAuthorInit, long bookISBNInit) {
     bookTitle = bookTitleInit;
     bookAuthor = bookAuthorInit;
@@ -28,22 +45,7 @@ BookNode::BookNode(string bookTitleInit, string bookAuthorInit, long bookISBNIni
     nextNodePtr = nullptr;
 }
 
-// Print book information
-void Book::PrintInfo() const{
-   cout << "Title: " << bookTitle << endl;
-   cout << "Author: " << bookAuthor << endl;
-   cout << "ISBN: " << bookISBN << endl;
-}
-
-// Default Constructor for BookNode
-BookNode::BookNode() {
-   bookTitle = "";
-   bookAuthor = "";
-   bookISBN = 0;
-   nextNodePtr = nullptr;
-}
-
-// Initialization Constructor for BookNode
+// Initialization Constructor for BookNode with nextLoc pointer for BookNode
 BookNode::BookNode(string bookTitleInit, string bookAuthorInit, long bookISBNInit, BookNode* nextLoc) {
    bookTitle = bookTitleInit;
    bookAuthor = bookAuthorInit;
@@ -80,6 +82,8 @@ void BookNode::PrintBookInfo() const{
    cout << "Author: " << bookAuthor << endl;
    cout << "ISBN: " << bookISBN << endl;
 }
+
+//-----------------------------------------------------------------------------------------------
 
 // Default Constructor for LinkedListLibrary
 LinkedListLibrary::LinkedListLibrary() {
@@ -135,6 +139,7 @@ void LinkedListLibrary::PrintLibrary() const {
    }
 }
 
+//-----------------------------------------------------------------------------------------------
 
 // Default Constructor for VectorLibrary
 VectorLibrary::VectorLibrary() {
