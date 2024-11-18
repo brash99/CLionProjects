@@ -4,6 +4,7 @@
 using namespace std;
 
 int main(){
+
     LinkedList<string> list;
     string item;
     int ch, index;
