@@ -1,9 +1,11 @@
 #include<iostream>
+#include <any>
 using namespace std;
 
 #include "node.h"
 
-template<typename T>class LinkedList{
+template<typename T>
+class LinkedList{
 private:
     Node<T>* head;
 public:
@@ -66,7 +68,7 @@ public:
 
     int length(){
         int len = 0;
-        Node<int>* temp = head;
+        Node<T>* temp = head;
         while(temp != NULL){
             len++;
             temp = temp->next;
@@ -149,13 +151,15 @@ public:
     }
 
     T get(int index){
+        T dummy;
         if(head == NULL){
             cout<<"linked list is empty !"<<endl;
-            return -9999;
+            return dummy;
         }
         if(index >= length() || index < 0){
             cout<<"index out of bound !"<<endl;
-            return -9999;
+            // create a default return item for invalid index of Type T
+            return dummy;
         }
         if(index == 0){
             return head->data;

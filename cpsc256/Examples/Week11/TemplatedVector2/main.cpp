@@ -1,10 +1,12 @@
 #include <iostream>
+#include <string>
 #include "list.h"
 using namespace std;
 
 int main(){
-    LinkedList<int> list;
-    int ch, item, index;
+    LinkedList<string> list;
+    string item;
+    int ch, index;
     bool quit = false;
     do{
         cout<<"===================================="<<endl;
