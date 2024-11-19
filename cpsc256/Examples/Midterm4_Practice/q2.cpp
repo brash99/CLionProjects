@@ -2,46 +2,45 @@
 using namespace std;
 
 struct Node {
-    int data;       // Data field to store the integer
-    Node* next;     // Pointer to the next node in the list
+    int data;       // TODO 1
+    Node* next;     // TODO 2
 
-    // Constructor for convenience
+    // TODO 3
     Node(int value) : data(value), next(nullptr) {}
 };
 
 class LinkedList {
 private:
-    Node* head; // Pointer to the first node of the list
+    Node* head; // TODO 4
 
 public:
-    // Constructor to initialize an empty list
+    // TODO 5
     LinkedList() : head(nullptr) {}
 
-    // Method to add a new node at the end of the list
+    // TODO 6
     void append(int value) {
         Node* newNode = new Node(value);
-        if (head == nullptr) { // If the list is empty
+        if (head == nullptr) { // TODO 7
             head = newNode;
         } else {
             Node* temp = head;
-            while (temp->next != nullptr) { // Traverse to the end of the list
-                temp = temp->next;
+            while (temp->next != nullptr) { // TODO 8
             }
-            temp->next = newNode; // Attach the new node
+            temp->next = newNode; // TODO 9
         }
     }
 
-    // Method to display all the values in the list
+    // TODO 10
     void display() {
         Node* temp = head;
-        while (temp != nullptr) { // Traverse the list
+        while (temp != nullptr) { // TODO 11
             cout << temp->data << " -> ";
             temp = temp->next;
         }
-        cout << "NULL" << endl; // End of the list
+        cout << "NULL" << endl; // TODO 12
     }
 
-    // Destructor to free allocated memory
+    // TODO 13
     ~LinkedList() {
         Node* temp;
         while (head != nullptr) {
@@ -55,12 +54,12 @@ public:
 int main() {
     LinkedList list;
 
-    // Append integers to the linked list
+    // TODO 14
     list.append(10);
     list.append(20);
     list.append(30);
 
-    // Display the linked list
+    // TODO 15
     cout << "The linked list contains: ";
     list.display();
 
