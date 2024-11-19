@@ -53,10 +53,15 @@ add_executable(CoinFlip Examples/Week5/CoinFlip/main.c Examples/Week5/CoinFlip/C
 
 # Midterm 2 Practice
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Midterm2_Practice)
-add_executable(q1a Examples/Midterm2_Practice/q1a.c)
-add_executable(q1b Examples/Midterm2_Practice/q1b.c)
-add_executable(q3a Examples/Midterm2_Practice/q3a.c)
-add_executable(q3b Examples/Midterm2_Practice/q3b.c)
+add_executable(midterm2_q1a Examples/Midterm2_Practice/q1a.c)
+add_executable(midterm2_q1b Examples/Midterm2_Practice/q1b.c)
+add_executable(midterm2_q3a Examples/Midterm2_Practice/q3a.c)
+add_executable(midterm2_q3b Examples/Midterm2_Practice/q3b.c)
+
+# Midterm 4 Practice
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Midterm4_Practice)
+add_executable(midterm4_q1 Examples/Midterm4_Practice/q1.cpp)
+add_executable(midterm4_q2 Examples/Midterm4_Practice/q2.cpp)
 
 # Midterm 2 Solutions
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Midterm2_Solutions)
