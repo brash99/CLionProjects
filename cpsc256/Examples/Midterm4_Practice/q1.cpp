@@ -8,7 +8,9 @@ class Shape {
         string name; // Name of the shape
     public:
         // Constructor to initialize the shape's name
-        Shape(const string& shapeName) : name(shapeName) {}
+        Shape(string name) {
+            this->name = name;
+        }
 
         // Virtual function for calculating the area (pure virtual function)
         virtual double getArea() const = 0;
@@ -28,7 +30,9 @@ class Circle : public Shape {
         double radius;
     public:
         // Constructor
-        Circle(double r) : Shape("Circle"), radius(r) {}
+        Circle(double r): Shape("Circle") {
+            radius = r;
+        }
 
         // Override getArea
         double getArea() const override {
@@ -42,7 +46,10 @@ class Rectangle : public Shape {
         double width, height;
     public:
         // Constructor
-        Rectangle(double w, double h) : Shape("Rectangle"), width(w), height(h) {}
+        Rectangle(double w, double h) : Shape("Rectangle"){
+            width = w;
+            height = h;
+        }
 
         // Override getArea
         double getArea() const override {

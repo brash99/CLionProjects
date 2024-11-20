@@ -25,6 +25,7 @@ public:
         } else {
             Node* temp = head;
             while (temp->next != nullptr) { // TODO 8
+                temp = temp->next;
             }
             temp->next = newNode; // TODO 9
         }
