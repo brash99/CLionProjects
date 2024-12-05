@@ -52,16 +52,26 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Week5/CoinFlip
 add_executable(CoinFlip Examples/Week5/CoinFlip/main.c Examples/Week5/CoinFlip/Coin.c)
 
 # Midterm 2 Practice
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Midterm2_Practice)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Midterm2_Practice/q1a)
 add_executable(midterm2_q1a Examples/Midterm2_Practice/q1a.c)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Midterm2_Practice/q1b)
 add_executable(midterm2_q1b Examples/Midterm2_Practice/q1b.c)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Midterm2_Practice/q3a)
 add_executable(midterm2_q3a Examples/Midterm2_Practice/q3a.c)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Midterm2_Practice/q3b)
 add_executable(midterm2_q3b Examples/Midterm2_Practice/q3b.c)
 
 # Midterm 4 Practice
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Midterm4_Practice)
-add_executable(midterm4_q1 Examples/Midterm4_Practice/q1.cpp)
-add_executable(midterm4_q2 Examples/Midterm4_Practice/q2.cpp)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Midterm4_Practice/q1)
+add_executable(midterm4_q1practice Examples/Midterm4_Practice/q1.cpp)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Midterm4_Practice/q2)
+add_executable(midterm4_q2practice Examples/Midterm4_Practice/q2.cpp)
+
+# Midterm 4 Solutions
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Midterm4_Solutions/q1)
+add_executable(midterm4_q1actual Examples/Midterm4_Solutions/q1.cpp)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Midterm4_Solutions/q2)
+add_executable(midterm4_q2actual Examples/Midterm4_Solutions/q2.cpp)
 
 # Midterm 2 Solutions
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Midterm2_Solutions)
@@ -134,6 +144,8 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Week12/BinaryS
 add_executable(BinarySearchTree2 Examples/Week12/BinarySearchTree2/main.cpp Examples/Week12/BinarySearchTree2/BinarySearchTree.cpp)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Week12/BinarySearchTreePerformance)
 add_executable(BinarySearchTreePerformance Examples/Week12/BinarySearchTreePerformance/main.cpp)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Week12/Recursion)
+add_executable(Recursion Examples/Week12/Recursion/recursion.cpp)
 
 # Week 13
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Week13/StackHeap)
