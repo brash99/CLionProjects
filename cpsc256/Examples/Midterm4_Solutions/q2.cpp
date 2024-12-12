@@ -14,7 +14,7 @@ private:
     Node* head; // TODO4: Pointer to the first node in the list
 
 public:
-    // TODO5: Constructor
+    // TODO5: LinkedList Constructor
     LinkedList() : head(nullptr) {}
 
     // TODO6: Method to insert at the head of the list
@@ -53,7 +53,7 @@ public:
         temp->next = newNode;
     }
 
-    // TODO15: Method to display the list
+    // TODO15: Method to display the entire list
     void display() {
         Node* temp = head;
         while (temp != nullptr) {
@@ -93,7 +93,7 @@ public:
 int main() {
     LinkedList list;
 
-    // TODO22: Insert elements into the list
+    // TODO22: Insert three elements into the list
     list.insertAtHead(10);
     list.insertAtHead(20);
     list.insertAtHead(30);
@@ -102,12 +102,12 @@ int main() {
     cout << "Original list: ";
     list.display();
 
-    // TODO24: Insert at specific position
+    // TODO24: Insert at specific position, and display the list
     list.insertAtPosition(25, 1);
     cout << "After inserting 25 at position 1: ";
     list.display();
 
-    // TODO25: Reverse the list
+    // TODO25: Reverse the list, and display the list
     list.reverse();
     cout << "Reversed list: ";
     list.display();

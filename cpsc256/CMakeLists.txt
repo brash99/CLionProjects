@@ -73,6 +73,22 @@ add_executable(midterm4_q1actual Examples/Midterm4_Solutions/q1.cpp)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Midterm4_Solutions/q2)
 add_executable(midterm4_q2actual Examples/Midterm4_Solutions/q2.cpp)
 
+# Final Exam Solutions
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Final_Exam_Solutions/q1)
+add_executable(final_q1 Examples/Final_Exam_Solutions/q1.c)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Final_Exam_Solutions/q2)
+add_executable(final_q2 Examples/Final_Exam_Solutions/q2.c)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Final_Exam_Solutions/q3)
+add_executable(final_q3 Examples/Final_Exam_Solutions/q3.cpp)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Final_Exam_Solutions/q4)
+add_executable(final_q4 Examples/Final_Exam_Solutions/q4.c)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Final_Exam_Solutions/q5)
+add_executable(final_q5 Examples/Final_Exam_Solutions/q5.cpp)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Final_Exam_Solutions/q6)
+add_executable(final_q6 Examples/Final_Exam_Solutions/q6.cpp)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Final_Exam_Solutions/q7)
+add_executable(final_q7 Examples/Final_Exam_Solutions/q7.c)
+
 # Midterm 2 Solutions
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Midterm2_Solutions)
 add_executable(q1a_solution Examples/Midterm2_Solutions/q1a.c)
